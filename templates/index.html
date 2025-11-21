@@ -1,0 +1,1147 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestión IT</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root {
+    --navy: #1a365d;
+    --navy-light: #2d3748;
+    --blue: #2563eb;
+    --blue-dark: #1e40af;
+    --light-blue: #3b82f6;
+    --accent: #60a5fa;
+    --accent-light: #93c5fd;
+    --white: #ffffff;
+    --bg-gray: #f1f5f9;
+    --bg-light: #f8fafc;
+    --border: #e2e8f0;
+    --border-light: #f1f5f9;
+    --text-dark: #1e293b;
+    --text-medium: #475569;
+    --text-light: #64748b;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes slideIn { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  @keyframes shimmer { 0% { background-position: -1000px 0; } 100% { background-position: 1000px 0; } }
+  
+  body { 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
+    background: linear-gradient(135deg, var(--bg-gray) 0%, var(--bg-light) 100%);
+    color:var(--text-dark); 
+    line-height:1.6; 
+    overflow-x: hidden;
+  }
+  
+  /* Sidebar */
+  .sidebar { 
+    position:fixed; 
+    left:0; 
+    top:0; 
+    width:280px; 
+    height:100vh; 
+    background: linear-gradient(180deg, var(--navy) 0%, #1e3a5f 100%);
+    color:var(--white); 
+    padding:24px 0; 
+    z-index:1000; 
+    transition:transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+    overflow-y:auto;
+    box-shadow: var(--shadow-xl);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .sidebar.collapsed { transform:translateX(-280px); }
+  .sidebar-header { 
+    padding:0 24px 24px; 
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    animation: fadeIn 0.5s ease-out;
+  }
+  .sidebar-header h1 { 
+    font-size:22px; 
+    font-weight:700; 
+    margin-bottom:6px;
+    background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .sidebar-header p { font-size:13px; color:rgba(255,255,255,0.6); font-weight:500; }
+  .sidebar-nav { padding:16px 0; }
+  .sidebar-nav a { 
+    display:flex; 
+    align-items:center; 
+    gap:12px; 
+    padding:14px 24px; 
+    color:rgba(255,255,255,0.7); 
+    text-decoration:none; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
+    border-left:3px solid transparent;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .sidebar-nav a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: linear-gradient(90deg, var(--blue) 0%, transparent 100%);
+    transition: width 0.3s ease;
+    opacity: 0;
+  }
+  .sidebar-nav a:hover { 
+    background:rgba(59, 130, 246, 0.1); 
+    color:var(--white);
+    transform: translateX(4px);
+  }
+  .sidebar-nav a:hover::before {
+    width: 100%;
+    opacity: 0.2;
+  }
+  .sidebar-nav a.active { 
+    background: linear-gradient(90deg, rgba(59, 130, 246, 0.2) 0%, transparent 100%);
+    color:var(--white); 
+    border-left-color:var(--blue);
+    box-shadow: inset 0 0 20px rgba(59, 130, 246, 0.1);
+  }
+  .sidebar-nav a svg { width:20px; height:20px; flex-shrink: 0; }
+  .sidebar-toggle { 
+    position:fixed; 
+    left:296px; 
+    top:20px; 
+    width:40px; 
+    height:40px; 
+    background:var(--white); 
+    border:none;
+    border-radius:12px; 
+    cursor:pointer; 
+    z-index:999; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+    box-shadow: var(--shadow-lg);
+  }
+  .sidebar-toggle:hover { 
+    background:var(--blue);
+    transform: scale(1.05) rotate(90deg);
+  }
+  .sidebar-toggle:hover svg {
+    stroke: white;
+  }
+  .sidebar.collapsed + .sidebar-toggle { left:16px; }
+  .sidebar.collapsed + .sidebar-toggle:hover {
+    transform: scale(1.05) rotate(0deg);
+  }
+  
+  /* Main content */
+  .main-content { 
+    margin-left:280px; 
+    min-height:100vh; 
+    transition:margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: fadeIn 0.6s ease-out;
+  }
+  .sidebar.collapsed ~ .main-content { margin-left:0; }
+  
+  /* Section */
+  .section { 
+    padding:48px 40px; 
+    min-height:100vh; 
+    scroll-margin-top:20px;
+    position: relative;
+  }
+  .section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, var(--border) 50%, transparent 100%);
+  }
+  .section:nth-child(even) { background:var(--white); }
+  .section-header { 
+    margin-bottom:40px;
+    animation: fadeIn 0.8s ease-out;
+  }
+  .section-header h2 { 
+    font-size:32px; 
+    font-weight:800; 
+    color:var(--navy); 
+    margin-bottom:10px;
+    position: relative;
+    display: inline-block;
+  }
+  .section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--navy) 0%, var(--light-blue) 100%);
+    border-radius: 2px;
+  }
+  .section-header p { 
+    font-size:16px; 
+    color:var(--text-light);
+    margin-top: 12px;
+  }
+  
+  /* Cards */
+  .card { 
+    background:var(--white); 
+    border:1px solid var(--border-light); 
+    border-radius:16px; 
+    padding:28px; 
+    box-shadow: var(--shadow);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: fadeIn 0.8s ease-out;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 100%);
+  }
+  .card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+  .section:nth-child(even) .card { background:var(--bg-light); }
+  
+  /* Top 3 Grid */
+  .top3-grid { 
+    display:grid; 
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr)); 
+    gap:28px;
+    animation: fadeIn 1s ease-out;
+  }
+  .top3-card { 
+    background:var(--white); 
+    border:1px solid var(--border-light); 
+    border-radius:16px; 
+    padding:28px; 
+    box-shadow: var(--shadow);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+  .top3-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 100%);
+  }
+  .top3-card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-4px);
+  }
+  .top3-card h3 { 
+    font-size:19px; 
+    font-weight:700; 
+    color:var(--navy); 
+    margin-bottom:18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .top3-controls { 
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:10px; 
+    align-items:center; 
+    margin-bottom:18px; 
+    padding-bottom:18px; 
+    border-bottom:1px solid var(--border-light);
+  }
+  .top3-controls label { 
+    font-size:13px; 
+    font-weight:600; 
+    color:var(--text-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .top3-controls button { 
+    padding:8px 16px; 
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    color:var(--white); 
+    border:none; 
+    border-radius:8px; 
+    font-size:13px;
+    font-weight: 600;
+    cursor:pointer; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+  }
+  .top3-controls button:hover { 
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .top3-controls button:active {
+    transform: translateY(0);
+  }
+  .chart-box { 
+    width:100%; 
+    height:420px;
+    border-radius: 8px;
+    overflow: visible;
+  }
+  
+  /* Bitácora table */
+  .bitacora-table-wrapper { 
+    border:1px solid var(--border-light); 
+    border-radius:12px; 
+    overflow:hidden; 
+    background:var(--white); 
+    margin-bottom:24px;
+    box-shadow: var(--shadow-sm);
+  }
+  #bitacora-table { width:100%; border-collapse:collapse; font-size:13px; }
+  #bitacora-table th, #bitacora-table td { padding:14px 16px; text-align:left; border-bottom:1px solid var(--border-light); }
+  #bitacora-table th { 
+    position:sticky; 
+    top:0; 
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+    color:var(--white); 
+    font-weight:700; 
+    z-index:10;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  #bitacora-table tbody tr { 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--white);
+  }
+  #bitacora-table tbody tr:nth-child(even) {
+    background: var(--bg-light);
+  }
+  #bitacora-table tbody tr:hover { 
+    background: linear-gradient(90deg, rgba(26, 54, 93, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%);
+    transform: scale(1.005);
+  }
+  .bitacora-controls { 
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:18px; 
+    align-items:flex-end; 
+    margin-bottom:24px;
+    padding: 20px;
+    background: var(--bg-light);
+    border-radius: 12px;
+    border: 1px solid var(--border-light);
+  }
+  .bitacora-filters { display:flex; flex-wrap:wrap; gap:18px; flex:1; }
+  .bitacora-filter-field { position:relative; display:flex; flex-direction:column; gap:8px; min-width:180px; }
+  .bitacora-filter-field label { 
+    font-size:12px; 
+    font-weight:700; 
+    color:var(--text-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .bitacora-filter-button { 
+    padding:10px 14px; 
+    border:2px solid var(--border); 
+    border-radius:10px; 
+    font-size:13px; 
+    background:var(--white); 
+    cursor:pointer; 
+    position:relative; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+  }
+  .bitacora-filter-button:hover { 
+    border-color:var(--blue);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+  }
+  .bitacora-filter-button::after { 
+    content:'▼'; 
+    position:absolute; 
+    right:14px; 
+    top:50%; 
+    transform:translateY(-50%); 
+    font-size:10px; 
+    color:var(--text-light);
+    transition: transform 0.2s;
+  }
+  .bitacora-multiselect-panel { 
+    display:none; 
+    position:absolute; 
+    top:calc(100% + 6px); 
+    left:0; 
+    right:0; 
+    background:var(--white); 
+    border:1px solid var(--border); 
+    border-radius:10px; 
+    padding:14px; 
+    max-height:240px; 
+    overflow:auto; 
+    z-index:220; 
+    box-shadow: var(--shadow-lg);
+    animation: fadeIn 0.2s ease-out;
+  }
+  .bitacora-multiselect-panel label { 
+    display:flex; 
+    align-items:center; 
+    gap:10px; 
+    font-size:13px; 
+    margin-bottom:10px; 
+    cursor:pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .bitacora-multiselect-panel label:hover {
+    background: var(--bg-light);
+  }
+  .bitacora-refresh-btn { 
+    padding:11px 22px; 
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    color:var(--white); 
+    border:none; 
+    border-radius:10px; 
+    cursor:pointer; 
+    font-size:14px; 
+    font-weight:600; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow);
+  }
+  .bitacora-refresh-btn:hover { 
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  .bitacora-refresh-btn:active {
+    transform: translateY(0);
+  }
+  .bitacora-table-info { 
+    margin-bottom:14px; 
+    font-size:13px; 
+    color:var(--text-medium);
+    font-weight: 500;
+    padding: 12px 16px;
+    background: var(--bg-light);
+    border-radius: 8px;
+    border-left: 3px solid var(--blue);
+  }
+  
+  .bitacora-action-btn { 
+    display:flex; 
+    align-items:center; 
+    gap:8px; 
+    padding:8px 16px; 
+    background:var(--white); 
+    color:var(--navy); 
+    border:2px solid var(--navy); 
+    border-radius:10px; 
+    font-size:13px; 
+    font-weight:600; 
+    cursor:pointer; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+  }
+  .bitacora-action-btn:hover:not(:disabled) { 
+    background:var(--navy); 
+    color:var(--white); 
+    transform:translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .bitacora-action-btn:active:not(:disabled) {
+    transform: translateY(0);
+  }
+  .bitacora-action-btn:disabled { 
+    opacity:0.3; 
+    cursor:not-allowed; 
+    border-color:var(--border); 
+    color:var(--text-light);
+  }
+  .bitacora-action-btn svg { width:16px; height:16px; }
+  #bitacora-table tbody tr.selected { 
+    background: linear-gradient(90deg, rgba(26, 54, 93, 0.15) 0%, rgba(37, 99, 235, 0.15) 100%) !important;
+    box-shadow: inset 0 0 0 2px var(--blue);
+  }
+  #bitacora-table input[type="checkbox"] { 
+    cursor:pointer; 
+    width:18px; 
+    height:18px;
+    accent-color: var(--blue);
+  }
+  
+  /* Form */
+  .bitacora-form { 
+    display:grid; 
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); 
+    gap:24px;
+  }
+  .bitacora-field { display:flex; flex-direction:column; gap:8px; }
+  .bitacora-field label { 
+    font-size:13px; 
+    font-weight:700; 
+    color:var(--text-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .bitacora-field input, .bitacora-field select, .bitacora-field textarea { 
+    padding:12px 14px; 
+    border:2px solid var(--border); 
+    border-radius:10px; 
+    font-family:inherit; 
+    font-size:14px; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--white);
+    box-shadow: var(--shadow-sm);
+  }
+  .bitacora-field input:focus, .bitacora-field select:focus, .bitacora-field textarea:focus { 
+    outline:none; 
+    border-color:var(--blue); 
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1), var(--shadow);
+    transform: translateY(-1px);
+  }
+  .bitacora-field textarea { 
+    min-height:110px; 
+    resize:vertical; 
+    grid-column:1 / -1;
+  }
+  .bitacora-submit { 
+    grid-column:1 / -1; 
+    justify-self:flex-end; 
+    padding:14px 40px; 
+    background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+    color:var(--white); 
+    border:none; 
+    border-radius:10px; 
+    cursor:pointer; 
+    font-size:15px; 
+    font-weight:700; 
+    transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .bitacora-submit:hover { 
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  .bitacora-submit:active {
+    transform: translateY(0);
+  }
+  .bitacora-status { 
+    grid-column:1 / -1; 
+    font-size:14px; 
+    margin-top:-8px; 
+    min-height:24px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .bitacora-status.error { 
+    color:var(--white);
+    background: var(--danger);
+  }
+  .bitacora-status.success { 
+    color:var(--white);
+    background: var(--success);
+  }
+  
+  /* Report section */
+  .report-wrapper { max-width:560px; margin:0 auto; }
+  .report-card { 
+    background:var(--white); 
+    border:1px solid var(--border-light); 
+    border-radius:16px; 
+    padding:40px; 
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+  }
+  .report-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 100%);
+  }
+  .report-card h2 { 
+    font-size:24px; 
+    font-weight:800; 
+    color:var(--navy); 
+    margin-bottom:28px; 
+    text-align:center;
+  }
+  .report-field { display:flex; flex-direction:column; gap:10px; margin-bottom:24px; }
+  .report-field label { 
+    font-weight:700; 
+    font-size:13px; 
+    color:var(--text-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .report-field small { font-size:12px; color:var(--text-medium); }
+  .report-dropdown { position:relative; }
+  .report-dropdown button { 
+    width:100%; 
+    text-align:left; 
+    border:2px solid var(--border); 
+    background:var(--white); 
+    padding:12px 40px 12px 14px; 
+    border-radius:10px; 
+    cursor:pointer; 
+    position:relative; 
+    transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+  }
+  .report-dropdown button:hover { 
+    border-color:var(--blue);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+  }
+  .report-dropdown button::after { 
+    content:'▼'; 
+    position:absolute; 
+    right:16px; 
+    top:50%; 
+    transform:translateY(-50%); 
+    font-size:10px; 
+    color:var(--text-light);
+  }
+  .report-dropdown-panel { 
+    display:none; 
+    position:absolute; 
+    left:0; 
+    right:0; 
+    top:calc(100% + 6px); 
+    background:var(--white); 
+    border:1px solid var(--border); 
+    border-radius:10px; 
+    padding:14px; 
+    max-height:220px; 
+    overflow:auto; 
+    z-index:250; 
+    box-shadow: var(--shadow-lg);
+    animation: fadeIn 0.2s ease-out;
+  }
+  .report-dropdown-panel label { 
+    display:block; 
+    margin-bottom:10px; 
+    font-size:13px; 
+    cursor:pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .report-dropdown-panel label:hover {
+    background: var(--bg-light);
+  }
+  .report-submit { 
+    width:100%; 
+    padding:14px; 
+    border:none; 
+    border-radius:10px; 
+    background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+    color:var(--white); 
+    font-size:15px; 
+    font-weight:700; 
+    cursor:pointer; 
+    transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+    margin-top:12px;
+    box-shadow: var(--shadow);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .report-submit:hover { 
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  .report-submit:active {
+    transform: translateY(0);
+  }
+  .report-note { 
+    margin-top:20px; 
+    font-size:13px; 
+    color:var(--text-medium); 
+    text-align:center;
+    padding: 12px;
+    background: var(--bg-light);
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar { transform:translateX(-280px); }
+    .sidebar.mobile-open { transform:translateX(0); }
+    .sidebar-toggle { left:16px; }
+    .main-content { margin-left:0; }
+    .section { padding:28px 20px; }
+    .section-header h2 { font-size: 26px; }
+    .top3-grid { grid-template-columns: 1fr; }
+    .bitacora-controls { padding: 16px; }
+    .bitacora-filters { flex-direction: column; }
+    .bitacora-filter-field { min-width: 100%; }
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg-light); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb { 
+    background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+    border-radius: 4px; 
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--blue-dark); }
+
+  /* Input checkbox custom */
+  input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+  }
+  input[type="checkbox"]:checked {
+    background: var(--blue);
+    border-color: var(--blue);
+  }
+  input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>Sistema IT</h1>
+      <p>Gestión de Incidencias</p>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#bitacora" class="nav-link active">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+        Bitácora de Incidencias
+      </a>
+      <a href="#insertar" class="nav-link">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+        Insertar Datos
+      </a>
+      <a href="#top3" class="nav-link">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        Top 3
+      </a>
+      <a href="#analisis" class="nav-link">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
+        Análisis Temporal
+      </a>
+      <a href="#reporte" class="nav-link">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+        Generar Reporte
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Sidebar Toggle -->
+  <button class="sidebar-toggle" id="sidebarToggle">
+    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    
+    <!-- Bitácora Section -->
+    <section id="bitacora" class="section">
+      <div class="section-header">
+        <h2>Bitácora de Incidencias</h2>
+        <p>Registros históricos de todas las incidencias reportadas en el sistema</p>
+      </div>
+      
+      <div class="card">
+        <div class="bitacora-controls">
+          <div class="bitacora-filters">
+            <div class="bitacora-filter-field">
+              <label for="bitacora-filter-date">Fecha</label>
+              <input type="date" id="bitacora-filter-date" />
+            </div>
+            <div class="bitacora-filter-field">
+              <label>Semana</label>
+              <button type="button" id="bitacora-week-toggle" class="bitacora-filter-button">Todas las semanas</button>
+              <div id="bitacora-week-panel" class="bitacora-multiselect-panel"></div>
+            </div>
+            <div class="bitacora-filter-field">
+              <label>Área</label>
+              <button type="button" id="bitacora-area-toggle" class="bitacora-filter-button">Todas las áreas</button>
+              <div id="bitacora-area-panel" class="bitacora-multiselect-panel"></div>
+            </div>
+            <div class="bitacora-filter-field">
+              <label>Clase</label>
+              <button type="button" id="bitacora-class-toggle" class="bitacora-filter-button">Todas las clases</button>
+              <div id="bitacora-class-panel" class="bitacora-multiselect-panel"></div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px; align-items:flex-start;">
+            <div style="display:flex; gap:8px; margin-bottom:4px;">
+              <button type="button" id="bitacora-edit-btn" class="bitacora-action-btn" disabled>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                </svg>
+                Editar
+              </button>
+              <button type="button" id="bitacora-delete-btn" class="bitacora-action-btn" disabled>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                </svg>
+                Eliminar
+              </button>
+            </div>
+            <label style="display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer;">
+              <input type="checkbox" id="bitacora-show-all" />
+              Ver todos los registros
+            </label>
+            <button type="button" id="bitacora-refresh-btn" class="bitacora-refresh-btn">Actualizar datos</button>
+          </div>
+        </div>
+        
+        <div id="bitacora-table-info" class="bitacora-table-info"></div>
+        
+        <div class="bitacora-table-wrapper" style="max-height:500px; overflow:auto;">
+          <table id="bitacora-table">
+            <thead>
+              <tr>
+                <th style="width:40px;"><input type="checkbox" id="bitacora-select-all" title="Seleccionar todos" /></th>
+                <th>Fecha</th>
+                <th>Semana</th>
+                <th>Área</th>
+                <th>Clase</th>
+                <th>Evento / Problema</th>
+                <th>Operador / Usuario</th>
+                <th>Turno</th>
+                <th>T. Espera</th>
+                <th>T. Solución</th>
+                <th>T. Muerto</th>
+              </tr>
+            </thead>
+            <tbody id="bitacora-tbody">
+              <tr><td colspan="11" style="text-align:center; padding:24px;">Cargando información...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insertar Datos Section -->
+    <section id="insertar" class="section">
+      <div class="section-header">
+        <h2>Insertar Datos</h2>
+        <p>Registra una nueva incidencia en el sistema</p>
+      </div>
+      
+      <div class="card">
+        <form id="bitacora-form" class="bitacora-form">
+          <div class="bitacora-field">
+            <label for="entry-date">Fecha</label>
+            <input type="date" id="entry-date" name="fecha" required />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-week">Semana</label>
+            <input type="number" id="entry-week" name="week" min="1" step="1" required list="weeks-datalist" readonly />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-shift">Turno</label>
+            <select id="entry-shift" name="shift">
+              <option value="">Selecciona</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-area">Área</label>
+            <select id="entry-area" name="area" required>
+              <option value="">Selecciona un área</option>
+            </select>
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-class">Clase</label>
+            <select id="entry-class" name="class" required>
+              <option value="">Selecciona una clase</option>
+            </select>
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-operator">Operador / Usuario</label>
+            <input type="text" id="entry-operator" name="operador" />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-origin">Originador</label>
+            <input type="text" id="entry-origin" name="originador" />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-t-espera">T. Espera</label>
+            <input type="number" id="entry-t-espera" name="t_espera" min="0" step="0.1" required />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-t-solucion">T. Solución</label>
+            <input type="number" id="entry-t-solucion" name="t_solucion" min="0" step="0.1" required />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-t-muerto">T. Muerto</label>
+            <input type="number" id="entry-t-muerto" name="t_muerto" min="0" step="0.1" required readonly />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-t-muerto-ti">T. Muerto TI</label>
+            <input type="number" id="entry-t-muerto-ti" name="t_muerto_ti" min="0" step="0.1" />
+          </div>
+          <div class="bitacora-field">
+            <label for="entry-description">Descripción / Problema</label>
+            <textarea id="entry-description" name="descripcion" required></textarea>
+          </div>
+          <button type="submit" class="bitacora-submit">Guardar registro</button>
+          <div id="bitacora-status" class="bitacora-status"></div>
+        </form>
+        <datalist id="weeks-datalist"></datalist>
+      </div>
+    </section>
+
+    <!-- Top 3 Section -->
+    <section id="top3" class="section">
+      <div class="section-header">
+        <h2>Top 3 — Resumen</h2>
+        <p>Principales áreas, clases y eventos con mayor impacto</p>
+      </div>
+      
+      <div class="top3-grid">
+        <div class="top3-card">
+          <h3>Top 3 por Área</h3>
+          <div id="top3-controls" class="top3-controls" style="position:relative;">
+            <label>Semanas:</label>
+            <div id="select-weeks-dropdown" style="display:inline-block; position:relative;">
+              <button id="weeks-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="weeks-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-top3">Actualizar</button>
+          </div>
+          <div id="chart-top3" class="chart-box"></div>
+        </div>
+
+        <div class="top3-card">
+          <h3>Top 3 por Clase</h3>
+          <div id="top3class-controls" class="top3-controls" style="position:relative;">
+            <label>Semanas:</label>
+            <div id="select-weeksclass-dropdown" style="display:inline-block; position:relative;">
+              <button id="weeksclass-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="weeksclass-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-top3class">Actualizar</button>
+          </div>
+          <div id="chart-top3class" class="chart-box"></div>
+        </div>
+
+        <div class="top3-card">
+          <h3>Top 3 por Evento/Problema</h3>
+          <div id="top3event-controls" class="top3-controls" style="position:relative;">
+            <label>Semanas:</label>
+            <div id="select-weeksevent-dropdown" style="display:inline-block; position:relative;">
+              <button id="weeksevent-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="weeksevent-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-top3event">Actualizar</button>
+          </div>
+          <div id="chart-top3event" class="chart-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Análisis Temporal Section -->
+    <section id="analisis" class="section">
+      <div class="section-header">
+        <h2>Análisis Temporal</h2>
+        <p>Tendencias de downtime y frecuencia de incidencias en el tiempo</p>
+      </div>
+      
+      <div class="top3-grid">
+        <div class="top3-card">
+          <h3>Tiempo Muerto TI por Semana</h3>
+          <div id="downtime-week-controls" class="top3-controls" style="position:relative;">
+            <label>Semanas:</label>
+            <div id="select-weeksdowntime-dropdown" style="display:inline-block; position:relative;">
+              <button id="weeksdowntime-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="weeksdowntime-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-downtime-week">Actualizar</button>
+          </div>
+          <div id="chart-downtime-week" class="chart-box"></div>
+        </div>
+
+        <div class="top3-card">
+          <h3>Frecuencia de Incidencias TI por Mes</h3>
+          <div id="frequency-month-controls" class="top3-controls" style="position:relative;">
+            <label>Meses:</label>
+            <div id="select-monthsfreq-dropdown" style="display:inline-block; position:relative;">
+              <button id="monthsfreq-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="monthsfreq-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-frequency-month">Actualizar</button>
+          </div>
+          <div id="chart-frequency-month" class="chart-box"></div>
+        </div>
+
+        <div class="top3-card">
+          <h3>Tiempo Muerto TI por Mes</h3>
+          <div id="downtime-month-controls" class="top3-controls" style="position:relative;">
+            <label>Meses:</label>
+            <div id="select-monthsdowntime-dropdown" style="display:inline-block; position:relative;">
+              <button id="monthsdowntime-toggle" type="button" style="padding:6px 12px; border:1px solid var(--border); background:var(--white); border-radius:6px; cursor:pointer;">Seleccionar (0)</button>
+              <div id="monthsdowntime-panel" style="display:none; position:absolute; background:var(--white); border:1px solid var(--border); border-radius:8px; padding:12px; max-height:220px; overflow:auto; z-index:200; box-shadow:0 4px 6px rgba(0,0,0,0.1);"></div>
+            </div>
+            <button id="btn-downtime-month">Actualizar</button>
+          </div>
+          <div id="chart-downtime-month" class="chart-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Generar Reporte Section -->
+    <section id="reporte" class="section">
+      <div class="section-header">
+        <h2>Generar Reporte</h2>
+        <p>Descarga un reporte en PDF con los datos filtrados</p>
+      </div>
+      
+      <div class="report-wrapper">
+        <div class="report-card">
+          <h2>Configurar Reporte PDF</h2>
+          <form id="report-form" method="post" action="/generate_report">
+            <div class="report-field">
+              <label>Semanas</label>
+              <div class="report-dropdown">
+                <button id="report-weeks-toggle" type="button">Seleccionar semanas (0)</button>
+                <div id="report-weeks-panel" class="report-dropdown-panel"></div>
+              </div>
+              <small>Marca una o más semanas para incluir en el reporte.</small>
+            </div>
+            <div class="report-field">
+              <label>Años</label>
+              <div class="report-dropdown">
+                <button id="report-years-toggle" type="button">Seleccionar años (0)</button>
+                <div id="report-years-panel" class="report-dropdown-panel"></div>
+              </div>
+              <small>Marca uno o más años para filtrar.</small>
+            </div>
+            <div class="report-field">
+              <label>Meses</label>
+              <div class="report-dropdown">
+                <button id="report-months-toggle" type="button">Seleccionar meses (0)</button>
+                <div id="report-months-panel" class="report-dropdown-panel"></div>
+              </div>
+              <small>Marca uno o más meses específicos.</small>
+            </div>
+            <button type="submit" class="report-submit">Descargar PDF</button>
+            <div id="report-error" style="display:none; color:#dc2626; font-weight:600; margin-top:12px; text-align:center;">El reporte no está disponible.</div>
+            <div class="report-note">El reporte incluirá análisis gráfico y las fallas críticas del periodo seleccionado.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // Sidebar toggle
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    
+    sidebarToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('collapsed');
+      if (window.innerWidth <= 768) {
+        sidebar.classList.toggle('mobile-open');
+      }
+    });
+
+    // Smooth scroll and active nav
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        
+        if (targetSection) {
+          targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          
+          // Update active state
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+          
+          // Close sidebar on mobile
+          if (window.innerWidth <= 768) {
+            sidebar.classList.remove('mobile-open');
+          }
+        }
+      });
+    });
+
+    // Intersection Observer for active nav on scroll
+    const sections = document.querySelectorAll('.section');
+    const observerOptions = {
+      root: null,
+      rootMargin: '-20% 0px -70% 0px',
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => observer.observe(section));
+  </script>
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
