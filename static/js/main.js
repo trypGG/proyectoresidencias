@@ -28,7 +28,7 @@ function plotTop3Event(data) {
     return lines.join('<br>');
   }
 
-  const MAX_CHARS = 15; // reducir más para evitar empalme en la última columna
+  const MAX_CHARS = 25; // Aumentado para mostrar más texto
   const wrapped = events.map(e => wrapText(e, MAX_CHARS));
   const trace = {
     x: wrapped,
@@ -44,11 +44,11 @@ function plotTop3Event(data) {
   };
   const layout = {
     title: 'TOP 3 POR EVENTO',
-    margin: { t: 100, b: 200, l: 80, r: 80},
-    xaxis: { tickangle: 0, automargin: true },
+    margin: { t: 100, b: 280, l: 80, r: 80},
+    xaxis: { tickangle: -45, automargin: true },
     yaxis: { automargin: true },
-    height: 560,
-    bargap: 2
+    height: 600,
+    bargap: 0.2
   };
   Plotly.newPlot('chart-top3event', [trace], layout, {responsive: true, displayModeBar: false});
 }
@@ -764,11 +764,11 @@ function plotTop3(data) {
   };
   const layout = { 
     title: 'TOP 3 POR ÁREA', 
-    margin: { t: 100, b: 100, l: 80, r: 80}, 
+    margin: { t: 100, b: 200, l: 80, r: 80}, 
     yaxis: { automargin: true },
-    xaxis: { automargin: true },
-    height: 480,
-    bargap: 2
+    xaxis: { tickangle: -45, automargin: true },
+    height: 560,
+    bargap: 0.2
   };
   Plotly.newPlot('chart-top3', [trace], layout, {responsive: true, displayModeBar: false});
 }
@@ -794,7 +794,7 @@ function plotTop3Class(data) {
     if (cur) lines.push(cur);
     return lines.join('<br>');
   }
-  const MAX_CHARS = 12; // Reducir caracteres por línea para evitar empalme
+  const MAX_CHARS = 25; // Aumentado para mostrar más texto
   const wrapped = classes.map(e => wrapText(e, MAX_CHARS));
   const trace = {
     x: wrapped,
@@ -810,11 +810,11 @@ function plotTop3Class(data) {
   };
   const layout = {
     title: 'TOP 3 POR CLASE',
-    margin: { t: 100, b: 180, l: 80, r: 80},
-    xaxis: { tickangle: 0, automargin: true },
+    margin: { t: 100, b: 280, l: 80, r: 80},
+    xaxis: { tickangle: -45, automargin: true },
     yaxis: { automargin: true },
-    height: 530,
-    bargap: 10
+    height: 600,
+    bargap: 0.2
   };
   Plotly.newPlot('chart-top3class', [trace], layout, {responsive: true, displayModeBar: false});
 }
