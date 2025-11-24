@@ -1257,33 +1257,31 @@ document.addEventListener('DOMContentLoaded', async () => {
       
       if (!confirm(confirmMessage)) return;
       
-      // Aquí deberías implementar la lógica de eliminación en el backend
-      // Por ahora, solo mostramos un mensaje
-      alert('Funcionalidad de eliminación pendiente de implementar en el backend.');
+      // Obtener los índices de las filas seleccionadas
+      const rowIndices = Array.from(selectedCheckboxes).map(cb => {
+        const tr = cb.closest('tr');
+        return parseInt(tr.dataset.rowIndex);
+      });
       
-      // Cuando se implemente, descomentar esto:
-      // const rowIndexes = Array.from(selectedCheckboxes).map(cb => {
-      //   const tr = cb.closest('tr');
-      //   return parseInt(tr.dataset.rowIndex);
-      // });
-      // 
-      // try {
-      //   const response = await fetch('/delete_entries', {
-      //     method: 'POST',
-      //     headers: { 'Content-Type': 'application/json' },
-      //     body: JSON.stringify({ indexes: rowIndexes })
-      //   });
-      //   
-      //   if (response.ok) {
-      //     await reloadBitacoraData({ updateMeta: true });
-      //     alert('Registros eliminados correctamente.');
-      //   } else {
-      //     alert('Error al eliminar los registros.');
-      //   }
-      // } catch (error) {
-      //   console.error('Error:', error);
-      //   alert('Error al eliminar los registros.');
-      // }
+      try {
+        const response = await fetch('/entries', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ indices: rowIndices })
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok) {
+          await reloadBitacoraData({ updateMeta: true });
+          alert(`✓ ${result.message || 'Registros eliminados correctamente'}`);
+        } else {
+          alert(`✗ Error: ${result.error || 'No se pudieron eliminar los registros'}`);
+        }
+      } catch (error) {
+        console.error('Error al eliminar:', error);
+        alert('✗ Error de conexión al eliminar los registros');
+      }
     });
   }
 });

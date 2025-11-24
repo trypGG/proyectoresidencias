@@ -381,6 +381,49 @@ def add_entry():
     return jsonify({'status': 'ok'}), 201
 
 
+@app.route('/entries', methods=['DELETE'])
+def delete_entries():
+    """Elimina uno o más registros de la bitácora basándose en sus índices"""
+    payload = request.get_json(silent=True) or {}
+    indices = payload.get('indices', [])
+    
+    if not indices or not isinstance(indices, list):
+        return jsonify({'error': 'Debe proporcionar una lista de índices a eliminar'}), 400
+    
+    if not os.path.exists(DATA_PATH):
+        return jsonify({'error': 'No se encontró el archivo de datos'}), 500
+    
+    try:
+        # Cargar el DataFrame
+        try:
+            df = pd.read_csv(DATA_PATH, dtype=str, keep_default_na=False, encoding='utf-8')
+        except UnicodeDecodeError:
+            df = pd.read_csv(DATA_PATH, dtype=str, keep_default_na=False, encoding='latin-1')
+        
+        df.columns = df.columns.str.strip()
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+        
+        # Validar que los índices existan
+        invalid_indices = [i for i in indices if i < 0 or i >= len(df)]
+        if invalid_indices:
+            return jsonify({'error': f'Índices inválidos: {invalid_indices}'}), 400
+        
+        # Eliminar las filas
+        df = df.drop(indices).reset_index(drop=True)
+        
+        # Guardar el archivo actualizado
+        df.to_csv(DATA_PATH, index=False, encoding='utf-8')
+        
+        return jsonify({
+            'status': 'ok',
+            'message': f'{len(indices)} registro(s) eliminado(s) exitosamente',
+            'deleted_count': len(indices)
+        }), 200
+        
+    except Exception as e:
+        return jsonify({'error': f'Error al eliminar registros: {str(e)}'}), 500
+
+
 def _create_bar_figure(labels, values, title, ylabel='', color='#1f77b4', rotation=0):
     fig = Figure(figsize=(8.27, 4.5))  # tamaño A4 horizontal
     ax = fig.subplots()
