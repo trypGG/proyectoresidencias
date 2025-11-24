@@ -626,7 +626,7 @@ function renderBitacoraTable(rows) {
 
   rows.forEach((row, index) => {
     const tr = document.createElement('tr');
-    tr.dataset.rowIndex = index;
+    tr.dataset.rowIndex = row._csvIndex !== undefined ? row._csvIndex : index;
     tr.dataset.rowData = JSON.stringify(row);
     
     // Columna de checkbox

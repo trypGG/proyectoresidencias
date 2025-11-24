@@ -104,8 +104,12 @@ def load_data(path=DATA_PATH, nrows=None):
                 out[k] = v
         return out
 
-    rows = df.to_dict(orient='records')
-    rows = [clean_row(r) for r in rows]
+    rows = []
+    for idx, row in df.iterrows():
+        clean = clean_row(row.to_dict())
+        clean['_csvIndex'] = int(idx)  # Agregar índice original del CSV
+        rows.append(clean)
+    
     return {'columns': df.columns.tolist(), 'rows': rows}
 
 
