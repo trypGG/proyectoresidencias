@@ -128,121 +128,185 @@ function buildWeeksDropdown(weeks, panelId, toggleId) {
   const panel = document.getElementById(panelId);
   const toggle = document.getElementById(toggleId);
   if (!panel || !toggle) return;
+  
+  // Limpiar panel y remover listeners previos clonando el botón
   panel.innerHTML = '';
+  const newToggle = toggle.cloneNode(true);
+  toggle.parentNode.replaceChild(newToggle, toggle);
+  const toggleBtn = document.getElementById(toggleId); // Referencia al nuevo botón
+  
   if (!weeks || !weeks.length) {
     const span = document.createElement('div'); span.textContent = 'No hay semanas'; panel.appendChild(span);
-    toggle.disabled = true;
-    toggle.textContent = 'Sin semanas disponibles';
+    toggleBtn.disabled = true;
+    toggleBtn.textContent = 'Sin semanas disponibles';
     return;
   }
-  toggle.disabled = false;
+  
+  toggleBtn.disabled = false;
   for (const w of weeks) {
     const id = `${panelId}-week-${w}`;
     const label = document.createElement('label');
     label.style.display = 'block';
-    const cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = String(w); cb.id = id; cb.className = 'week-checkbox';
-    const txt = document.createTextNode(' ' + String(w));
-    label.appendChild(cb); label.appendChild(txt);
+    const cb = document.createElement('input'); 
+    cb.type = 'checkbox'; 
+    cb.value = String(w); 
+    cb.id = id; 
+    cb.className = 'week-checkbox';
+    const txt = document.createTextNode(' Semana ' + String(w));
+    label.appendChild(cb); 
+    label.appendChild(txt);
     panel.appendChild(label);
   }
 
   const updateToggleLabel = () => {
     const checked = Array.from(panel.querySelectorAll('.week-checkbox:checked')).map(i => i.value);
-    toggle.textContent = `Seleccionar semanas (${checked.length})`;
+    toggleBtn.textContent = checked.length > 0 
+      ? `Semanas seleccionadas (${checked.length})`
+      : 'Seleccionar semanas (0)';
   };
 
   panel.addEventListener('change', updateToggleLabel);
   updateToggleLabel();
 
-  // toggle behavior
-  toggle.addEventListener('click', (e) => {
+  // Toggle behavior
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     e.stopPropagation();
-    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    const isVisible = panel.style.display === 'block';
+    panel.style.display = isVisible ? 'none' : 'block';
   });
 
-  // close when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!panel.contains(e.target) && e.target !== toggle) panel.style.display = 'none';
-  });
+  // Close when clicking outside
+  const closePanel = (e) => {
+    if (!panel.contains(e.target) && !toggleBtn.contains(e.target)) {
+      panel.style.display = 'none';
+    }
+  };
+  document.addEventListener('click', closePanel);
 }
 
 function buildMonthsDropdown(months, panelId, toggleId) {
   const panel = document.getElementById(panelId);
   const toggle = document.getElementById(toggleId);
   if (!panel || !toggle) return;
+  
+  // Limpiar panel y remover listeners previos clonando el botón
   panel.innerHTML = '';
+  const newToggle = toggle.cloneNode(true);
+  toggle.parentNode.replaceChild(newToggle, toggle);
+  const toggleBtn = document.getElementById(toggleId); // Referencia al nuevo botón
+  
   if (!months || !months.length) {
     const span = document.createElement('div'); span.textContent = 'No hay meses'; panel.appendChild(span);
-    toggle.disabled = true;
-    toggle.textContent = 'Sin meses disponibles';
+    toggleBtn.disabled = true;
+    toggleBtn.textContent = 'Sin meses disponibles';
     return;
   }
-  toggle.disabled = false;
+  
+  toggleBtn.disabled = false;
   for (const m of months) {
     const id = `${panelId}-month-${m}`;
     const label = document.createElement('label');
     label.style.display = 'block';
-    const cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = String(m); cb.id = id; cb.className = 'month-checkbox';
+    const cb = document.createElement('input'); 
+    cb.type = 'checkbox'; 
+    cb.value = String(m); 
+    cb.id = id; 
+    cb.className = 'month-checkbox';
     const txt = document.createTextNode(' ' + String(m));
-    label.appendChild(cb); label.appendChild(txt);
+    label.appendChild(cb); 
+    label.appendChild(txt);
     panel.appendChild(label);
   }
 
   const updateToggleLabel = () => {
     const checked = Array.from(panel.querySelectorAll('.month-checkbox:checked')).map(i => i.value);
-    toggle.textContent = `Seleccionar meses (${checked.length})`;
+    toggleBtn.textContent = checked.length > 0 
+      ? `Meses seleccionados (${checked.length})`
+      : 'Seleccionar meses (0)';
   };
 
   panel.addEventListener('change', updateToggleLabel);
   updateToggleLabel();
 
-  // toggle behavior
-  toggle.addEventListener('click', (e) => {
+  // Toggle behavior
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     e.stopPropagation();
-    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    const isVisible = panel.style.display === 'block';
+    panel.style.display = isVisible ? 'none' : 'block';
   });
 
-  // close when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!panel.contains(e.target) && e.target !== toggle) panel.style.display = 'none';
-  });
+  // Close when clicking outside
+  const closePanel = (e) => {
+    if (!panel.contains(e.target) && !toggleBtn.contains(e.target)) {
+      panel.style.display = 'none';
+    }
+  };
+  document.addEventListener('click', closePanel);
 }
 
 function buildYearsDropdown(years, panelId, toggleId) {
   const panel = document.getElementById(panelId);
   const toggle = document.getElementById(toggleId);
   if (!panel || !toggle) return;
+  
+  // Limpiar panel y remover listeners previos clonando el botón
   panel.innerHTML = '';
+  const newToggle = toggle.cloneNode(true);
+  toggle.parentNode.replaceChild(newToggle, toggle);
+  const toggleBtn = document.getElementById(toggleId); // Referencia al nuevo botón
+  
   if (!years || !years.length) {
-    const span = document.createElement('div'); span.textContent = 'No hay años'; panel.appendChild(span); toggle.disabled = true; toggle.textContent = 'Sin años disponibles'; return;
+    const span = document.createElement('div'); 
+    span.textContent = 'No hay años'; 
+    panel.appendChild(span); 
+    toggleBtn.disabled = true; 
+    toggleBtn.textContent = 'Sin años disponibles'; 
+    return;
   }
-  toggle.disabled = false;
+  
+  toggleBtn.disabled = false;
   for (const y of years) {
     const id = `${panelId}-year-${y}`;
     const label = document.createElement('label');
     label.style.display = 'block';
-    const cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = String(y); cb.id = id; cb.className = 'year-checkbox';
+    const cb = document.createElement('input'); 
+    cb.type = 'checkbox'; 
+    cb.value = String(y); 
+    cb.id = id; 
+    cb.className = 'year-checkbox';
     const txt = document.createTextNode(' ' + String(y));
-    label.appendChild(cb); label.appendChild(txt);
+    label.appendChild(cb); 
+    label.appendChild(txt);
     panel.appendChild(label);
   }
 
   const updateToggleLabel = () => {
     const checked = Array.from(panel.querySelectorAll('.year-checkbox:checked')).map(i => i.value);
-    toggle.textContent = `Seleccionar años (${checked.length})`;
+    toggleBtn.textContent = checked.length > 0 
+      ? `Años seleccionados (${checked.length})`
+      : 'Seleccionar años (0)';
   };
 
   panel.addEventListener('change', updateToggleLabel);
   updateToggleLabel();
 
-  toggle.addEventListener('click', (e) => {
+  // Toggle behavior
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     e.stopPropagation();
-    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    const isVisible = panel.style.display === 'block';
+    panel.style.display = isVisible ? 'none' : 'block';
   });
 
-  document.addEventListener('click', (e) => {
-    if (!panel.contains(e.target) && e.target !== toggle) panel.style.display = 'none';
-  });
+  // Close when clicking outside
+  const closePanel = (e) => {
+    if (!panel.contains(e.target) && !toggleBtn.contains(e.target)) {
+      panel.style.display = 'none';
+    }
+  };
+  document.addEventListener('click', closePanel);
 }
 
 function populateReportForm(meta) {
