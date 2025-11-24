@@ -44,7 +44,7 @@ function plotTop3Event(data) {
   };
   const layout = {
     title: 'TOP 3 POR EVENTO',
-    margin: { t: 100, b: 350, l: 80, r: 80},
+    margin: { t: 100, b: 360, l: 80, r: 80},
     xaxis: { 
       tickangle: -45, 
       automargin: true,
@@ -768,7 +768,7 @@ function plotTop3(data) {
   };
   const layout = { 
     title: 'TOP 3 POR ÁREA', 
-    margin: { t: 100, b: 250, l: 80, r: 80}, 
+    margin: { t: 100, b: 260, l: 80, r: 80}, 
     yaxis: { automargin: true },
     xaxis: { 
       tickangle: -45, 
@@ -818,7 +818,7 @@ function plotTop3Class(data) {
   };
   const layout = {
     title: 'TOP 3 POR CLASE',
-    margin: { t: 100, b: 350, l: 80, r: 80},
+    margin: { t: 100, b: 360, l: 80, r: 80},
     xaxis: { 
       tickangle: -45, 
       automargin: true,
@@ -889,7 +889,7 @@ function plotDowntimePerWeek(data) {
   
   const layout = {
     title: 'TIEMPO MUERTO TI POR SEMANA',
-    margin: { t: 100, b: 180, l: 80, r: 80 },
+    margin: { t: 100, b: 190, l: 80, r: 80 },
     xaxis: { 
       automargin: true,
       tickangle: -45,
@@ -933,7 +933,7 @@ function plotFrequencyPerMonth(data) {
   
   const layout = {
     title: 'FRECUENCIA DE INCIDENCIAS TI POR MES',
-    margin: { t: 100, b: 180, l: 80, r: 80 },
+    margin: { t: 100, b: 190, l: 80, r: 80 },
     xaxis: { 
       automargin: true, 
       tickangle: -45,
@@ -976,7 +976,7 @@ function plotDowntimePerMonth(data) {
   
   const layout = {
     title: 'TIEMPO MUERTO TI POR MES',
-    margin: { t: 100, b: 180, l: 80, r: 80 },
+    margin: { t: 100, b: 190, l: 80, r: 80 },
     xaxis: { 
       automargin: true, 
       tickangle: -45,
