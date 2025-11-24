@@ -44,10 +44,14 @@ function plotTop3Event(data) {
   };
   const layout = {
     title: 'TOP 3 POR EVENTO',
-    margin: { t: 100, b: 280, l: 80, r: 80},
-    xaxis: { tickangle: -45, automargin: true },
+    margin: { t: 100, b: 350, l: 80, r: 80},
+    xaxis: { 
+      tickangle: -45, 
+      automargin: true,
+      tickfont: { size: 11 }
+    },
     yaxis: { automargin: true },
-    height: 600,
+    height: 650,
     bargap: 0.2
   };
   Plotly.newPlot('chart-top3event', [trace], layout, {responsive: true, displayModeBar: false});
@@ -764,10 +768,14 @@ function plotTop3(data) {
   };
   const layout = { 
     title: 'TOP 3 POR ÁREA', 
-    margin: { t: 100, b: 200, l: 80, r: 80}, 
+    margin: { t: 100, b: 250, l: 80, r: 80}, 
     yaxis: { automargin: true },
-    xaxis: { tickangle: -45, automargin: true },
-    height: 560,
+    xaxis: { 
+      tickangle: -45, 
+      automargin: true,
+      tickfont: { size: 11 }
+    },
+    height: 580,
     bargap: 0.2
   };
   Plotly.newPlot('chart-top3', [trace], layout, {responsive: true, displayModeBar: false});
@@ -810,10 +818,14 @@ function plotTop3Class(data) {
   };
   const layout = {
     title: 'TOP 3 POR CLASE',
-    margin: { t: 100, b: 280, l: 80, r: 80},
-    xaxis: { tickangle: -45, automargin: true },
+    margin: { t: 100, b: 350, l: 80, r: 80},
+    xaxis: { 
+      tickangle: -45, 
+      automargin: true,
+      tickfont: { size: 11 }
+    },
     yaxis: { automargin: true },
-    height: 600,
+    height: 650,
     bargap: 0.2
   };
   Plotly.newPlot('chart-top3class', [trace], layout, {responsive: true, displayModeBar: false});
@@ -877,10 +889,14 @@ function plotDowntimePerWeek(data) {
   
   const layout = {
     title: 'TIEMPO MUERTO TI POR SEMANA',
-    margin: { t: 100, b: 100, l: 80, r: 80 },
-    xaxis: { automargin: true },
+    margin: { t: 100, b: 180, l: 80, r: 80 },
+    xaxis: { 
+      automargin: true,
+      tickangle: -45,
+      tickfont: { size: 10 }
+    },
     yaxis: { automargin: true, title: 'Tiempo Muerto' },
-    height: 480,
+    height: 540,
     bargap: bargap,
     showlegend: true,
     barmode: 'group'
@@ -917,10 +933,14 @@ function plotFrequencyPerMonth(data) {
   
   const layout = {
     title: 'FRECUENCIA DE INCIDENCIAS TI POR MES',
-    margin: { t: 100, b: 140, l: 80, r: 80 },
-    xaxis: { automargin: true, tickangle: -45 },
+    margin: { t: 100, b: 180, l: 80, r: 80 },
+    xaxis: { 
+      automargin: true, 
+      tickangle: -45,
+      tickfont: { size: 10 }
+    },
     yaxis: { automargin: true, title: 'Número de Soportes' },
-    height: 520,
+    height: 540,
     bargap: 0.3,
     showlegend: true
   };
@@ -956,10 +976,14 @@ function plotDowntimePerMonth(data) {
   
   const layout = {
     title: 'TIEMPO MUERTO TI POR MES',
-    margin: { t: 100, b: 140, l: 80, r: 80 },
-    xaxis: { automargin: true, tickangle: -45 },
+    margin: { t: 100, b: 180, l: 80, r: 80 },
+    xaxis: { 
+      automargin: true, 
+      tickangle: -45,
+      tickfont: { size: 10 }
+    },
     yaxis: { automargin: true, title: 'Tiempo Muerto Total' },
-    height: 520,
+    height: 540,
     bargap: 0.3,
     showlegend: true
   };
