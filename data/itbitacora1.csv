@@ -1,914 +1,910 @@
-FECHA,SHIFT,PROBLEM DESCRIPTION/SOLUTION,NOMBRE OPERADOR / USUARIOS,CLASS,AREA,WEEK#,T. ESPERA,T. SOLUCION,T. MUERTO,T. MUERTO TI,ORIGINADOR
-07/24/2024,1,Impresora sacaba etiquetas naranjas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,3,6,9,0,0
-01/06/2025,1,Computadora no abre CMS,Pato,GENERAL,E F&B,W02,4,16,20,0,0
-01/06/2025,1,No podian inpmrimir por usuario bloqueado,Jazmin ,BLOQUEO DE CUENTAS,ALM,W02,4,6,10,0,0
-01/06/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,3,5,8,0,0
-01/06/2025,1,Escaner se salia del sistema,Don Ray,FALLA DE ESCANER,E F&B,W02,3,5,8,0,0
-01/06/2025,1,Escaner no agarraba las etiquetas ,Neto,FALLA DE ESCANER,E PWT,W02,2,5,7,0,0
-01/06/2025,1,Impresora no detectaba el papel,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,4,6,0,0
-01/06/2025,1,Falla de Ignition,Don Ray,FALLA DE IGNITION,E F&B,W02,2,4,6,6,0
-01/06/2025,1,5,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,3,5,5,0
-01/06/2025,1,Se explica como abrir el batch,Miguel,GENERAL,E FF,W02,2,2,4,0,0
-01/06/2025,1,Bloqueo de cuenta ,Gabrien Rangel,GENERAL,PF FF,W02,2,2,4,0,0
-01/07/2025,1,Computadoras de estacion de impresión de p558 no agarran internet,Carmen Julia,GENERAL,E F&B,W02,4,100,104,0,0
-01/07/2025,1,Falla internet en estaciones de impresión,Carmen Julia,GENERAL,E F&B,W02,4,20,24,0,0
-01/07/2025,1,Impresora sacaba WIP a la mitad,0,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W02,3,6,9,0,0
-01/08/2025,1,"Falla maquina ATC, se cambia Moxa y se configura con ayuda de controles",Don Ray,FALLA EN EQUIPO DE ATC,E F&B,W02,5,475,480,480,0
-01/08/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W02,5,25,30,0,0
-01/08/2025,1,Impresora de Atc cambian ribbon y lo ponen doblado,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W02,4,10,14,0,0
-01/08/2025,1,Etiqueta corrida,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,8,10,0,0
-01/08/2025,1,Computadora sin internet,Margarita,GENERAL,E F&B,W02,2,8,10,0,0
-01/08/2025,1,Computadora sin internet,Efrain,GENERAL,ALM,W02,2,8,10,0,0
-01/08/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,2,7,9,9,0
-01/08/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,2,7,9,9,0
-01/08/2025,1,Cabezal frio,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,6,8,0,0
-01/08/2025,1,Impresora tenia etiqueta en el rodillo,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,3,5,8,0,0
-01/08/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W02,2,5,7,0,0
-01/08/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W02,1,4,5,0,0
-01/08/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,1,2,3,3,0
-01/09/2025,1,Se busca un escaner para PWT(el que tenian el touch ya no funciono),Neto,FALLA DE ESCANER,E PWT,W02,5,15,20,0,0
-01/09/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E FF,W02,2,8,10,10,0
-01/09/2025,1,"Se revisa la impresora de L9 FF, no salia la etiqueta de contenedor",Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,5,7,0,0
-01/09/2025,1,Impresora no sacaba etiquetas,Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,4,6,0,0
-01/09/2025,1,"Impresora no sacaba etiquetas, tenia impresiones atoradas en cola de impresión",Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,4,6,0,0
-01/09/2025,1,"Se saca un runpart para FF OFFLINE, el que tenian no lo agarraba",Fidelia,GENERAL,E FF,W02,2,2,4,0,0
-01/13/2025,2,"Falla de trazabilidad, Disco lleno del virtual 3",Jesus Oyervides,FALLA DE IGNITION,E PWT,W03,5,135,140,70,0
-01/13/2025,1,"Se revisa la red en WL, ya que las camaras no se ven",Don Ray,GENERAL,E F&B,W03,5,20,25,0,0
-01/13/2025,1,"No se podia quitar la falla de la impresora, el boton de pausa estaba atorado ",Raul Mercado,FALLA DE IMPRESORA O ETIQUETADO,CYF,W03,5,5,10,0,0
-01/13/2025,1,"Usuario bloqueado, lider no fue y no sabian la contraseña",Margarita,BLOQUEO DE CUENTAS,E F&B,W03,4,4,8,0,0
-01/13/2025,1,Batch en uso,Norma,BATCHS EN USO,E PWT,W03,2,3,5,0,0
-01/13/2025,1,Se explica como abrir el batch,Norma,FALLA DE ESCANER,E PWT,W03,2,2,4,0,0
-01/13/2025,2,Escaner pedia cambio de batch ,Luciano,FALLA DE ESCANER,E FF,W03,2,2,4,0,0
-01/14/2025,1,Se coloca parte de impresora que se desprendio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W03,2,6,8,0,0
-01/14/2025,1,"Se elimina cola de impresión, las etiquetas no salían",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W03,2,6,8,0,0
-01/14/2025,1,No podian cambiar turno,Norma,FALLA DE ESCANER,E PWT,W03,2,3,5,0,0
-01/14/2025,1,No podian cambiar turno,Margarita,FALLA DE ESCANER,E F&B,W03,2,2,4,0,0
-01/15/2025,1,Cambio de impresora ,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,4,8,12,0,0
-01/15/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W03,3,9,12,0,0
-01/15/2025,1,etiqueta corrida,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W03,2,5,7,0,0
-01/16/2025,1,Escaner se sale del sistema,Miguel,FALLA DE ESCANER,E FF,W03,3,5,8,0,0
-01/16/2025,1,Impresora datamax3 rechazaba todas las etiquetas,Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,3,5,8,0,0
-01/16/2025,1,Datamax 1 no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,2,4,6,0,0
-01/16/2025,1,"Impresión de runpart, el que tenian el escaner ya no lo agarraba el escaner",Miguel,GENERAL,E FF,W03,2,3,5,0,0
-01/16/2025,1,Impresora datamax3 no tenian conectada la sesión de la impresora,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,2,2,4,0,0
-01/20/2025,1,Etiqueta corrida,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W04,1,8,9,0,0
-01/20/2025,1,Mouse del equipo de impresión de etiquetas no aparecia en pantalla,Neto,GENERAL,E PWT,W04,2,4,6,0,0
-01/20/2025,1,"Datamax3 no libera las etiquetas, hasta que se reinicio",Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,4,6,0,0
-01/20/2025,1,Escaner no escaneaba el runpart (Version de CMS equivocada),Damian,FALLA DE ESCANER,E FF,W04,2,3,5,0,0
-01/21/2025,1,"Impresora no scaba bien las etiquetas, tenia doblado el ribbon",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W04,2,6,8,0,0
-01/21/2025,1,Impresora no sacaba etiqetas por cabezal frio,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,5,7,0,0
-01/21/2025,1,Cambio de escaner de linea 3 de FF por daño al anterior,Neto,FALLA DE ESCANER,E FF,W04,3,2,5,0,0
-01/22/2025,1,Impresora tachaba las etiquetas y el ribon se quedaba pegado,Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,6,8,0,0
-01/22/2025,1,No podian meter parcail por numero de parte diferente,Pato,FALLA DE ESCANER,E F&B,W04,2,5,7,0,0
-01/22/2025,1,Escacner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W04,2,4,6,0,0
-01/22/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W04,2,3,5,5,0
-01/22/2025,1,Cuenta bloqueada de PWT,Norma,BLOQUEO DE CUENTAS,E PWT,W04,2,2,4,0,0
-01/23/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W04,2,3,5,0,0
-01/27/2025,1,Impresora tacha las etiquetas ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W05,3,10,13,0,0
-01/27/2025,1,"Computadora de Idford no responde el mouse, la memoria estaba saturada se reinicio el equipo",Pato,GENERAL,E F&B,W05,5,2,7,0,0
-01/27/2025,1,Escaner no puede asignar numero de parte,Ivan (EFFF),FALLA DE ESCANER,E FF,W05,3,2,5,0,0
-01/27/2025,1,Batch en uso FG13,Miguel,BATCHS EN USO,E FF,W05,2,2,4,0,0
-01/27/2025,1,Batch en uso,Raul Mercado,BATCHS EN USO,CYF,W05,2,2,4,0,0
-01/28/2025,1,Se revienta banda de impresora de trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W05,3,40,43,0,0
-01/28/2025,1,"Se cambia banda de impresora IDFF, por daño",Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W05,2,18,20,0,0
-01/28/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W05,2,4,6,0,0
-01/28/2025,1,"Impresión de runpart, el que tenian el escaner ya no lo agarraba el escaner",Fidelia,GENERAL,E FF,W05,2,2,4,0,0
-01/29/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W05,3,10,13,0,0
-01/29/2025,1,Se ayuda a cambiar la ruta de una impresora a otra,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W05,2,5,7,0,0
-01/29/2025,1,Se imprimen runparts para PWT,Neto,GENERAL,E PWT,W05,2,5,7,0,0
-01/30/2025,1,"Mal escaneo de run part por ende la etiqueta no salía, por equivocacion se saca parcial, se saca una etiqueta master nueva y se le hace SWAP",Miguel,GENERAL,E FF,W05,3,15,18,0,0
-01/30/2025,1,CMS uso excedido de memoria,Neto,GENERAL,E PWT,W05,5,10,15,0,0
-01/30/2025,1,CMS uso excedido de memoria,Damian,GENERAL,E FF,W05,5,10,15,0,0
-01/30/2025,1,Equipo sin conexión a internet,Miriam,GENERAL,E FF,W05,4,5,9,0,0
-01/30/2025,1,Batch en uso FG13,Miguel,BATCHS EN USO,E FF,W05,2,3,5,0,0
-01/30/2025,1,Impresora Datamax3 no imprimia por que la sesión no estaba abierta,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W05,2,2,4,0,0
-02/04/2025,1,"Impresora solo sacaba la mitad de la etiqueta, se revisa cabezal y se calibra y se guarda la configuración",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,1,9,10,0,0
-02/04/2025,1,Escaner lento FG31,Norma,FALLA DE ESCANER,E PWT,W06,5,4,9,0,0
-02/04/2025,1,Impresora con un pedaso de ribbon obstruyendo la impresión,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,7,9,0,0
-02/04/2025,1,Computadora se apagaba pantalla por cable mal conectado,Carmen Julia,GENERAL,E F&B,W06,2,3,5,0,0
-02/04/2025,1,Se reimprime parcial de contenedor,Neto,GENERAL,E PWT,W06,2,3,5,0,0
-02/04/2025,1,Escaner lento FG24,Norma,FALLA DE ESCANER,E PWT,W06,2,2,4,0,0
-02/05/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E FF,W06,3,7,10,0,0
-02/05/2025,1,Escaner se salía del sistema por IP repetida,Neto,FALLA DE ESCANER,E FF,W06,2,5,7,7,0
-02/05/2025,1,Liberación de spol en impresora GXZ50,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,3,5,0,0
-02/06/2025,1,Impresora dañada por caída,neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,5,20,25,0,0
-02/06/2025,1,Impresora no agarraba etiqueta,Cesar de León,FALLA DE ESCANER,E FF,W06,5,20,25,0,0
-02/06/2025,1,Gomas desgastadas en bandeja,Ricardo Briones,FALLA DE IMPRESORA O ETIQUETADO,ALM,W06,3,12,15,0,0
-02/06/2025,1,"Impresora sacaba etiquetas salteadas GXZ88, se calibra desde la IP",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,5,7,0,0
-02/06/2025,1,Se cofigura la impresora de cedas cortas de la GXZ53 a la GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,4,6,0,0
-02/06/2025,1,"Se imprime etiqueta Master, en la impresora no estaba en la cola asi que se busco el serial de master y se imprimio",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,2,3,5,0,0
-02/06/2025,1,no sale el numero de parte en etqueta individual de trazabilidad | en el item aster no estaba completo el campo de pdes2,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,5,0,5,0,0
-02/07/2025,1,Impresora no validaba etiquetas azules,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,4,6,0,0
-02/07/2025,1,Escaner lento,Norma ,FALLA DE ESCANER,E PWT,W06,2,4,6,0,0
-02/07/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,2,4,0,0
-02/10/2025,1,etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,5,5,10,0,0
-02/10/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,6,8,0,0
-02/10/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Odila,FALLA DE IMPRESORA O ETIQUETADO,ALM,W07,2,6,8,0,0
-02/10/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Marlene,FALLA DE IMPRESORA O ETIQUETADO,CYF,W07,2,6,8,0,0
-02/10/2025,1,Escaner lento FG25,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W07,2,4,6,0,0
-02/10/2025,1,Cuenta bloqueada de CYF WINODWS,Raul Mercado,BLOQUEO DE CUENTAS,CYF,W07,2,2,4,0,0
-02/10/2025,1,Cuenta bloqueada de EFFF CMS,Yesica,BLOQUEO DE CUENTAS,E FF,W07,2,2,4,0,0
-02/11/2025,1,"Se escanean etiquetas activas por falla en antena, se desligan los seriales de la etiqueta master, se agregan con el 50005",Arturo,GENERAL,E FF,W07,2,20,22,0,0
-02/11/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W07,5,15,20,0,0
-02/11/2025,1,No podían escaner el contenedor en embarques por seriales sueltos,Arturo,GENERAL,E FF,W07,3,10,13,0,0
-02/11/2025,1,"No podía escanear los 2 códigos de la etiqueta, se escanea el codigo de la carpeta para escanear los códigos de barra",Neto,FALLA DE ESCANER,E FF,W07,2,8,10,0,0
-02/11/2025,1,"Escaner lento, se reinicia la antena 159 que se ubica arriba de la maquina laser de prefab",Don Ray,FALLA DE ESCANER,E FF,W07,2,8,10,0,0
-02/11/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E PWT,W07,2,5,7,0,0
-02/11/2025,1,"No podian meter una parcial, ya que una ya estaba consumida y otra, ya estaba dentro del escaner",Toño,FALLA DE ESCANER,E FF,W07,2,5,7,0,0
-02/11/2025,1,Etiqueta corrida IDCD41,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,4,6,0,0
-02/11/2025,1,Etiqueta corrida DATAMAX3,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,4,6,0,0
-02/11/2025,1,Impresora cancela todas las etiquetsa,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,4,6,0,0
-02/12/2025,1,"falla en transmision de datos a ignition, los nodos estaban configurados al segmento 10 y deben ser 8",Don Ray,FALLA DE IGNITION,E F&B,W07,5,40,45,0,0
-02/12/2025,1,"Escaner lento, se reinicia la antena 159 que se ubica arriba de la maquina laser de prefab",Don Ray,FALLA DE ESCANER,E F&B,W07,2,5,7,0,0
-02/12/2025,1,Impresora IDFF no estaba conectada la sesión del CMS,Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,5,7,0,0
-02/12/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W07,2,5,7,0,0
-02/13/2025,1,"Escaner se sale del sistema, por nueva ubicación, escaner no tiene buen alcance de señal y se hace un cambio de escaner",Don Ray,FALLA DE ESCANER,E F&B,W07,3,40,43,0,0
-02/13/2025,1,"Escaner se salía del sistema, estaba colgado a una antena mas lejos",Miguel,FALLA DE ESCANER,E FF,W07,2,5,7,0,0
-02/13/2025,1,Escaner lento ,Jorge Perales,FALLA DE ESCANER,E PWT,W07,2,4,6,0,0
-02/13/2025,1,"Se cancelan etiquetas de impresora GXZ12, mandaron etiquetas de mas",Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,4,6,0,0
-02/13/2025,1,Se reimprime etiqueta Master,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,3,5,0,0
-02/14/2025,1,Se verifica que la Laser tenga conexión a la red ,Adrian,GENERAL,PF PWT,W07,5,180,185,0,0
-02/14/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W07,5,15,20,0,0
-02/14/2025,1,Se desbloquea FG16,Fidelia,BLOQUEO DE CUENTAS,E FF,W07,2,2,4,0,0
-02/14/2025,1,Se desbloquea FG25,Norma,BLOQUEO DE CUENTAS,E PWT,W07,2,2,4,0,0
-02/17/2025,1,Etiqueta pegada en el rodillo,Virgilio Garza,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W08,5,20,25,0,0
-02/17/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,5,10,15,0,0
-02/17/2025,1,"se revisa una etiqueta que la sacaron como parcial pero la querian como master, se les explico que hacer ",Andrea Reta ,GENERAL,E FF,W08,5,10,15,0,0
-02/17/2025,1,Impresora no validaba etiquetas azules,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,3,7,10,0,0
-02/18/2025,1,"Se ayuda a instalar impresora, para imprimir etiquetas en prototipos",Vampiro,GENERAL,E FF,W08,5,15,20,0,0
-02/18/2025,1,Se libera spol de impresora GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,2,4,6,0,0
-02/18/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W08,2,1,3,0,0
-02/19/2025,1,Se regresa la IP de la impresora de partes de servicio ya que se habia cabiado la IP,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,2,13,15,0,0
-02/19/2025,1,Impresora saca etiquetas muy marcadas por ribbon diferente,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,5,5,10,10,0
-02/19/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,3,7,10,0,0
-02/19/2025,1,"Persona que escanea, sacaba el escaner del sistema, y lgo ya no sabía que hacer",Pato,GENERAL,E F&B,W08,3,5,8,0,0
-02/19/2025,1,Se reimprime etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W08,2,3,5,0,0
-02/19/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W08,2,3,5,0,0
-02/20/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W08,3,7,10,10,0
-02/20/2025,1,Equipo de estacion de impresión dio pantallazo azul ,Neto,FALLA DE ESCANER,E PWT,W08,1,5,6,0,0
-02/20/2025,1,Escaner lento ,Norma,FALLA DE ESCANER,E PWT,W08,2,3,5,0,0
-02/20/2025,1,Impresora datamax3 no tenian conectada la sesión de la impresora,Yesica,FALLA DE ESCANER,E FF,W08,2,2,4,0,0
-02/21/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,5,15,20,0,0
-02/21/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W08,2,5,7,0,0
-02/22/2025,1,Impresora IDFF no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,4,11,15,15,0
-02/22/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,2,8,10,0,0
-02/22/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,5,3,8,0,0
-02/22/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W08,2,4,6,0,0
-02/23/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,5,7,0,0
-02/23/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W09,2,5,7,0,0
-02/24/2025,1,Se revisan que los cables del ATC de Engin Jumper esten bien posicionados en el swicht,Don Ray,GENERAL,E F&B,W09,3,27,30,0,0
-02/24/2025,1,Computadora se queda ciclada,Jazmin ,GENERAL,ALM,W09,5,10,15,0,0
-02/24/2025,1,"Se revisa commputadora, ya que el mouse no aparecía",Carmen Julia,GENERAL,E F&B,W09,2,7,9,0,0
-02/27/2025,1,Impresora datamax1 no se conectaba en el CMS,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,10,12,0,0
-02/27/2025,1,codigo corrido en impresora celdas cortas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,5,2,7,0,0
-02/27/2025,1,scaner de impresora no valida etiquea verde,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,5,7,0,0
-02/27/2025,1,scaner de impresora no valida etiquea verde,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,5,7,0,0
-02/27/2025,1,Se imprime runpart para PWT,Neto,GENERAL,E PWT,W09,2,5,7,0,0
-02/27/2025,1,codigo corrido en impresora celdas cortas,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,2,4,0,0
-02/27/2025,1,impresora datamax 3 si tubo de rebobinador,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,2,4,0,0
-02/28/2025,1,Impresora de trazabilidad no detectaba el rollo de etiquetas (No tenía Ribbon),Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W09,3,10,13,0,0
-02/28/2025,1,Impresora IDFF se cae sensor,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,6,8,8,0
-02/28/2025,1,Reimpresión de etiqueta Master (Se atora la etiqueta en el rodillo),Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,5,7,0,0
-02/28/2025,1,Impresora aventaba dos etiquetas y se pausaba,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,4,6,0,0
-02/28/2025,1,Se crea un evento para partes de servicio ,Hector Palomino,GENERAL,E FF,W09,2,4,6,0,0
-02/28/2025,1,Escaner no escaneaba las etiquetas (Estaban entrando al menu de inventario en ves del CMS),Neto,FALLA DE ESCANER,E PWT,W09,2,4,6,0,0
-02/28/2025,1,Se calibra impresora GXZ51 (Sacaba una etiqueta salteada),Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W09,2,4,6,0,0
-03/03/2025,1,"impresora datamax 3 tachando todas las etiquetas, no marcaba el ribbon y no rebobinaba ",fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,5,30,35,0,0
-03/03/2025,1,"etieutas de trazabilidad no salian, el atc no etsaba enviando informacion",norma,FALLA DE IGNITION,E FF,W10,2,10,12,0,0
-03/03/2025,1,batch en uso ffl10,Fabian,FALLA DE ESCANER,E FF,W10,5,5,10,0,0
-03/03/2025,1,"Impresora datamax uno tachando etiquetas, el rollo estaba mal colocado",bennet,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,5,5,10,0,0
-03/04/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,3,5,8,0,0
-03/04/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,5,7,0,0
-03/05/2025,1,Impresora tenia pegada una etiqueta en el rodillo,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,3,6,9,0,0
-03/05/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,5,7,0,0
-03/05/2025,1,Impresora se baja la temperatura,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,2,5,7,0,0
-03/05/2025,1,Cuebta de EFFF Bloqueada,Neto,BLOQUEO DE CUENTAS,E FF,W10,2,2,4,0,0
-03/06/2025,1,"Escaner no agarraba el runpart, nuevo modelo",Arturo,FALLA DE ESCANER,E FF,W10,3,7,10,0,0
-03/06/2025,1,Reimpresión de etiqueta Master,Norma,GENERAL,E PWT,W10,2,4,6,0,0
-03/07/2025,1,Impresora GXZ91 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,8,10,0,0
-03/07/2025,1,Datamax1 no sacaba etiquetas,Miriam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,2,4,6,0,0
-03/07/2025,1,Escaner no podia entrar al CMC tal vez alguien le movio a la IP (Se coloco la IP que tenia antes),Roberto,FALLA DE ESCANER,ALM,W10,2,4,6,0,0
-03/07/2025,1,Impresora no imprimia por que no estaba conectada la sesión de la impresora,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,2,4,0,0
-03/10/2025,1,Se cambia impresora de L5 A L7 en lo que se revisa la impresora ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,4,10,14,0,0
-03/10/2025,1,Impresora tenia error y no recogía el ribbon,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,10,12,0,0
-03/10/2025,1,"Se reimprime etiqueta Master, impresora tenia documentos en cola",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,8,10,0,0
-03/10/2025,1,Escaner no entraba al sistema,Carmen Julia,FALLA DE ESCANER,E F&B,W11,2,5,7,0,0
-03/10/2025,1,Se imprime runpart para PWT (Carpeta Perdida),Neto,GENERAL,E PWT,W11,2,5,7,0,0
-03/10/2025,1,Escaner no entraba al sistema,Norma,FALLA DE ESCANER,E PWT,W11,2,3,5,0,0
-03/10/2025,1,Escaner no entraba al sistema,Hector Palomino,FALLA DE ESCANER,E FF,W11,2,3,5,0,0
-03/10/2025,1,Impresoras Datamax1 etiqueta salia tachada por mal colocación de rollo de etiqueta,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,1,4,5,0,0
-03/10/2025,1,Impresora de trazabilidad tenia cabezal sucio,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,3,5,0,0
-03/11/2025,1,"Escaner se apagaba, pila dañada",Miguel,FALLA DE ESCANER,E FF,W11,2,8,10,0,0
-03/11/2025,1,"Impresora tenia etiqueta en el rodillo, se reimprime etiqueta Master",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,3,7,10,0,0
-03/11/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W11,2,5,7,0,0
-03/11/2025,1,Bloqueo de cuenta (P558),Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W11,2,3,5,0,0
-03/11/2025,1,"Datamax3 no sacaba etiquetas, no tenia conectada la sesión",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,2,4,0,0
-03/12/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Fidelia,GENERAL,E FF,W11,3,8,27,0,0
-03/12/2025,1,Escaner no entraba al sistema por bloqueo de usuario,Pato,BLOQUEO DE CUENTAS,E F&B,W11,2,5,7,0,0
-03/12/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W11,2,5,7,0,0
-03/12/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W11,2,5,7,0,0
-03/12/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W11,2,4,6,0,0
-03/13/2025,1,Impresión de runparts para partes de servicio,Neto,GENERAL,E PWT,W11,4,10,14,0,0
-03/13/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W11,2,7,9,0,0
-03/13/2025,1,Bloqueo de Usuario FG24,Neto,BLOQUEO DE CUENTAS,E PWT,W11,2,3,5,0,0
-03/13/2025,1,Batch en uso FG25,Norma,BATCHS EN USO,E PWT,W11,2,2,4,0,0
-03/13/2025,1,Batch en uso FG24,Norma,BATCHS EN USO,E PWT,W11,2,2,4,0,0
-03/14/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W11,5,10,15,0,0
-03/14/2025,1,"Se configura IP a impresora de partes de servicio, (se había desconfigurado y se habia puesto otra IP)",Karen,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,9,11,0,0
-03/14/2025,1,"Contenedor sin etiqueta parcial, se corre con el código 50005 para agreagr las etiquetas individuales activas a una nueva master",Fidelia,GENERAL,E FF,W11,2,8,10,0,0
-03/14/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W11,2,8,10,0,0
-03/14/2025,1,Datamax3 se desconectaba la sesión de la impresora,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,7,9,0,0
-03/14/2025,1,Impresora linea 4 no salía la etiqueta,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,7,9,0,0
-03/14/2025,1,Datamax3 no marcaba bien las etiquetas rosas,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,5,7,0,0
-03/14/2025,1,Batch en uso FG13 ,Miguel,BATCHS EN USO,E FF,W11,2,2,4,0,0
-03/18/2025,1,"Se cambia cable VGA en estación de impresión en P558, cable dañado",Carmen Julia,GENERAL,E F&B,W12,2,8,10,0,0
-03/18/2025,1,"Impresora sacaba etiquetas salteadas GXZ52, se calibra desde la IP",Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W12,2,5,7,0,0
-03/18/2025,1,No podían meter una parcial por diferente numero de parte,Fidelia,GENERAL,E FF,W12,2,3,5,0,0
-03/18/2025,1,Usuario bloqueado FG25 ,norma,BLOQUEO DE CUENTAS,E PWT,W12,2,2,4,0,0
-03/18/2025,1,batch en us fg12,Neto ff,BATCHS EN USO,E FF,W12,2,2,4,0,0
-03/18/2025,1,Usuario bloqueado FG25 ,Norma,BLOQUEO DE CUENTAS,E PWT,W12,2,2,4,0,0
-03/19/2025,1,Impresora sacaba mal la etiqueta por ribbon mal colocado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W12,3,7,10,0,0
-03/19/2025,1,Escaner lento,Don Ray,FALLA DE ESCANER,E F&B,W12,2,8,10,0,0
-03/19/2025,1,"Escaner lento, se borra spol",Jorge Perales,FALLA DE ESCANER,E PWT,W12,2,6,8,0,0
-03/19/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W12,2,5,7,0,0
-03/20/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W12,2,2,4,0,0
-03/21/2025,1,Se reimpreme la parcial de un contenedor el cual no dejaron,Tino Leija,GENERAL,E FF,W12,3,9,12,0,0
-03/21/2025,1,Escaner lento y se salía del sistema,fabian,FALLA DE ESCANER,E FF,W12,2,6,8,0,0
-03/24/2025,1,Equipo sin conexióna internet Datamax1,Neto,GENERAL,E FF,W13,2,5,7,0,0
-03/24/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W13,2,2,4,0,0
-03/25/2025,1,Escaner de ATC no funciona,Tino Leija,FALLA EN EQUIPO DE ATC,E FF,W13,2,13,15,0,0
-03/25/2025,1,Escaner se queda trabado,Elizabeth,FALLA DE ESCANER,E FF,W13,2,7,9,0,0
-03/25/2025,1,Batch en uso FG19,fabian,BATCHS EN USO,E FF,W13,2,2,4,0,0
-03/26/2025,1,No arrancaba la maquina de WL por switch desconectado,Don Ray,GENERAL,E F&B,W13,5,15,20,0,0
-03/26/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W13,2,13,15,0,0
-03/26/2025,1,Impresora tarda en sacar etiqueta de contenedor,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,3,10,13,0,0
-03/26/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,2,10,12,0,0
-03/26/2025,1,Computadora sin internet en almacen,0,GENERAL,ALM,W13,3,5,8,0,0
-03/26/2025,1,Impresora no detectaba el papel,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,2,5,7,0,0
-03/26/2025,1,Se reimprime parcial de contenedor,Jorge Perales,GENERAL,E PWT,W13,2,4,6,0,0
-03/27/2025,1,"Se impreme master, no escanearon bien el run part",Margarita,GENERAL,E F&B,W13,3,7,10,0,0
-03/27/2025,1,No salio etiqueta porque se acabo el rollo,Fidelia ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,5,5,10,0,0
-03/27/2025,1,Etiqueta corrida,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,2,6,8,0,0
-03/27/2025,1,Usuario bloqueado FG23,Margarita,BLOQUEO DE CUENTAS,E F&B,W13,2,4,6,0,0
-03/27/2025,1,"Las etiquetas estan saliendo en otra impresora, se cambio de la 44 a la 6 en el recurso",Omar,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W13,2,2,4,0,0
-03/28/2025,1,"Etiqueta sin información, no se puede sacar master, se dan de baja los seriales",Miguel,GENERAL,E FF,W13,2,15,17,0,0
-03/28/2025,1,Escaner no agarraba runpart,Elizabeth,FALLA DE ESCANER,E FF,W13,5,5,10,10,0
-03/28/2025,1,Batch en uso FG24,Rocio,BATCHS EN USO,E PWT,W13,2,5,7,0,0
-03/28/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Carmen Julia,GENERAL,E F&B,W13,2,5,7,0,0
-03/28/2025,1,No salía etiqueta de trazabiidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,2,3,5,5,0
-03/28/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W13,2,3,5,0,0
-03/28/2025,1,Escaner no agarraba etiquetas por numero de parte diferente,Elizabeth,GENERAL,E FF,W13,2,2,4,0,0
-03/31/2025,1,Se hace cambio de pantalla en estación de impresion,Carmen Julia,GENERAL,E F&B,W14,2,18,20,0,0
-03/31/2025,1,Se desbloquea cuenta de kpis 1,Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W14,10,5,15,15,0
-03/31/2025,1,no puede abrir el batch | comando 10000 cerrado,Arturo Torres,FALLA DE ESCANER,E FF,W14,10,2,12,0,0
-03/31/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Carmen Julia,GENERAL,E F&B,W14,2,10,12,0,0
-03/31/2025,1,Se desbloquea la cuenta de CMS ,Gaby,BLOQUEO DE CUENTAS,CYF,W14,3,4,7,0,0
-03/31/2025,1,Se reimprime etiqueta de trazabilidad,Norma,FALLA DE IGNITION,E PWT,W14,2,5,7,0,0
-03/31/2025,1,Se reimprime etiqueta de trazabilidad,Norma,FALLA DE IGNITION,E PWT,W14,1,5,6,0,0
-03/31/2025,1,Se reimpreme la parcial de un contenedor el cual no dejaron,Norma,GENERAL,E PWT,W14,2,4,6,0,0
-04/01/2025,1,Escaner se traba al escanear,Don Ray,FALLA DE ESCANER,E F&B,W14,2,13,15,0,0
-04/01/2025,1,Impresora marcaba error en todas las etiquetas,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,6,8,0,0
-04/01/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,6,8,0,0
-04/01/2025,1,Se slibera spol de impresora GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,5,7,0,0
-04/01/2025,1,"Escaner lento, no dejaba meter material",Pato,FALLA DE ESCANER,E F&B,W14,2,5,7,0,0
-04/01/2025,1,Se calibra impresora GXZ25 (Sacaba una etiqueta salteada),Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,5,7,0,0
-04/01/2025,1,Se reimprime etiqueta master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,4,6,0,0
-04/02/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,8,10,0,0
-04/02/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W14,2,8,10,0,0
-04/02/2025,1,Impresora no sacaba etiquetas,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,5,7,0,0
-04/02/2025,1,Etiqueta de contenedor que no salía ,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,5,7,0,0
-04/02/2025,1,"Se calibra impresora de etiquetas master, se tardaba en salir",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,4,6,0,0
-04/02/2025,1,Etiqueta sin informacion,Norma,FALLA DE ESCANER,E PWT,W14,2,4,6,0,0
-04/02/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W14,2,2,4,0,0
-04/03/2025,1,Escaner no agarraba la etiqueta por macro dicerente,Yesica,FALLA DE ESCANER,E FF,W14,3,10,13,13,0
-04/03/2025,1,Se cambia cargador de pilas viejitas,Norma,FALLA DE ESCANER,E PWT,W14,2,10,12,0,0
-04/03/2025,1,Impresora no validaba etiquetas rosas,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,8,10,0,0
-04/03/2025,1,Pantalla no prendía por que estaba desconectada,Amner,GENERAL,ALM,W14,4,5,9,0,0
-04/03/2025,1,Etiqueta parcial estaba atorada en cola de impresión,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,4,6,0,0
-04/03/2025,1,Batch en uso FG19,fabian,BATCHS EN USO,E FF,W14,2,2,4,0,0
-04/04/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,4,6,0,0
-04/04/2025,1,"Etiqueta master atorada, se libera la etiqueta",Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,3,5,0,0
-04/04/2025,1,Batch en uso FG21 offline,Fidelia,BATCHS EN USO,E FF,W14,2,2,4,0,0
-04/04/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W14,2,2,4,0,0
-04/04/2025,1,Batch en uso FG21 offline,Yesica,BATCHS EN USO,E FF,W14,2,2,4,0,0
-04/07/2025,1,Escaner se sale del sistema y marca que no se escaneo ninguna etiqueta,Neto,FALLA DE ESCANER,E FF,W15,3,7,10,10,0
-04/07/2025,1,Impresora no tenia conexión a la red,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W15,5,5,10,0,0
-04/07/2025,1,Impresora marcaba error en todas las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,0,0
-04/07/2025,1,Escaner se sale del sistema,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,4,6,0,0
-04/07/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,4,6,0,0
-04/07/2025,1,"Escaner no cambiaba el número de parte , estaban en la sesión de inventario",Sergio,FALLA DE ESCANER,E FF,W15,2,4,6,0,0
-04/08/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Leo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W15,2,10,12,0,0
-04/08/2025,1,Impresora descalibrada GXZ25,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,7,9,0,0
-04/08/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,0,0
-04/08/2025,1,Escacner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W15,2,4,6,0,0
-04/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W15,2,4,6,0,0
-04/08/2025,1,Impresora Datamax3 no marcaba bien las etiquetas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,4,6,0,0
-04/09/2025,1,No podian cambiar turno FG31 L7,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,20,22,0,0
-04/09/2025,1,No podian cambiar turno FG29 L6 ,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,20,22,0,0
-04/09/2025,1,Falla de etiqueta rosa,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,10,12,0,0
-04/09/2025,1,Falla de red en escaners,Sergio,FALLA DE ESCANER,E FF,W15,2,8,10,10,0
-04/09/2025,1,Falla de red en escaners,Tino Leija,FALLA DE ESCANER,E FF,W15,2,8,10,10,0
-04/09/2025,1,Falla de  red en escaners,fabian,FALLA DE ESCANER,E FF,W15,2,8,10,10,0
-04/09/2025,1,Falla de etiqueta azul,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W15,2,6,8,0,0
-04/09/2025,1,Usuario bloqueado FG29,Norma,BLOQUEO DE CUENTAS,E PWT,W15,2,2,4,0,0
-04/09/2025,1,Falla de escaner Falla de red,Don Ray,FALLA DE ESCANER,E F&B,W15,2,0,2,0,0
-04/10/2025,1,Escaner se salía del sistema y estaba lento,Miguel,FALLA DE ESCANER,E FF,W15,3,12,15,0,0
-04/10/2025,1,Impresora no sacaba etiquetas por esión abiertas,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,10,12,0,0
-04/10/2025,1,Etiquetas verdes tenues,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,6,8,0,0
-04/10/2025,1,Escaner no podian cambiar turno,Norma,GENERAL,E PWT,W15,2,6,8,0,0
-04/10/2025,1,Escaner no podian cambiar turno,Neto,GENERAL,E PWT,W15,2,6,8,0,0
-04/10/2025,1,Impresora marcaba error en todas las etiquetas,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,0,0
-04/14/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W16,2,8,10,0,0
-04/14/2025,1,Impresora marcaba error en todas las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W16,2,5,7,0,0
-04/14/2025,1,se atendio el cambio de temperatura para etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,5,7,0,0
-04/14/2025,1,se atendio el cambio de temperatura para etiquetas azules,margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,4,6,0,0
-04/15/2025,1,se atendio el cambio de temperatura para etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,4,6,0,0
-04/15/2025,1,Creacion de dos eventos para reportar produccion de servicio,Palomino,FALLA REP PARTES DE SERVICIO ,CNC,W16,2,4,6,0,0
-04/16/2025,1,"Computadora no encendía, conectaron maquinas en el regulador y se descompuso el regulador",Don Ray,GENERAL,E F&B,W16,2,8,10,0,0
-04/16/2025,1,creacion de eventos para servicio,Palomino,FALLA REP PARTES DE SERVICIO ,E FF,W16,2,8,10,0,0
-04/16/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W16,2,5,7,0,0
-04/16/2025,1,"Escaner falla laser, el gatillo se atora",Miguel,FALLA DE ESCANER,E FF,W16,2,5,7,0,0
-04/16/2025,1,Usuario Bloqueado,Palomino,BLOQUEO DE CUENTAS,E FF,W16,2,4,6,0,0
-04/16/2025,1,Usuario Bloqueado (Rogelio Ramirez),Susana,BLOQUEO DE CUENTAS,PF FF,W16,1,4,5,0,0
-04/21/2025,1,Impresora con cola de impresión atorada,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,10,12,0,0
-04/21/2025,1,Datamax 3 etiquetas tenuez,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,6,8,0,0
-04/21/2025,1,Datamax 1 no tenia abierta la sesion ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,5,7,0,0
-04/22/2025,1,Impresora se tardaba para sacar etiquetas master,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W17,2,10,12,0,0
-04/22/2025,1,Escaner lento,Don Ray,FALLA DE ESCANER,E F&B,W17,2,8,10,0,0
-04/22/2025,1,Impresora sacaba mal la etiqueta por ribbon doblado,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W17,2,8,10,0,0
-04/22/2025,1,Impresora no validaba etiquetas azules,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,6,8,0,0
-04/22/2025,1,Escaner no podia entrar al sistema,Neto,FALLA DE ESCANER,E PWT,W17,2,5,7,0,0
-04/22/2025,1,No podian escaner el numero de parte por que estaban en la macro del inventario,Yessi,GENERAL,E FF,W17,2,5,7,0,0
-04/23/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Vampiro,GENERAL,E FF,W17,5,15,20,0,0
-04/23/2025,1,Impresora no validaba etiquetas azules,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,8,10,0,0
-04/23/2025,1,Impresión de runparts para EF FF,Fidelia,GENERAL,E FF,W17,2,8,10,0,0
-04/24/2025,2,Impresora tacahaba todas las etiquetas,Beto Salas,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,10,12,0,0
-04/24/2025,2,Escaner se sale del sistema,Flor,FALLA DE ESCANER,E FF,W17,2,8,10,0,0
-04/28/2025,1,Impresora GX14 no sacaba etiquetas ,Ricardo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W18,2,23,25,0,0
-04/28/2025,1,Impresora no sacaba etiqueta de Trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,13,15,15,0
-04/28/2025,1,Impresora no imprimia etiquetas,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,12,14,14,0
-04/28/2025,1,Impresora no sacaba etiqueta de Trazabilidad,Norma,FALLA DE IGNITION,E PWT,W18,2,8,10,0,0
-04/28/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W18,2,8,10,0,0
-04/28/2025,1,Impresora no imprimia etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,5,7,7,0
-04/29/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W18,2,5,7,0,0
-04/30/2025,1,Impresora IDFF no sacaba etiquetas,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,7,9,0,0
-04/30/2025,1,Impresora Datamax3 no validad etiquetas azules,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,5,7,0,0
-04/30/2025,1,Cuenta bloqueada de CMS P558,Margarita,BLOQUEO DE CUENTAS,E F&B,W18,2,3,5,0,0
-05/01/2025,1,Escaner lento y se salía del sistema,Neto,FALLA DE ESCANER,E FF,W18,2,8,10,0,0
-05/01/2025,1,Impresora de trazabilidad no arrojaba la etiqueta,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,3,6,9,0,0
-05/01/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W18,2,5,7,0,0
-05/01/2025,1,Sensor movido en la impreosora de celdas cortas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W18,2,5,7,0,0
-05/02/2025,1,Impresora GXZ3 se tardaba en sacar etiqueta ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,8,10,0,0
-05/02/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,4,6,0,0
-05/02/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,4,6,0,0
-05/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Vampiro,GENERAL,E FF,W19,5,15,20,0,0
-05/05/2025,1,"Etiqueta sale corrida, no se guardaron los cambios de la anterior configuracion",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,5,10,15,0,0
-05/05/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W19,3,7,10,10,0
-05/05/2025,1,"etiqueta sale corrida, los parametros de calibracion estaban movidos",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,5,7,0,0
-05/05/2025,1,Impresora GXZ3 imprimia mal las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,5,7,0,0
-05/05/2025,1,Se libera spol de impresora GXZ52,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,0,0
-05/05/2025,1,Se libera spol de impresora GXZ70,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W19,2,5,7,0,0
-05/05/2025,1,batches cerrados encelda 4 y 6 de p708,pato,FALLA DE ESCANER,E F&B,W19,2,2,4,0,0
-05/06/2025,1,No podian cambiar de número de parte ni escanear porque no hicieron el cambio de turno y de fecha,Fabian,FALLA DE ESCANER,E FF,W19,2,8,10,0,0
-05/06/2025,1,Impresora GXZ3 se tardaba en sacar etiqueta.,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,8,10,0,0
-05/06/2025,1,Hueco no detectado en  DATAMAX3 ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,0,0
-05/06/2025,1,DATAMAX3 no validaba etiqueta verde,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,0,0
-05/06/2025,1,Impresora no scaba bien las etiquetas,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,3,5,0,0
-05/07/2025,1,"Se revisa cargador de pilas de escaner, no colocaban correctamente las baterías",Miguel,FALLA DE ESCANER,E FF,W19,4,16,20,0,0
-05/07/2025,1,"Se libera spol de impresora, tenia etiquetas atoradas",Iván,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,4,8,12,0,0
-05/07/2025,1,Se reimprimen etiquetas master,Iván,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,10,12,0,0
-05/07/2025,1,Impresora GXZ25 no prendía por cable dañado,Fidelia,GENERAL,E FF,W19,2,10,12,0,0
-05/07/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W19,2,5,7,0,0
-05/08/2025,1,Impresora IDFF tenia etiquetas pegadas y el sensor movido.,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,38,40,0,0
-05/08/2025,1,Impresora de embarques no tenía red a que el switch estaba desconectado,Ricardo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W19,5,10,15,0,0
-05/08/2025,1,Impresora DATAMAX1 estaba descalibrada,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,3,10,13,0,0
-05/08/2025,1,Computadora no agarraba el internet.,Neto,GENERAL,PF PWT,W19,2,10,12,0,0
-05/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W19,3,7,10,0,0
-05/08/2025,1,Datamax3 no marcaba bien las etiquetas rosas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,0,0
-05/13/2025,1,Reimpresión de etiqueta Master,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,7,9,0,0
-05/13/2025,1,Escaner no funcionaba porque la bateria que colocaron no era la correcta.,Carmen Julia,FALLA DE ESCANER,PF PWT,W20,3,5,8,0,0
-05/13/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W20,3,5,8,0,0
-05/13/2025,1,Impresora GXZ51 se tardaba en sacar etiquetas,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W20,2,5,7,0,0
-05/13/2025,1,IDCD41 sacaba mal las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,5,7,0,0
-05/13/2025,1,Etiqueta corrida ,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,5,7,0,0
-05/13/2025,1,Impresora no válidaba etiqueta rosa,Yessi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,0,0
-05/14/2025,1,La computadora estaba mal conectada.,Tino Leija,GENERAL,E FF,W20,2,15,17,0,0
-05/14/2025,1,No se sabian la contraseña de la computadora,Margarita,GENERAL,E F&B,W20,5,10,15,0,0
-05/14/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,9,11,0,0
-05/14/2025,1,Impresora IDFF tenia etiquetas pegadas en el rodillo,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,3,7,10,0,0
-05/14/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W20,2,8,10,0,0
-05/14/2025,1,"Computadora no prendía, estaba desconectada la extensión que va al regulador",Gabriela,GENERAL,CYF,W20,2,8,10,0,0
-05/14/2025,1,Computadora SAW2PC no agarraba el internet.,Carlos,GENERAL,CYF,W20,2,5,7,0,0
-05/14/2025,1,Impresora marcaba error al imprimir,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,4,6,0,0
-05/15/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W20,5,20,25,0,0
-05/15/2025,1,Impresora GXZ1 no detectaba papel,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,8,10,0,0
-05/15/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,6,8,0,0
-05/15/2025,1,Batch en uso FG19,Fabian,BATCHS EN USO,E FF,W20,2,3,5,0,0
-05/16/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W20,5,120,125,0,0
-05/16/2025,1,Escaner Lento,Jorge Perales,FALLA DE ESCANER,E PWT,W20,3,7,10,0,0
-05/16/2025,1,Escaner no iniciaba,Norma,FALLA DE ESCANER,E PWT,W20,2,5,7,0,0
-05/16/2025,1,Impresora GXZ51 se tardaba en sacar etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W20,2,5,7,0,0
-05/16/2025,1,Impresora GXZ25 imprimia salteada la etiqueta.,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,0,0
-05/16/2025,1,Impresora no sacaba etiquetas,Miriam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,0,0
-05/19/2025,1,Impresora GXZ25 imprimia salteada la etiqueta.,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,0,0
-05/19/2025,1,Etiquetra corrida,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,0,0
-05/19/2025,1,"Escaner se sale del sistema y se desligan todos los seriales, se escanean nuevamente",Miguel,FALLA DE ESCANER,E FF,W21,2,6,8,0,0
-05/19/2025,1,Hueco no detectado en IDCD41,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,5,7,0,0
-05/19/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,5,7,0,0
-05/19/2025,1,Impresora se queda trabada,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,5,7,0,0
-05/19/2025,1,Usuario Bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W21,2,2,4,0,0
-05/20/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W21,2,13,15,0,0
-05/20/2025,1,Computadora SAW2PC tenia el VGA dañado,0,GENERAL,CYF,W21,2,8,10,0,0
-05/20/2025,1,Impresora tenia etiquetas pegadas,Norma,FALLA DE IMPRESORA O ETIQUETADO,PF PWT,W21,2,8,10,0,0
-05/20/2025,1,Impresora con spol atorado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,2,5,7,0,0
-05/21/2025,1,Reimpresión de etiqueta Master,Neto,GENERAL,E PWT,W21,4,12,16,0,0
-05/21/2025,1,Impresora no detectaba el hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,8,10,0,0
-05/21/2025,1,Impresora con spol atorado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,3,5,8,0,0
-05/22/2025,1,Datamax1 ribbol mal colocado y varias sesiones abiertas cargaron tiempo de 15 minutos para dos lineas ,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,28,30,10,0
-05/22/2025,1,"escaner lento se borra el spol, pero tmb se olvida la configuracion de wifi y ya no se podia conectar",Ernesto,FALLA DE ESCANER,E FF,W21,5,20,25,13,0
-05/22/2025,1,Falla de etiqueta azul,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,8,10,0,0
-05/22/2025,1,Batch en uso FG25,Margarita,BATCHS EN USO,E F&B,W21,2,8,10,0,0
-05/22/2025,1,Impresora tenia etiquetas pegadas,Norma,FALLA DE IMPRESORA O ETIQUETADO,PF PWT,W21,2,5,7,0,0
-05/23/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W21,5,60,65,0,0
-05/23/2025,1,Etiquetas pegadas en el rodillo,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,20,22,0,0
-05/23/2025,1,Etiqueta corrida,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,18,20,0,0
-05/23/2025,1,Escaner lento (Se traba),Neto,FALLA DE ESCANER,E PWT,W21,2,15,17,0,0
-05/23/2025,1,Impresora no detectaba el hueco,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,13,15,0,0
-05/23/2025,1,Escaner lento ,Jorge Perales,FALLA DE ESCANER,E PWT,W21,3,7,10,0,0
-05/23/2025,1,Impresora no validaba correctamente las etiquetas,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,0,0
-05/23/2025,1,Reimpresión de etiqueta Master,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,3,5,8,0,0
-05/26/2025,1,Impresora no detecta hueco Datamax3,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,8,10,0,0
-05/26/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W22,2,8,10,0,0
-05/26/2025,1,"Escaner se queda trabado, no dejaba hacer nada",Pato,FALLA DE ESCANER,E F&B,W22,3,7,10,0,0
-05/26/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W22,2,6,8,0,0
-05/26/2025,1,"Querían regresar las piezas a 0 en el escaner y no sacaron parcial, se agregaron con el 50005",Fidelia,FALLA DE ESCANER,E FF,W22,2,6,8,0,0
-05/26/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W22,2,5,7,0,0
-05/26/2025,1,"Impresora Datamax1 no sacaba ninguna etiqueta, se quedo trabada",Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,1,4,5,0,0
-05/27/2025,1,"Etiquetas marcadas como escaneadas y ligadas a una master, pero no estaban en contenedor",Neto,GENERAL,E PWT,W22,3,10,13,0,0
-05/27/2025,1,Impresora no saca etiqueta Master,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W22,2,10,12,0,0
-05/27/2025,1,Impresora sacaba etiqueta borrosa,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,8,10,0,0
-05/27/2025,1,Escaner lento FG74,Pato,FALLA DE ESCANER,E F&B,W22,2,6,8,0,0
-05/27/2025,1,Escaner lento FG26,Neto,FALLA DE ESCANER,E PWT,W22,2,5,7,0,0
-05/28/2025,1,Contraseña para modificar hmi,Don Ray,FALLA EN EQUIPO DE ATC,E F&B,W22,2,10,12,0,0
-05/28/2025,1,Escaner lento ,Juan ,FALLA DE ESCANER,E FF,W22,3,8,11,0,0
-05/28/2025,1,Impresora sacaba mal las etiquetas por mal colocación del ribbon,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W22,2,8,10,0,0
-05/28/2025,1,Impresora no sacaba correctamente la etiqueta rosa,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,7,9,0,0
-05/28/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W22,2,5,7,0,0
-05/29/2025,1,Maquina de Atc no arrojaba etiqueta de trazabilidad,Jorge Perales,FALLA DE IGNITION,E PWT,W22,2,8,10,0,0
-05/29/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W22,2,6,8,0,0
-05/29/2025,1,Impresión de run parts y creación de eventos,Neto,GENERAL,E PWT,W22,3,5,8,0,0
-05/30/2025,1,Maquina de ATC no pedía etiqueta,Neto,FALLA EN EQUIPO DE ATC,E PWT,W22,2,15,17,0,0
-05/30/2025,1,Impresora marcaba falta de rollo de etiquetas,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,6,8,0,0
-06/02/2025,1,Escaner se había quedado trabado,Roberto,FALLA DE ESCANER,ALM,W23,4,14,18,0,0
-06/02/2025,1,No salía etiqueta Master por mal escaneo de run part,Toño,GENERAL,E FF,W23,2,15,17,0,0
-06/02/2025,1,"Contenedor sin etiqueta parcial, se corre con el código 50005 para agreagr las etiquetas individuales activas a una nueva master",Fabian,GENERAL,E FF,W23,3,9,12,0,0
-06/02/2025,1,"No podian imprimir, la sesión no estaba abierta y el ribon se rompia",Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,10,12,0,0
-06/02/2025,1,impresora no detecta hueco IDPWT1,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,3,8,11,0,0
-06/02/2025,1,Impresora marcaba error en todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,0,0
-06/02/2025,1,Impresora tenia papel atorado,Roberto,FALLA DE IMPRESORA O ETIQUETADO,ALM,W23,4,6,10,0,0
-06/02/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,6,8,0,0
-06/03/2025,1,Impresora Datamax3 marcaba de más las etiquetas y las tachaba,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,10,12,0,0
-06/03/2025,1,Impresora marcaba tenue las etiquetas,Rogelio,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W23,2,10,12,0,0
-06/03/2025,1,No salia etiqueta Parcial,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,3,7,10,0,0
-06/03/2025,1,Impresora tenia etiquetas atoradas en el spol L10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,8,10,0,0
-06/03/2025,1,Escaner lento FG21,Juan ,FALLA DE ESCANER,E FF,W23,2,8,10,0,0
-06/03/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W23,2,6,8,0,0
-06/03/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,3,5,8,0,0
-06/03/2025,1,Impresora tenia etiquetas atoradas en el spol L5,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,6,8,0,0
-06/03/2025,1,Reimpresión de etiqueta Parcial,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,3,4,7,0,0
-06/03/2025,1,Impresora tenia etiquetas atoradas en el spol L10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,1,6,7,0,0
-06/04/2025,1,Falla de trazabilidad ,Neto,FALLA DE IGNITION,E PWT,W23,2,20,22,0,0
-06/04/2025,1,Impresora de trazabilidad no sacaba etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,15,17,0,0
-06/04/2025,1,Escaner no escaneaba las etiquetas ,Angel,FALLA DE ESCANER,CNC,W23,2,10,12,0,0
-06/04/2025,1,Impresora spol bloqueado,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,6,8,0,0
-06/04/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,6,8,0,0
-06/04/2025,1,Impresora no prendía,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,5,7,0,0
-06/04/2025,1,Usuario bloqueado FG37,Margarita,BLOQUEO DE CUENTAS,E F&B,W23,2,4,6,0,0
-06/05/2025,1,Se hace el cambio de cabezal de 6 pulgadas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,10,12,0,0
-06/05/2025,1,Impresora no detectaba hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,0,0
-06/05/2025,1,"Impresora se cambia la ip, se revisa que los recursos que estaban con la IP anterior se cambien a la nueva",Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,7,9,0,0
-06/05/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,4,5,9,0,0
-06/05/2025,1,Impresora no respondía Ping,Javier Requenes,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,5,7,0,0
-06/05/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,4,6,0,0
-06/05/2025,1,Se libera spol de GXZ34,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,4,6,0,0
-06/06/2025,1,Escaner lento,Sergio,FALLA DE ESCANER,E FF,W23,5,5,10,10,0
-06/06/2025,1,Impresora no detectaba hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,0,0
-06/06/2025,1,Impresora sacaba etiquetas salteadas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,7,9,0,0
-06/06/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W23,2,5,7,0,0
-06/06/2025,1,Spol atorado GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,5,7,0,0
-06/06/2025,1,Usuario bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W23,2,2,4,0,0
-06/09/2025,1,Impresora no sacaba etiquetas,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,8,10,0,0
-06/09/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,8,10,0,0
-06/09/2025,1,Impresora no vaildiaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,3,5,8,0,0
-06/10/2025,1,No podían cambiar el material del contenedor de plastico a cartón,Juan,FALLA DE ESCANER,E FF,W24,5,9,14,0,0
-06/10/2025,1,Cabezal sucio,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,4,5,9,0,0
-06/10/2025,1,Impresión de runpart,Carmen Julia,GENERAL,E F&B,W24,3,5,8,0,0
-06/10/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,0,0
-06/10/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W24,3,4,7,0,0
-06/10/2025,1,Se desbloquea la pantalla del ATC de l4 de PWT,Neto,BLOQUEO DE CUENTAS,E PWT,W24,2,5,7,0,0
-06/10/2025,1,Escaner se queda trabado,Requenes,FALLA DE ESCANER,E FF,W24,2,5,7,0,0
-06/11/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W24,3,40,43,0,0
-06/11/2025,1,Escaner lento FG26,Neto,FALLA DE ESCANER,E PWT,W24,2,10,12,0,0
-06/11/2025,1,Hueco no detectado,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,10,12,0,0
-06/11/2025,1,Escaner estaba conectado a una red diferente,Neto,FALLA DE ESCANER,E FF,W24,3,8,11,18,0
-06/11/2025,1,Escaner lento FG30,Neto,FALLA DE ESCANER,E PWT,W24,2,8,10,0,0
-06/11/2025,1,Cuenta bloqueada KPIS,Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W24,2,4,6,0,0
-06/11/2025,1,"Escaner no podía escanear, faltaba cambiar fecha y turno",Jorge Perales,FALLA DE ESCANER,E PWT,W24,2,3,5,0,0
-06/11/2025,1,Usuario bloqueado FG23,Margarita,BLOQUEO DE CUENTAS,E F&B,W24,2,2,4,0,0
-06/11/2025,1,Usuario bloqueado FG36,Margarita,BLOQUEO DE CUENTAS,E F&B,W24,2,2,4,0,0
-06/11/2025,1,Usuario bloqueado FG27,Neto,BLOQUEO DE CUENTAS,E PWT,W24,2,2,4,0,0
-06/12/2025,1,Escaner no prendía,Tino Leija,FALLA DE ESCANER,E FF,W24,2,15,17,0,0
-06/12/2025,1,No podían meter una parcial  ,Norma,FALLA DE ESCANER,E PWT,W24,2,10,12,0,0
-06/12/2025,1,Escaner no agarraba la etiqueta por etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W24,2,8,10,0,0
-06/12/2025,1,Impresora y computadora no prendían,Margarita,GENERAL,E F&B,W24,2,7,9,0,0
-06/12/2025,1,Hueco no detectado,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,0,0
-06/12/2025,1,Etiqueta corrida ,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,0,0
-06/12/2025,1,Etiqueta corrida ,Gustavo,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,4,6,0,0
-06/13/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W24,5,55,60,0,0
-06/13/2025,1,Impresora IDFF no sacaba etiquetas,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W24,2,8,10,0,0
-06/13/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W24,2,5,7,0,0
-06/16/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W25,2,8,10,0,0
-06/17/2025,1,Impresora tiene etiquetas atoradas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,10,12,0,0
-06/17/2025,1,Impresora sacaba las etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,8,10,0,0
-06/17/2025,1,Calibracion de impresora ,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W25,2,6,8,0,0
-06/17/2025,1,Batch en uso FG74,Carmen Julia,BATCHS EN USO,E F&B,W25,2,5,7,0,0
-06/18/2025,1,Impresora no prende por cable dañado,Angel,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,10,12,0,0
-06/18/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W25,2,5,7,0,0
-06/19/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W25,5,30,35,0,0
-06/19/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W25,5,15,20,0,0
-06/19/2025,1,Impresora no detectaba el papel,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,8,10,0,0
-06/19/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,8,10,0,0
-06/19/2025,1,Escaner lento FG27,Neto,FALLA DE ESCANER,E PWT,W25,2,7,9,0,0
-06/20/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,10,12,0,0
-06/20/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W25,2,8,10,0,0
-06/20/2025,1,Escaner lento,Juan ,FALLA DE ESCANER,E FF,W25,2,5,7,0,0
-06/23/2025,1,Cuenta bloqueada de Etiquetas FF (Windows),Ivan (EFFF),BLOQUEO DE CUENTAS,E FF,W26,2,8,10,0,0
-06/23/2025,1,Liberación de spol de GXZ50,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W26,5,4,9,0,0
-06/24/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W26,2,8,10,0,0
-06/24/2025,1,Escaner lento FG13,Miguel,FALLA DE ESCANER,E FF,W26,2,7,9,0,0
-06/24/2025,1,Limpieza de cabezal,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W26,3,3,6,0,0
-06/24/2025,1,No ´podían imprimir porque no sabian cual era el CMS,Pato,GENERAL,E F&B,W26,2,4,6,0,0
-06/24/2025,1,Cuenta bloqueada de P558,Angel,BLOQUEO DE CUENTAS,E F&B,W26,2,2,4,0,0
-06/25/2025,1,Reimpresión de etiqueta master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W26,2,6,8,0,0
-06/25/2025,1,Escaner lento FG27,Neto,FALLA DE ESCANER,E PWT,W26,2,5,7,0,0
-06/25/2025,1,Se desbloquea el usuario de P558,Margarita,BLOQUEO DE CUENTAS,E F&B,W26,2,4,6,0,0
-06/30/2025,1,Escaner no teni9a la macro correcta,Norma,FALLA DE ESCANER,E PWT,W27,4,40,44,44,0
-06/30/2025,1,"Impresora marca que el cabezal no esta cerrado, se cambia por una nueva",Susana,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W27,5,15,20,0,0
-06/30/2025,1,Falta de escaner,Rosy,FALLA DE ESCANER,E F&B,W27,2,8,10,10,0
-06/30/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Palomino,FALLA DE ESCANER,E FF,W27,5,5,10,0,0
-06/30/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Jesus,FALLA DE ESCANER,E F&B,W27,3,6,9,0,0
-06/30/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Miriam,FALLA DE ESCANER,E FF,W27,2,5,7,0,0
-06/30/2025,1,No habian abierto el Batch,Neto,FALLA DE ESCANER,E PWT,W27,2,3,5,0,0
-07/01/2025,1,Escaner no agarraba ningun codigo,Ivan (EFFF),FALLA DE ESCANER,E FF,W27,3,8,11,11,0
-07/01/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W27,3,4,7,0,0
-07/01/2025,1,Escaner tenia una macro diferente y no agarraba el codigo,Ivan (EFFF),FALLA DE ESCANER,E FF,W27,2,4,6,0,0
-07/01/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W27,2,3,5,0,0
-07/01/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Margarita,FALLA DE ESCANER,E F&B,W27,2,3,5,0,0
-07/02/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W27,2,2,4,0,0
-07/03/2025,1,Impresora tachaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W27,2,10,12,0,0
-07/03/2025,1,"Impresora no detectaba etiquetas, ribon mal acomodado",Blanca,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W27,2,5,7,0,0
-07/03/2025,1,Impresora no detectaba etiqueta verde,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W27,2,5,7,0,0
-07/07/2025,1,"Impresora no prende, se verifica que sea la impresora",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W28,2,10,12,0,0
-07/07/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E PWT,W28,2,5,7,0,0
-07/07/2025,1,Escaner no agarraba las etiquetas ,Neto,FALLA DE ESCANER,E FF,W28,2,5,7,0,0
-07/07/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W28,2,3,5,0,0
-07/08/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,10,12,0,0
-07/08/2025,1,Escaner lento,Carmen Julia,FALLA DE ESCANER,E F&B,W28,2,8,10,0,0
-07/08/2025,1,Liberación de spol GXZ50,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,5,7,0,0
-07/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W28,2,5,7,0,0
-07/08/2025,1,Escaner lento,Miriram,FALLA DE ESCANER,E FF,W28,2,5,7,0,0
-07/09/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W28,2,5,7,0,0
-07/09/2025,1,gxz10 Impresora descaloibrada,Raul,FALLA DE IMPRESORA O ETIQUETADO,CYF,W28,2,5,7,0,0
-07/10/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W28,5,25,30,0,0
-07/10/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,8,10,0,0
-07/10/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,5,7,0,0
-07/10/2025,1,"Impresora no sacaba etiquetas, tachaba todas las etiquetas",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,4,6,0,0
-07/10/2025,1,"Impresora no sacaba etiquetas, sesión de impresora cerrada",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,4,6,0,0
-07/11/2025,1,Etiquetas tenues,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,8,10,0,0
-07/11/2025,1,Escaner se sale del sistema,Jorge Perales,FALLA DE ESCANER,E PWT,W28,2,6,8,0,0
-07/11/2025,1,Usuario bloqueado FG26,Norma,BLOQUEO DE CUENTAS,E PWT,W28,2,3,5,0,0
-07/11/2025,1,Usuario Bloqueado P558,Pato,BLOQUEO DE CUENTAS,E F&B,W28,2,3,5,0,0
-07/14/2025,1,Etiquetas se desligan de la parcial,Pato,FALLA DE ESCANER,E F&B,W29,3,8,11,0,0
-07/14/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W29,2,8,10,0,0
-07/14/2025,1,Etiqueta tenue,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,8,10,0,0
-07/14/2025,1,Se borra spool de impresora GXZ38,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,6,8,0,0
-07/14/2025,1,Impresora no detectaba etiqueta verde,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,5,7,0,0
-07/14/2025,1,Impresión de runpart,Pato,GENERAL,E F&B,W29,2,5,7,0,0
-07/15/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W29,5,35,40,0,0
-07/15/2025,1,Impresión de runpart,Pato,GENERAL,E F&B,W29,5,15,20,0,0
-07/15/2025,1,Impresora de trazabilidad no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W29,2,10,12,6,0
-07/15/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W29,2,10,12,0,0
-07/15/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W29,2,6,8,0,0
-07/15/2025,1,Impresora no sacaba etiquetas por falta de inicio de sesion en el CMS,Yesi,FALLA EN INICIO DE SESIÓN,E FF,W29,2,5,7,0,0
-07/15/2025,1,Etiqueta tenue en impresora de trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W29,2,4,6,6,0
-07/16/2025,1,Escaer lento,Jorge Perales,FALLA DE ESCANER,E PWT,W29,2,13,15,0,0
-07/16/2025,1,Impresora descalibrada GXZ70,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W29,3,8,11,0,0
-07/16/2025,1,Impresora rompía ribon,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,8,10,0,0
-07/16/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W29,3,7,10,0,0
-07/16/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W29,2,7,9,0,0
-07/16/2025,1,Impresora no detectaba etiqueta verde,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,3,5,8,0,0
-07/16/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,3,4,7,0,0
-07/16/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,4,6,0,0
-07/16/2025,1,Batch en uso,Pato,BATCHS EN USO,E F&B,W29,1,3,4,0,0
-07/17/2025,1,Desbloqueo de cuenta  CYF ,Raul,BLOQUEO DE CUENTAS,CYF,W29,3,5,8,0,0
-07/17/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W29,2,5,7,0,0
-07/21/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W30,2,10,12,0,0
-07/21/2025,1,Estación de impresión sin conexión a internet,Margarita,GENERAL,E F&B,W30,5,5,10,10,0
-07/21/2025,1,No podían cambiar el turno y fecha,Neto,FALLA DE ESCANER,E PWT,W30,2,5,7,0,0
-07/22/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,3,5,8,0,0
-07/22/2025,1,Desbloqueo de usuario fg25,Margarita,BLOQUEO DE CUENTAS,E FF,W30,3,4,7,0,0
-07/22/2025,1,Desbloqueo de usuario fg21,Yessi,BLOQUEO DE CUENTAS,E FF,W30,3,4,7,0,0
-07/22/2025,1,Liberacion de spool,Gaby,FALLA DE IMPRESORA O ETIQUETADO,CYF,W30,2,5,7,0,0
-07/23/2025,1,Impresora descalibrada,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,10,13,0,0
-07/23/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W30,4,7,11,0,0
-07/23/2025,1,Impresora no detectaba hueco,Ivam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,2,8,10,0,0
-07/23/2025,1,Impresora GXZ14 no saca etiquetas,Antonio,FALLA DE IMPRESORA O ETIQUETADO,ALM,W30,4,4,8,0,0
-07/23/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,0,0
-07/23/2025,1,Impresora tachaba todas las etiquetas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,0,0
-07/23/2025,1,"No podian imprimir, por sesión de impresora no conectada",Yessi,GENERAL,E FF,W30,2,4,6,0,0
-07/23/2025,1,Batch en uso FG13 ,Neto,BATCHS EN USO,E FF,W30,2,2,4,0,0
-07/24/2025,1,Se modifican parametros para que la etiqueta salga centrada en la Datamax3,Lorenzo ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,4,9,13,0,0
-07/24/2025,1,No podian escaner las etiquetas con el escaner,Neto,FALLA DE ESCANER,E FF,W30,2,10,12,0,0
-07/24/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,4,5,9,0,0
-07/24/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,3,5,8,0,0
-07/24/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,2,5,7,0,0
-07/24/2025,1,Usuario bloqueado FG13,Beto,BLOQUEO DE CUENTAS,E FF,W30,2,4,6,0,0
-07/25/2025,1,Banda desgastada en impresora de trasabilidad linea 2 ,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W30,8,40,48,8,0
-07/25/2025,1,Querían imprimir una etiqueta de una pieza ya pasda,Raul,GENERAL,E F&B,W30,5,40,45,0,0
-07/25/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,3,7,10,0,0
-07/25/2025,1,Impresora Datamax1 no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,0,0
-07/25/2025,1,Impresora sacaba mal las etiquetas por cabezal en mal estado,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,2,6,8,0,0
-07/25/2025,1,Escaner lento,Toño,FALLA DE ESCANER,E FF,W30,3,5,8,0,0
-07/28/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W31,3,35,38,0,0
-07/28/2025,1,Etiquetas pegadas en el rodillo,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,20,23,0,0
-07/28/2025,1,Impresora con cabezal dañado GXZ12,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,2,10,12,0,0
-07/28/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,4,8,12,0,0
-07/28/2025,1,Impresora lenta GXZ51,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W31,4,7,11,0,0
-07/28/2025,1,"Se hace cambio de contraseña a cuenta de pintura, no recordaban la contraseña",Rogelio,GENERAL,PF FF,W31,3,8,11,0,0
-07/28/2025,1,Impresora no valida etiquetas rosas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,6,9,0,0
-07/28/2025,1,Impresora IDF descalibrada,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,0,0
-07/29/2025,1,Escaner lento,Pato,FALLA DE ESCANER,E F&B,W31,4,8,12,0,0
-07/29/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,3,8,11,0,0
-07/29/2025,1,Escaner no agarraba correctamente la etiqueta,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,7,10,10,0
-07/29/2025,1,Impresora GXZ31 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,3,5,8,0,0
-07/29/2025,1,Computadora sin conexión a internet,Jorge Perales,GENERAL,E PWT,W31,3,5,8,0,0
-07/29/2025,1,Se reimprime etiqueta master,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,2,5,7,0,0
-07/30/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W31,5,15,20,0,0
-07/30/2025,1,Impresora GXZ31 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,4,8,12,0,0
-07/30/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,4,8,12,0,0
-07/30/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W31,3,5,8,0,0
-07/30/2025,1,Usuario bloqueado PWT,Virgilio,BLOQUEO DE CUENTAS,E PWT,W31,3,4,7,0,0
-07/31/2025,1,No podían escnear la etiqueta ya que tenia muchos dobleces alrededor de la pieza,Requenes,FALLA DE ESCANER,E FF,W31,2,40,42,0,0
-07/31/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W31,3,30,33,0,0
-07/31/2025,1,Equipo sin conexión a internet,Margarita,GENERAL,E F&B,W31,2,8,10,0,0
-07/31/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E F&B,W31,2,6,8,0,0
-07/31/2025,1,Escaner lento,Toño,FALLA DE ESCANER,E FF,W31,2,5,7,0,0
-07/31/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,2,5,7,0,0
-08/01/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W31,3,25,28,0,0
-08/01/2025,1,Impresora no imprimia etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,4,10,14,0,0
-08/01/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,7,10,0,0
-08/01/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,0,0
-08/02/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,0,0
-08/04/2025,1,Impresora con spol atorado,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,4,8,12,0,0
-08/04/2025,1,"no puede escanear las piezas, los numeros de parte tienen secuencia 001, y requiere 999 para asignar ",fabilo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,10,12,0,0
-08/04/2025,1,Impresora no valida etiquetas azules,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,3,7,10,0,0
-08/04/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,8,10,0,0
-08/04/2025,1,Escaer lento,Pato,FALLA DE ESCANER,CNC,W32,3,6,9,0,0
-08/04/2025,1,"contenedores sin etiqueta master, escanearon mal el run part y no ligo las etiquetas, produccion decidio correr asi",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,0,0
-08/04/2025,1,"falla en linea 4 de pwt, no cambio el numero de cat id en la ultima estacion, no mandaron a  ceros la maquina y no se actualizo",Brayan,FALLA DE IGNITION,E PWT,W32,2,5,7,0,0
-08/04/2025,1,Escaner no entraba a la sesion,Requenes,FALLA DE ESCANER,E FF,W32,2,4,6,0,0
-08/04/2025,1,No podian abrir el bacth en linea 12,Yessi,BATCHS EN USO,E FF,W32,2,2,4,0,0
-08/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E F&B,W32,2,10,12,0,0
-08/05/2025,1,No podian entrar al CMS en partes de servicio,Palomino,GENERAL,E FF,W32,3,7,10,0,0
-08/05/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W32,3,5,8,0,0
-08/05/2025,1,Impresora sacaba mal las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,3,5,8,0,0
-08/05/2025,1,Spol atorado GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,0,0
-08/05/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/05/2025,1,Impresora Datamax 3 con cola de impresión ,Yessi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,0,0
-08/06/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,10,12,0,0
-08/06/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W32,3,3,6,0,0
-08/06/2025,1,Impresora sacaba mas las etiquetas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/06/2025,1,Impresora no validaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,10,12,0,0
-08/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W32,2,5,7,0,0
-08/07/2025,1,Impresora GXZ71 no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,0,0
-08/07/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/07/2025,1,Desbloqueo de usuario en CMS,Alondra,BLOQUEO DE CUENTAS,ALM,W32,2,3,5,0,0
-08/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,8,10,0,0
-08/08/2025,1,Impresora Datamax 1 se fauleo,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,7,9,0,0
-08/08/2025,1,Impresora sacaba etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,0,0
-08/08/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,0,0
-08/08/2025,1,Impresora lenta GXZ51,Rogelio,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W32,2,3,5,0,0
-08/08/2025,1,Etiquetas recorridas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,0,0
-08/08/2025,1,Etiquetas recorridas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,0,0
-08/11/2025,1,"Falla en linea 4 de pwt, cambiaron camaras el fin de semana, y borraron una parte de la progrmacion que enviaba la foto al servidor, la cual evitaba que se ejecutara la reseta completa ",Neto,FALLA DE IGNITION,E PWT,W33,5,55,60,60,0
-08/11/2025,1,se habilita un espacio para impresión de etiquetas individuales en EFFF por el apagaon ,Javier Requenes,GENERAL,E FF,W33,5,25,30,0,0
-08/11/2025,1,"Impresora GXZ3 no calibraba, ",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W33,5,5,10,0,0
-08/11/2025,1,Impresora sacaba mal etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,0,0
-08/11/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,0,0
-08/11/2025,1,Spol atorado GXZ21,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,0,0
-08/11/2025,1,Computadora sin conexión a internet,Marta,GENERAL,E PWT,W33,2,3,5,0,0
-08/12/2025,1,"impresora daamax no libera, la sesion de la impreosra no estaba iniciada",neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,15,17,0,0
-08/12/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W33,2,8,10,0,0
-08/12/2025,1,"impresora datamax 3 no enviaba las etiquetas, se reinicio la impresora y quedo funcionando ",neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,5,5,10,0,0
-08/12/2025,1,"escaner lento, se descarga el loading list ",neto,FALLA DE ESCANER,E FF,W33,5,5,10,5,0
-08/12/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,5,8,0,0
-08/12/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,0,0
-08/12/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,4,7,0,0
-08/12/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,0,0
-08/12/2025,1,Escaner lento,Margarita,FALLA DE ESCANER,E FF,W33,2,4,6,15,0
-08/13/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W33,2,8,10,0,0
-08/13/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,0,0
-08/13/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,0,0
-08/13/2025,1,Etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,0,0
-08/14/2025,1,Impresora GXZ31 no prendia ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,8,11,0,0
-08/14/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,3,5,8,0,0
-08/14/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W33,2,5,7,0,0
-08/14/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,0,0
-08/15/2025,1,Impresora de PWT tenia etiquetas atoradas en el rodillo ,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W33,4,7,11,0,0
-08/15/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,6,9,0,0
-08/15/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,0,0
-08/15/2025,1,Impresora tacahaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,5,7,0,0
-08/18/2025,1,Impresora GXZ70 no saca etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,7,10,0,0
-08/18/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,5,8,0,0
-08/19/2025,1,Spool atoriado GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,7,10,0,0
-08/19/2025,1,Se reimprime etiqueta master,Margarita,GENERAL,E F&B,W34,2,8,10,0,0
-08/19/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,3,6,9,0,0
-08/19/2025,1,Etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,3,5,8,0,0
-08/19/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,5,7,0,0
-08/19/2025,1,Impresora no sacaba etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,2,5,7,0,0
-08/20/2025,1,Se hace swap en celda 5 ,Carmen ,GENERAL,E F&B,W34,5,10,15,0,0
-08/20/2025,1,Impresora de trazabilidad no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W34,3,9,12,0,0
-08/20/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,5,7,0,0
-08/21/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,6,8,0,0
-08/21/2025,1,Usuario bloqueado FG73,Margarita,BLOQUEO DE CUENTAS,E F&B,W34,2,5,7,0,0
-08/22/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,2,4,6,0,0
-08/25/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W35,4,10,14,0,0
-08/25/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,0,0
-08/25/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W35,2,5,7,0,0
-08/26/2025,1,Escaner linea 11 no detectaba linea,Fide,FALLA DE ESCANER,E FF,W35,6,8,14,0,0
-08/26/2025,1,Impresora pwt no detectaba hueco,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W35,5,7,12,0,0
-08/26/2025,1,Impresora tachaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,5,5,10,0,0
-08/26/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W35,3,7,10,0,0
-08/26/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E FF,W35,4,6,10,0,0
-08/26/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,0,0
-08/26/2025,1,Spool atoriado GXZ70,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,4,7,0,0
-08/27/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,0,0
-08/27/2025,1,Cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,2,6,8,0,0
-08/27/2025,1,Usuario bloqueado,Alondra,BLOQUEO DE CUENTAS,CYF,W35,2,4,6,0,0
-08/29/2025,1,Se reimprime etiqueta master,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,0,0
-08/29/2025,1,Escaner saca parciales,Toño,FALLA DE ESCANER,E FF,W35,3,5,8,0,0
-08/29/2025,1,Etiquetas pegadas en el rodillo,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W35,2,5,7,0,0
-08/29/2025,1,Escaner sesion incorrecta,Neto,FALLA DE ESCANER,E PWT,W35,2,5,7,0,0
-09/01/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,8,11,0,0
-09/01/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W36,3,7,10,10,0
-09/01/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,4,5,9,0,0
-09/01/2025,1,Falla de trasabilidad,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,3,5,8,0,0
-09/01/2025,1,Falla de trasabilidad,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,3,5,8,0,0
-09/02/2025,1,Cabezal sucio,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,5,6,11,0,0
-09/02/2025,1,Ip de impresora no respondia,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,15,18,0,0
-09/02/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,3,5,8,0,0
-09/03/2025,1,liberar spol en linea 4 pwt,virgilio,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,5,5,10,0,0
-09/03/2025,1,impresora no valida etiqueta rosa ,toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,5,5,10,0,0
-09/03/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W36,3,4,7,0,0
-09/04/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,5,8,0,0
-09/04/2025,1,Batch en uso,Toño,BATCHS EN USO,E FF,W36,3,5,8,0,0
-09/04/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W36,3,7,10,10,0
-09/05/2025,1,Desbloque de usuario,0,BLOQUEO DE CUENTAS,CYF,W36,2,3,5,0,0
-09/08/2025,1,Cabezal sucio,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,2,6,8,8,0
-09/10/2025,1,impresora no valida etiqueta rosa ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,3,4,7,0,0
-09/10/2025,1,Spool atorado ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,3,4,7,0,0
-09/10/2025,1,No podian escanear runpart,Margarita,FALLA DE ESCANER,E F&B,W37,3,5,8,0,0
-09/11/2025,1,usuario bloqueado ,norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W37,3,5,8,0,0
-09/11/2025,1,salen varias parciales en lina 6 ff,Toño,FALLA DE ESCANER,E FF,W37,5,10,15,0,0
-09/11/2025,1,etiquetas FR2 corridas,Neto ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,5,5,10,10,0
-09/11/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W37,5,10,15,15,0
-09/11/2025,1,Etiquetas corridas ,0,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W37,3,5,8,0,0
-09/11/2025,2,Batch en uso,0,BATCHS EN USO,E FF,W37,2,4,6,0,0
-09/11/2025,2,No podian iniciar sesion en escaner ,0,FALLA DE ESCANER,E F&B,W37,3,4,7,0,0
-09/12/2025,1,usuario p558 bloqueado ,Angel Ramiez,BLOQUEO DE CUENTAS,E F&B,W37,2,2,4,0,0
-09/12/2025,1,escaner lento ,Hector Palomino,FALLA DE ESCANER,E FF,W37,2,5,7,0,0
-09/12/2025,1,escaner lento,Leticia coronado,FALLA DE ESCANER,E FF,W37,2,5,7,0,0
-09/12/2025,1,"etiqueta  con falta de informacion, se le pide que impriman la nueva y que vallan con materiales a hacer el swap ",Dariela,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,2,2,4,0,0
-09/12/2025,2,Usuario bloqueado,0,BLOQUEO DE CUENTAS,CYF,W37,2,3,5,0,0
-09/16/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W38,3,5,8,0,0
-09/16/2001,1,Impresora GXZ31 no prendia ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W38,4,6,10,0,0
-09/16/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,3,8,11,0,0
-09/16/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,2,4,6,6,0
-09/17/2025,1,Desbloque de usuario,Miriam,BLOQUEO DE CUENTAS,E FF,W38,2,4,6,0,0
-09/17/2025,1,Impresora no detectaba hueco,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W38,3,9,12,0,0
-09/17/2025,1,Escaner lento,Angel Ramiez,FALLA DE ESCANER,E F&B,W38,4,7,11,0,0
-09/17/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W38,4,7,11,0,0
-09/17/2025,1,Desbloque de usuario,Erodriguez,BLOQUEO DE CUENTAS,E F&B,W38,2,4,6,0,0
-09/17/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,2,6,8,0,0
-09/18/2025,1,Impresora no detectaba hueco,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W38,4,5,9,0,0
-09/18/2025,1,Usuario bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W38,3,3,6,0,0
-09/19/2025,1,Desbloque de usuario fg37,Margarita,BLOQUEO DE CUENTAS,E F&B,W38,3,3,6,0,0
-09/22/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,4,7,0,0
-09/22/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W39,3,10,13,13,0
-09/22/2025,1,Impresora no detectaba hueco,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,0,0
-09/22/2025,1,usuario p558 bloqueado ,0,BLOQUEO DE CUENTAS,CYF,W39,3,4,7,0,0
-09/23/2025,1,Batch en uso ,Toño,BATCHS EN USO,E FF,W39,2,4,6,0,0
-09/23/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W39,4,5,9,9,0
-09/24/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,4,6,10,0,0
-09/24/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,8,0
-09/25/2025,1,Escaner lento,0,FALLA DE ESCANER,E PWT,W39,5,5,10,0,0
-09/25/2025,1,Sesion de impresora no conectada,Margarita,FALLA EN INICIO DE SESIÓN,E F&B,W39,3,7,10,0,0
-09/26/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,0,0
-09/26/2025,1,Impresora no se conecta a la sesion,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,2,4,6,0,0
-09/29/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W40,2,4,6,0,0
-09/29/2025,1,Impresora GXZ no prendia,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,0,0
-09/29/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,0,0
-09/30/2025,1,Usuario bloqueado,Palomino,BLOQUEO DE CUENTAS,E F&B,W40,2,3,5,0,0
-09/30/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W40,2,5,7,0,0
-09/30/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W40,3,5,8,0,0
-10/01/2025,1,Batch en uso,Neto,FALLA DE ESCANER,PF PWT,W40,3,4,7,0,0
-10/01/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W40,4,5,9,0,0
-10/02/2025,1,Impresora mal calibrada linea 9,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,0,0
-10/02/2025,1,Impresora mal calibrada linea 10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,0,0
-10/02/2025,1,Etiquetas duplicadas en linea 8 ,Ivan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,0,0
-10/02/2025,1,Impresora no valida etiquetas rosas,toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,4,7,0,0
-10/02/2025,1,Usuario bloqueado,Abelardo,BLOQUEO DE CUENTAS,E PWT,W40,3,5,8,0,0
-10/06/2025,1,Etiquetas corridas ,Neto ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,0,0
-10/06/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,2,5,5,0
-10/06/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,2,5,5,0
-10/06/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,8,11,11,0
-10/07/2025,1,Spool aotrado ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,0,0
-10/07/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,6,9,0,0
-10/07/2025,1,Ip de impresora no respondia,Neto,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,15,18,0,0
-10/07/2025,1,Impresora no detectaba hueco,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,5,8,0,0
-10/08/2025,1,Etiquetas corridas,Yulisa,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,5,8,0,0
-10/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,0,0
-10/09/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,0,0
-10/13/2025,1,Escaner lento,0,FALLA DE ESCANER,E FF,W42,3,5,8,0,0
-10/15/2025,1,Impresora reventaba el riborn,0,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,0,0
-10/15/2025,1,Etiquetas corridas ,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,4,7,0,0
-10/15/2025,1,Spool atorado ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,4,7,0,0
-10/16/2025,1,Cargaron mal el material,Toño,REVERSAS DE MATERIAL ,E FF,W42,3,10,13,0,0
-10/16/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,0,0
-10/17/2025,1,Impresión de etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,0,0
-10/20/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,5,8,0,0
-10/20/2025,1,Escaner lento,0,FALLA DE ESCANER,E FF,W43,3,5,8,0,0
-10/20/2025,1,Impresora no sacaba etiquetas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W43,3,5,8,0,0
-10/21/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,5,8,0,0
-10/21/2025,1,Escaner lento,0,FALLA DE ESCANER,E FF,W43,3,5,8,0,0
-10/21/2025,1," etiquetas borrosas, y rompe el ribbon",ivan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,15,18,0,0
-10/23/2025,1,Impresora gxz33 no sacaba etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W43,3,5,8,0,0
-10/24/2025,1,Escaner lento,0,FALLA DE ESCANER,E FF,W43,3,6,9,0,0
-10/24/2025,1,no imprime etiquetas de trazabilidad,jesus oyervides ,FALLA DE IGNITION,E PWT,W43,5,120,125,120,0
-10/27/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,0,0
-10/27/2025,1,Impresora no detectaba hueco,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,0,0
-10/27/2025,1,Etiquetas corridas,0,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,0,0
-10/28/2025,1,Etiquetas corridas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W44,3,5,8,0,0
-10/28/2025,1,Impresora no validaba etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,0,0
-10/28/2025,1,Impresora no detectaba hueco,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,0,0
-10/29/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,0,0
-11/03/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,4,7,0,0
-11/03/2025,1,Etiquetas corridas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W45,3,4,7,0,0
-11/04/2025,1,Etiquetas salen en otra impresora,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,3,7,10,0,0
-11/04/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,5,8,0,0
-11/05/2025,1,Etiquetas corridas ,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W45,3,4,7,0,0
-11/05/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W45,3,5,8,0,0
-11/05/2025,1,Impresora no saca etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,3,5,8,0,0
-11/06/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,5,8,0,0
-11/06/2025,1,No cargaron bien el material ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,5,8,0,0
-11/06/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W45,3,5,8,0,0
-11/07/2025,2,Se reimprime etiqueta master,0,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,3,5,8,0,0
-11/07/2025,2,No sacaron parcial ,0,GENERAL,E F&B,W45,3,5,8,0,0
-11/07/2025,2,Desbloqueo de usuario,0,BLOQUEO DE CUENTAS,E FF,W45,2,4,6,0,0
-11/10/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,2,5,7,0,0
-11/10/2025,1,Etiquetas corridas ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,0,0
-11/10/2025,1,Impresora no saca etiquetas,Felix ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,0,0
-11/10/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W46,3,5,8,0,0
-11/11/2025,1,Etiqutas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,4,5,9,0,0
-11/11/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W46,2,5,7,0,0
-11/11/2025,2,Impresión de etiquetas,Zuleima Hernandez,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W46,5,30,35,0,0
-11/12/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,4,6,10,0,0
-11/12/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W46,6,4,10,0,0
-11/12/2025,1,Impresora no sacaba etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W46,3,5,8,0,0
-11/12/2025,1,Ip de impresora no respondia,Pato,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W46,3,7,10,0,0
-11/12/2025,1,Impresora descalibrada,Carmen ,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W46,3,5,8,0,0
-11/13/2025,1,Impresora no se conecta a la sesion,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,8,11,0,0
-11/13/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W46,4,5,9,0,0
-11/13/2025,1,Batch en uso,Pato,BATCHS EN USO,E F&B,W46,4,7,11,0,0
-11/13/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,0,0
-11/14/2025,1,Impresora no saca etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,0,0
-11/14/2025,1,Escaner no entra al sistema,Pato,FALLA DE ESCANER,E F&B,W46,3,7,10,0,0
-11/14/2025,1,Imprimen etiquetas con valor de pieza incorrecto,Toño,GENERAL,E FF,W46,4,7,11,0,0
-11/18/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,0,0
-11/18/2025,1,Impresora no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W47,4,6,10,0,0
-11/18/2025,1,No podian  conectar sesion de impresora,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,0,0
-11/19/2025,1,cambio de cabezal de impresora celdas cortas ,Angel Ramirez,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W47,5,5,10,0,0
-11/19/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,4,5,9,0,0
-11/19/2025,1,Impresora no saca etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W47,3,5,8,0,0
-11/19/2025,1,Impresora no valida etiquetas rosas,Carmen ,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W47,3,4,7,0,0
-11/19/2025,1,Escaner lento,0,FALLA DE ESCANER,E F&B,W47,3,5,8,0,0
-11/20/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,4,5,9,0,0
-11/20/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,0,0
-11/20/2025,1,Registraron piezas de mas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W47,4,5,9,0,0
-11/21/2025,1,Impresora rompe riborn,Netoq,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,0,0
-11/21/2025,1,Escáner lento,Neto,FALLA DE ESCANER,E PWT,47,3,5,8,,
-10/29/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,44,3,5,8,,0
-11/07/2025,2,Se reimprime etiqueta master no salian datos,0,FALLA DE IMPRESORA O ETIQUETADO,E PWT,45,3,4,7,,0
-11/21/2025,1,Etiqueta,Gil,BATCHS EN USO,CNC,47,3,4,7,,
+﻿FECHA,SHIFT,PROBLEM DESCRIPTION/SOLUTION,NOMBRE OPERADOR / USUARIOS,CLASS,AREA,WEEK#,T. ESPERA,T. SOLUCION,T. MUERTO,T. MUERTO TI,ORIGINADOR
+24/07/2024,1,Impresora sacaba etiquetas naranjas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,3,6,9,,
+06/01/2025,1,Computadora no abre CMS,Pato,GENERAL,E F&B,W02,4,16,20,,
+06/01/2025,1,No podian inpmrimir por usuario bloqueado,Jazmin ,BLOQUEO DE CUENTAS,ALM,W02,4,6,10,,
+06/01/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,3,5,8,,
+06/01/2025,1,Escaner se salia del sistema,Don Ray,FALLA DE ESCANER,E F&B,W02,3,5,8,,
+06/01/2025,1,Escaner no agarraba las etiquetas ,Neto,FALLA DE ESCANER,E PWT,W02,2,5,7,,
+06/01/2025,1,Impresora no detectaba el papel,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,4,6,,
+06/01/2025,1,Falla de Ignition,Don Ray,FALLA DE IGNITION,E F&B,W02,2,4,6,6,
+06/01/2025,1,5,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,3,5,5,
+06/01/2025,1,Se explica como abrir el batch,Miguel,GENERAL,E FF,W02,2,2,4,,
+06/01/2025,1,Bloqueo de cuenta ,Gabrien Rangel,GENERAL,PF FF,W02,2,2,4,,
+07/01/2025,1,Computadoras de estacion de impresión de p558 no agarran internet,Carmen Julia,GENERAL,E F&B,W02,4,100,104,,
+07/01/2025,1,Falla internet en estaciones de impresión,Carmen Julia,GENERAL,E F&B,W02,4,20,24,,
+07/01/2025,1,Impresora sacaba WIP a la mitad,,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W02,3,6,9,,
+08/01/2025,1,"Falla maquina ATC, se cambia Moxa y se configura con ayuda de controles",Don Ray,FALLA EN EQUIPO DE ATC,E F&B,W02,5,475,480,480,
+08/01/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W02,5,25,30,,
+08/01/2025,1,Impresora de Atc cambian ribbon y lo ponen doblado,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W02,4,10,14,,
+08/01/2025,1,Etiqueta corrida,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W02,2,8,10,,
+08/01/2025,1,Computadora sin internet,Margarita,GENERAL,E F&B,W02,2,8,10,,
+08/01/2025,1,Computadora sin internet,Efrain,GENERAL,ALM,W02,2,8,10,,
+08/01/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,2,7,9,9,
+08/01/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,2,7,9,9,
+08/01/2025,1,Cabezal frio,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,6,8,,
+08/01/2025,1,Impresora tenia etiqueta en el rodillo,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,3,5,8,,
+08/01/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W02,2,5,7,,
+08/01/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W02,1,4,5,,
+08/01/2025,1,Escaner se apaga por falta de pila,Carmen Julia,FALLA DE ESCANER,E F&B,W02,1,2,3,3,
+09/01/2025,1,Se busca un escaner para PWT(el que tenian el touch ya no funciono),Neto,FALLA DE ESCANER,E PWT,W02,5,15,20,,
+09/01/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E FF,W02,2,8,10,10,
+09/01/2025,1,"Se revisa la impresora de L9 FF, no salia la etiqueta de contenedor",Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,5,7,,
+09/01/2025,1,Impresora no sacaba etiquetas,Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,4,6,,
+09/01/2025,1,"Impresora no sacaba etiquetas, tenia impresiones atoradas en cola de impresión",Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W02,2,4,6,,
+09/01/2025,1,"Se saca un runpart para FF OFFLINE, el que tenian no lo agarraba",Fidelia,GENERAL,E FF,W02,2,2,4,,
+13/01/2025,2,"Falla de trazabilidad, Disco lleno del virtual 3",Jesus Oyervides,FALLA DE IGNITION,E PWT,W03,5,135,140,70,
+13/01/2025,1,"Se revisa la red en WL, ya que las camaras no se ven",Don Ray,GENERAL,E F&B,W03,5,20,25,,
+13/01/2025,1,"No se podia quitar la falla de la impresora, el boton de pausa estaba atorado ",Raul Mercado,FALLA DE IMPRESORA O ETIQUETADO,CYF,W03,5,5,10,,
+13/01/2025,1,"Usuario bloqueado, lider no fue y no sabian la contraseña",Margarita,BLOQUEO DE CUENTAS,E F&B,W03,4,4,8,,
+13/01/2025,1,Batch en uso,Norma,BATCHS EN USO,E PWT,W03,2,3,5,,
+13/01/2025,1,Se explica como abrir el batch,Norma,FALLA DE ESCANER,E PWT,W03,2,2,4,,
+13/01/2025,2,Escaner pedia cambio de batch ,Luciano,FALLA DE ESCANER,E FF,W03,2,2,4,,
+14/01/2025,1,Se coloca parte de impresora que se desprendio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W03,2,6,8,,
+14/01/2025,1,"Se elimina cola de impresión, las etiquetas no salían",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W03,2,6,8,,
+14/01/2025,1,No podian cambiar turno,Norma,FALLA DE ESCANER,E PWT,W03,2,3,5,,
+14/01/2025,1,No podian cambiar turno,Margarita,FALLA DE ESCANER,E F&B,W03,2,2,4,,
+15/01/2025,1,Cambio de impresora ,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,4,8,12,,
+15/01/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W03,3,9,12,,
+15/01/2025,1,etiqueta corrida,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W03,2,5,7,,
+16/01/2025,1,Escaner se sale del sistema,Miguel,FALLA DE ESCANER,E FF,W03,3,5,8,,
+16/01/2025,1,Impresora datamax3 rechazaba todas las etiquetas,Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,3,5,8,,
+16/01/2025,1,Datamax 1 no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,2,4,6,,
+16/01/2025,1,"Impresión de runpart, el que tenian el escaner ya no lo agarraba el escaner",Miguel,GENERAL,E FF,W03,2,3,5,,
+16/01/2025,1,Impresora datamax3 no tenian conectada la sesión de la impresora,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W03,2,2,4,,
+20/01/2025,1,Etiqueta corrida,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W04,1,8,9,,
+20/01/2025,1,Mouse del equipo de impresión de etiquetas no aparecia en pantalla,Neto,GENERAL,E PWT,W04,2,4,6,,
+20/01/2025,1,"Datamax3 no libera las etiquetas, hasta que se reinicio",Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,4,6,,
+20/01/2025,1,Escaner no escaneaba el runpart (Version de CMS equivocada),Damian,FALLA DE ESCANER,E FF,W04,2,3,5,,
+21/01/2025,1,"Impresora no scaba bien las etiquetas, tenia doblado el ribbon",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W04,2,6,8,,
+21/01/2025,1,Impresora no sacaba etiqetas por cabezal frio,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,5,7,,
+21/01/2025,1,Cambio de escaner de linea 3 de FF por daño al anterior,Neto,FALLA DE ESCANER,E FF,W04,3,2,5,,
+22/01/2025,1,Impresora tachaba las etiquetas y el ribon se quedaba pegado,Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W04,2,6,8,,
+22/01/2025,1,No podian meter parcail por numero de parte diferente,Pato,FALLA DE ESCANER,E F&B,W04,2,5,7,,
+22/01/2025,1,Escacner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W04,2,4,6,,
+22/01/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W04,2,3,5,5,
+22/01/2025,1,Cuenta bloqueada de PWT,Norma,BLOQUEO DE CUENTAS,E PWT,W04,2,2,4,,
+23/01/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W04,2,3,5,,
+27/01/2025,1,Impresora tacha las etiquetas ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W05,3,10,13,,
+27/01/2025,1,"Computadora de Idford no responde el mouse, la memoria estaba saturada se reinicio el equipo",Pato,GENERAL,E F&B,W05,5,2,7,,
+27/01/2025,1,Escaner no puede asignar numero de parte,Ivan (EFFF),FALLA DE ESCANER,E FF,W05,3,2,5,,
+27/01/2025,1,Batch en uso FG13,Miguel,BATCHS EN USO,E FF,W05,2,2,4,,
+27/01/2025,1,Batch en uso,Raul Mercado,BATCHS EN USO,CYF,W05,2,2,4,,
+28/01/2025,1,Se revienta banda de impresora de trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W05,3,40,43,,
+28/01/2025,1,"Se cambia banda de impresora IDFF, por daño",Yesi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W05,2,18,20,,
+28/01/2025,1,Escaner se salia del sistema,Miguel,FALLA DE ESCANER,E FF,W05,2,4,6,,
+28/01/2025,1,"Impresión de runpart, el que tenian el escaner ya no lo agarraba el escaner",Fidelia,GENERAL,E FF,W05,2,2,4,,
+29/01/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W05,3,10,13,,
+29/01/2025,1,Se ayuda a cambiar la ruta de una impresora a otra,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W05,2,5,7,,
+29/01/2025,1,Se imprimen runparts para PWT,Neto,GENERAL,E PWT,W05,2,5,7,,
+30/01/2025,1,"Mal escaneo de run part por ende la etiqueta no salía, por equivocacion se saca parcial, se saca una etiqueta master nueva y se le hace SWAP",Miguel,GENERAL,E FF,W05,3,15,18,,
+30/01/2025,1,CMS uso excedido de memoria,Neto,GENERAL,E PWT,W05,5,10,15,,
+30/01/2025,1,CMS uso excedido de memoria,Damian,GENERAL,E FF,W05,5,10,15,,
+30/01/2025,1,Equipo sin conexión a internet,Miriam,GENERAL,E FF,W05,4,5,9,,
+30/01/2025,1,Batch en uso FG13,Miguel,BATCHS EN USO,E FF,W05,2,3,5,,
+30/01/2025,1,Impresora Datamax3 no imprimia por que la sesión no estaba abierta,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W05,2,2,4,,
+04/02/2025,1,"Impresora solo sacaba la mitad de la etiqueta, se revisa cabezal y se calibra y se guarda la configuración",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,1,9,10,,
+04/02/2025,1,Escaner lento FG31,Norma,FALLA DE ESCANER,E PWT,W06,5,4,9,,
+04/02/2025,1,Impresora con un pedaso de ribbon obstruyendo la impresión,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,7,9,,
+04/02/2025,1,Computadora se apagaba pantalla por cable mal conectado,Carmen Julia,GENERAL,E F&B,W06,2,3,5,,
+04/02/2025,1,Se reimprime parcial de contenedor,Neto,GENERAL,E PWT,W06,2,3,5,,
+04/02/2025,1,Escaner lento FG24,Norma,FALLA DE ESCANER,E PWT,W06,2,2,4,,
+05/02/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E FF,W06,3,7,10,,
+05/02/2025,1,Escaner se salía del sistema por IP repetida,Neto,FALLA DE ESCANER,E FF,W06,2,5,7,7,
+05/02/2025,1,Liberación de spol en impresora GXZ50,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,3,5,,
+06/02/2025,1,Impresora dañada por caída,neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,5,20,25,,
+06/02/2025,1,Impresora no agarraba etiqueta,Cesar de León,FALLA DE ESCANER,E FF,W06,5,20,25,,
+06/02/2025,1,Gomas desgastadas en bandeja,Ricardo Briones,FALLA DE IMPRESORA O ETIQUETADO,ALM,W06,3,12,15,,
+06/02/2025,1,"Impresora sacaba etiquetas salteadas GXZ88, se calibra desde la IP",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,5,7,,
+06/02/2025,1,Se cofigura la impresora de cedas cortas de la GXZ53 a la GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,4,6,,
+06/02/2025,1,"Se imprime etiqueta Master, en la impresora no estaba en la cola asi que se busco el serial de master y se imprimio",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,2,3,5,,
+06/02/2025,1,no sale el numero de parte en etqueta individual de trazabilidad | en el item aster no estaba completo el campo de pdes2,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W06,5,,5,,
+07/02/2025,1,Impresora no validaba etiquetas azules,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,4,6,,
+07/02/2025,1,Escaner lento,Norma ,FALLA DE ESCANER,E PWT,W06,2,4,6,,
+07/02/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W06,2,2,4,,
+10/02/2025,1,etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,5,5,10,,
+10/02/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,6,8,,
+10/02/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Odila,FALLA DE IMPRESORA O ETIQUETADO,ALM,W07,2,6,8,,
+10/02/2025,1,"Se cambia la IP de la impresora GXZ76, se había desconfigurado por el apagon",Marlene,FALLA DE IMPRESORA O ETIQUETADO,CYF,W07,2,6,8,,
+10/02/2025,1,Escaner lento FG25,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W07,2,4,6,,
+10/02/2025,1,Cuenta bloqueada de CYF WINODWS,Raul Mercado,BLOQUEO DE CUENTAS,CYF,W07,2,2,4,,
+10/02/2025,1,Cuenta bloqueada de EFFF CMS,Yesica,BLOQUEO DE CUENTAS,E FF,W07,2,2,4,,
+11/02/2025,1,"Se escanean etiquetas activas por falla en antena, se desligan los seriales de la etiqueta master, se agregan con el 50005",Arturo,GENERAL,E FF,W07,2,20,22,,
+11/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W07,5,15,20,,
+11/02/2025,1,No podían escaner el contenedor en embarques por seriales sueltos,Arturo,GENERAL,E FF,W07,3,10,13,,
+11/02/2025,1,"No podía escanear los 2 códigos de la etiqueta, se escanea el codigo de la carpeta para escanear los códigos de barra",Neto,FALLA DE ESCANER,E FF,W07,2,8,10,,
+11/02/2025,1,"Escaner lento, se reinicia la antena 159 que se ubica arriba de la maquina laser de prefab",Don Ray,FALLA DE ESCANER,E FF,W07,2,8,10,,
+11/02/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E PWT,W07,2,5,7,,
+11/02/2025,1,"No podian meter una parcial, ya que una ya estaba consumida y otra, ya estaba dentro del escaner",Toño,FALLA DE ESCANER,E FF,W07,2,5,7,,
+11/02/2025,1,Etiqueta corrida IDCD41,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,4,6,,
+11/02/2025,1,Etiqueta corrida DATAMAX3,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,4,6,,
+11/02/2025,1,Impresora cancela todas las etiquetsa,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,4,6,,
+12/02/2025,1,"falla en transmision de datos a ignition, los nodos estaban configurados al segmento 10 y deben ser 8",Don Ray,FALLA DE IGNITION,E F&B,W07,5,40,45,,
+12/02/2025,1,"Escaner lento, se reinicia la antena 159 que se ubica arriba de la maquina laser de prefab",Don Ray,FALLA DE ESCANER,E F&B,W07,2,5,7,,
+12/02/2025,1,Impresora IDFF no estaba conectada la sesión del CMS,Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W07,2,5,7,,
+12/02/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W07,2,5,7,,
+13/02/2025,1,"Escaner se sale del sistema, por nueva ubicación, escaner no tiene buen alcance de señal y se hace un cambio de escaner",Don Ray,FALLA DE ESCANER,E F&B,W07,3,40,43,,
+13/02/2025,1,"Escaner se salía del sistema, estaba colgado a una antena mas lejos",Miguel,FALLA DE ESCANER,E FF,W07,2,5,7,,
+13/02/2025,1,Escaner lento ,Jorge Perales,FALLA DE ESCANER,E PWT,W07,2,4,6,,
+13/02/2025,1,"Se cancelan etiquetas de impresora GXZ12, mandaron etiquetas de mas",Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,4,6,,
+13/02/2025,1,Se reimprime etiqueta Master,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W07,2,3,5,,
+14/02/2025,1,Se verifica que la Laser tenga conexión a la red ,Adrian,GENERAL,PF PWT,W07,5,180,185,,
+14/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W07,5,15,20,,
+14/02/2025,1,Se desbloquea FG16,Fidelia,BLOQUEO DE CUENTAS,E FF,W07,2,2,4,,
+14/02/2025,1,Se desbloquea FG25,Norma,BLOQUEO DE CUENTAS,E PWT,W07,2,2,4,,
+17/02/2025,1,Etiqueta pegada en el rodillo,Virgilio Garza,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W08,5,20,25,,
+17/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,5,10,15,,
+17/02/2025,1,"se revisa una etiqueta que la sacaron como parcial pero la querian como master, se les explico que hacer ",Andrea Reta ,GENERAL,E FF,W08,5,10,15,,
+17/02/2025,1,Impresora no validaba etiquetas azules,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,3,7,10,,
+18/02/2025,1,"Se ayuda a instalar impresora, para imprimir etiquetas en prototipos",Vampiro,GENERAL,E FF,W08,5,15,20,,
+18/02/2025,1,Se libera spol de impresora GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,2,4,6,,
+18/02/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W08,2,1,3,,
+19/02/2025,1,Se regresa la IP de la impresora de partes de servicio ya que se habia cabiado la IP,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,2,13,15,,
+19/02/2025,1,Impresora saca etiquetas muy marcadas por ribbon diferente,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,5,5,10,10,
+19/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,3,7,10,,
+19/02/2025,1,"Persona que escanea, sacaba el escaner del sistema, y lgo ya no sabía que hacer",Pato,GENERAL,E F&B,W08,3,5,8,,
+19/02/2025,1,Se reimprime etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W08,2,3,5,,
+19/02/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W08,2,3,5,,
+20/02/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W08,3,7,10,10,
+20/02/2025,1,Equipo de estacion de impresión dio pantallazo azul ,Neto,FALLA DE ESCANER,E PWT,W08,1,5,6,,
+20/02/2025,1,Escaner lento ,Norma,FALLA DE ESCANER,E PWT,W08,2,3,5,,
+20/02/2025,1,Impresora datamax3 no tenian conectada la sesión de la impresora,Yesica,FALLA DE ESCANER,E FF,W08,2,2,4,,
+21/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,5,15,20,,
+21/02/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W08,2,5,7,,
+22/02/2025,1,Impresora IDFF no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W08,4,11,15,15,
+22/02/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W08,2,8,10,,
+22/02/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W08,5,3,8,,
+22/02/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W08,2,4,6,,
+23/02/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,5,7,,
+23/02/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W09,2,5,7,,
+24/02/2025,1,Se revisan que los cables del ATC de Engin Jumper esten bien posicionados en el swicht,Don Ray,GENERAL,E F&B,W09,3,27,30,,
+24/02/2025,1,Computadora se queda ciclada,Jazmin ,GENERAL,ALM,W09,5,10,15,,
+24/02/2025,1,"Se revisa commputadora, ya que el mouse no aparecía",Carmen Julia,GENERAL,E F&B,W09,2,7,9,,
+27/02/2025,1,Impresora datamax1 no se conectaba en el CMS,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,10,12,,
+27/02/2025,1,codigo corrido en impresora celdas cortas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,5,2,7,,
+27/02/2025,1,scaner de impresora no valida etiquea verde,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,5,7,,
+27/02/2025,1,scaner de impresora no valida etiquea verde,Arturo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,5,7,,
+27/02/2025,1,Se imprime runpart para PWT,Neto,GENERAL,E PWT,W09,2,5,7,,
+27/02/2025,1,codigo corrido en impresora celdas cortas,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,2,4,,
+27/02/2025,1,impresora datamax 3 si tubo de rebobinador,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,2,4,,
+28/02/2025,1,Impresora de trazabilidad no detectaba el rollo de etiquetas (No tenía Ribbon),Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W09,3,10,13,,
+28/02/2025,1,Impresora IDFF se cae sensor,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,6,8,8,
+28/02/2025,1,Reimpresión de etiqueta Master (Se atora la etiqueta en el rodillo),Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W09,2,5,7,,
+28/02/2025,1,Impresora aventaba dos etiquetas y se pausaba,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W09,2,4,6,,
+28/02/2025,1,Se crea un evento para partes de servicio ,Hector Palomino,GENERAL,E FF,W09,2,4,6,,
+28/02/2025,1,Escaner no escaneaba las etiquetas (Estaban entrando al menu de inventario en ves del CMS),Neto,FALLA DE ESCANER,E PWT,W09,2,4,6,,
+28/02/2025,1,Se calibra impresora GXZ51 (Sacaba una etiqueta salteada),Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W09,2,4,6,,
+03/03/2025,1,"impresora datamax 3 tachando todas las etiquetas, no marcaba el ribbon y no rebobinaba ",fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,5,30,35,,
+03/03/2025,1,"etieutas de trazabilidad no salian, el atc no etsaba enviando informacion",norma,FALLA DE IGNITION,E FF,W10,2,10,12,,
+03/03/2025,1,batch en uso ffl10,Fabian,FALLA DE ESCANER,E FF,W10,5,5,10,,
+03/03/2025,1,"Impresora datamax uno tachando etiquetas, el rollo estaba mal colocado",bennet,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,5,5,10,,
+04/03/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,3,5,8,,
+04/03/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,5,7,,
+05/03/2025,1,Impresora tenia pegada una etiqueta en el rodillo,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,3,6,9,,
+05/03/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,5,7,,
+05/03/2025,1,Impresora se baja la temperatura,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,2,5,7,,
+05/03/2025,1,Cuebta de EFFF Bloqueada,Neto,BLOQUEO DE CUENTAS,E FF,W10,2,2,4,,
+06/03/2025,1,"Escaner no agarraba el runpart, nuevo modelo",Arturo,FALLA DE ESCANER,E FF,W10,3,7,10,,
+06/03/2025,1,Reimpresión de etiqueta Master,Norma,GENERAL,E PWT,W10,2,4,6,,
+07/03/2025,1,Impresora GXZ91 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,8,10,,
+07/03/2025,1,Datamax1 no sacaba etiquetas,Miriam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W10,2,4,6,,
+07/03/2025,1,Escaner no podia entrar al CMC tal vez alguien le movio a la IP (Se coloco la IP que tenia antes),Roberto,FALLA DE ESCANER,ALM,W10,2,4,6,,
+07/03/2025,1,Impresora no imprimia por que no estaba conectada la sesión de la impresora,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W10,2,2,4,,
+10/03/2025,1,Se cambia impresora de L5 A L7 en lo que se revisa la impresora ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,4,10,14,,
+10/03/2025,1,Impresora tenia error y no recogía el ribbon,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,10,12,,
+10/03/2025,1,"Se reimprime etiqueta Master, impresora tenia documentos en cola",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,8,10,,
+10/03/2025,1,Escaner no entraba al sistema,Carmen Julia,FALLA DE ESCANER,E F&B,W11,2,5,7,,
+10/03/2025,1,Se imprime runpart para PWT (Carpeta Perdida),Neto,GENERAL,E PWT,W11,2,5,7,,
+10/03/2025,1,Escaner no entraba al sistema,Norma,FALLA DE ESCANER,E PWT,W11,2,3,5,,
+10/03/2025,1,Escaner no entraba al sistema,Hector Palomino,FALLA DE ESCANER,E FF,W11,2,3,5,,
+10/03/2025,1,Impresoras Datamax1 etiqueta salia tachada por mal colocación de rollo de etiqueta,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,1,4,5,,
+10/03/2025,1,Impresora de trazabilidad tenia cabezal sucio,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,3,5,,
+11/03/2025,1,"Escaner se apagaba, pila dañada",Miguel,FALLA DE ESCANER,E FF,W11,2,8,10,,
+11/03/2025,1,"Impresora tenia etiqueta en el rodillo, se reimprime etiqueta Master",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,3,7,10,,
+11/03/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W11,2,5,7,,
+11/03/2025,1,Bloqueo de cuenta (P558),Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W11,2,3,5,,
+11/03/2025,1,"Datamax3 no sacaba etiquetas, no tenia conectada la sesión",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,2,4,,
+12/03/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Fidelia,GENERAL,E FF,W11,3,8,27,,
+12/03/2025,1,Escaner no entraba al sistema por bloqueo de usuario,Pato,BLOQUEO DE CUENTAS,E F&B,W11,2,5,7,,
+12/03/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W11,2,5,7,,
+12/03/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W11,2,5,7,,
+12/03/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W11,2,4,6,,
+13/03/2025,1,Impresión de runparts para partes de servicio,Neto,GENERAL,E PWT,W11,4,10,14,,
+13/03/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W11,2,7,9,,
+13/03/2025,1,Bloqueo de Usuario FG24,Neto,BLOQUEO DE CUENTAS,E PWT,W11,2,3,5,,
+13/03/2025,1,Batch en uso FG25,Norma,BATCHS EN USO,E PWT,W11,2,2,4,,
+13/03/2025,1,Batch en uso FG24,Norma,BATCHS EN USO,E PWT,W11,2,2,4,,
+14/03/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W11,5,10,15,,
+14/03/2025,1,"Se configura IP a impresora de partes de servicio, (se había desconfigurado y se habia puesto otra IP)",Karen,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,9,11,,
+14/03/2025,1,"Contenedor sin etiqueta parcial, se corre con el código 50005 para agreagr las etiquetas individuales activas a una nueva master",Fidelia,GENERAL,E FF,W11,2,8,10,,
+14/03/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W11,2,8,10,,
+14/03/2025,1,Datamax3 se desconectaba la sesión de la impresora,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,7,9,,
+14/03/2025,1,Impresora linea 4 no salía la etiqueta,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W11,2,7,9,,
+14/03/2025,1,Datamax3 no marcaba bien las etiquetas rosas,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W11,2,5,7,,
+14/03/2025,1,Batch en uso FG13 ,Miguel,BATCHS EN USO,E FF,W11,2,2,4,,
+18/03/2025,1,"Se cambia cable VGA en estación de impresión en P558, cable dañado",Carmen Julia,GENERAL,E F&B,W12,2,8,10,,
+18/03/2025,1,"Impresora sacaba etiquetas salteadas GXZ52, se calibra desde la IP",Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W12,2,5,7,,
+18/03/2025,1,No podían meter una parcial por diferente numero de parte,Fidelia,GENERAL,E FF,W12,2,3,5,,
+18/03/2025,1,Usuario bloqueado FG25 ,norma,BLOQUEO DE CUENTAS,E PWT,W12,2,2,4,,
+18/03/2025,1,batch en us fg12,Neto ff,BATCHS EN USO,E FF,W12,2,2,4,,
+18/03/2025,1,Usuario bloqueado FG25 ,Norma,BLOQUEO DE CUENTAS,E PWT,W12,2,2,4,,
+19/03/2025,1,Impresora sacaba mal la etiqueta por ribbon mal colocado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W12,3,7,10,,
+19/03/2025,1,Escaner lento,Don Ray,FALLA DE ESCANER,E F&B,W12,2,8,10,,
+19/03/2025,1,"Escaner lento, se borra spol",Jorge Perales,FALLA DE ESCANER,E PWT,W12,2,6,8,,
+19/03/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W12,2,5,7,,
+20/03/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W12,2,2,4,,
+21/03/2025,1,Se reimpreme la parcial de un contenedor el cual no dejaron,Tino Leija,GENERAL,E FF,W12,3,9,12,,
+21/03/2025,1,Escaner lento y se salía del sistema,fabian,FALLA DE ESCANER,E FF,W12,2,6,8,,
+24/03/2025,1,Equipo sin conexióna internet Datamax1,Neto,GENERAL,E FF,W13,2,5,7,,
+24/03/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W13,2,2,4,,
+25/03/2025,1,Escaner de ATC no funciona,Tino Leija,FALLA EN EQUIPO DE ATC,E FF,W13,2,13,15,,
+25/03/2025,1,Escaner se queda trabado,Elizabeth,FALLA DE ESCANER,E FF,W13,2,7,9,,
+25/03/2025,1,Batch en uso FG19,fabian,BATCHS EN USO,E FF,W13,2,2,4,,
+26/03/2025,1,No arrancaba la maquina de WL por switch desconectado,Don Ray,GENERAL,E F&B,W13,5,15,20,,
+26/03/2025,1,apoyo a impresión de etiquetas en prototipos ,Vampiro,GENERAL,E FF,W13,2,13,15,,
+26/03/2025,1,Impresora tarda en sacar etiqueta de contenedor,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,3,10,13,,
+26/03/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,2,10,12,,
+26/03/2025,1,Computadora sin internet en almacen,,GENERAL,ALM,W13,3,5,8,,
+26/03/2025,1,Impresora no detectaba el papel,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,2,5,7,,
+26/03/2025,1,Se reimprime parcial de contenedor,Jorge Perales,GENERAL,E PWT,W13,2,4,6,,
+27/03/2025,1,"Se impreme master, no escanearon bien el run part",Margarita,GENERAL,E F&B,W13,3,7,10,,
+27/03/2025,1,No salio etiqueta porque se acabo el rollo,Fidelia ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,5,5,10,,
+27/03/2025,1,Etiqueta corrida,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W13,2,6,8,,
+27/03/2025,1,Usuario bloqueado FG23,Margarita,BLOQUEO DE CUENTAS,E F&B,W13,2,4,6,,
+27/03/2025,1,"Las etiquetas estan saliendo en otra impresora, se cambio de la 44 a la 6 en el recurso",Omar,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W13,2,2,4,,
+28/03/2025,1,"Etiqueta sin información, no se puede sacar master, se dan de baja los seriales",Miguel,GENERAL,E FF,W13,2,15,17,,
+28/03/2025,1,Escaner no agarraba runpart,Elizabeth,FALLA DE ESCANER,E FF,W13,5,5,10,10,
+28/03/2025,1,Batch en uso FG24,Rocio,BATCHS EN USO,E PWT,W13,2,5,7,,
+28/03/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Carmen Julia,GENERAL,E F&B,W13,2,5,7,,
+28/03/2025,1,No salía etiqueta de trazabiidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W13,2,3,5,5,
+28/03/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W13,2,3,5,,
+28/03/2025,1,Escaner no agarraba etiquetas por numero de parte diferente,Elizabeth,GENERAL,E FF,W13,2,2,4,,
+31/03/2025,1,Se hace cambio de pantalla en estación de impresion,Carmen Julia,GENERAL,E F&B,W14,2,18,20,,
+31/03/2025,1,Se desbloquea cuenta de kpis 1,Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W14,10,5,15,15,
+31/03/2025,1,no puede abrir el batch | comando 10000 cerrado,Arturo Torres,FALLA DE ESCANER,E FF,W14,10,2,12,,
+31/03/2025,1,"No sacaron parcial del contenedor, se tiene que agregar a la nueva parcial con 50005",Carmen Julia,GENERAL,E F&B,W14,2,10,12,,
+31/03/2025,1,Se desbloquea la cuenta de CMS ,Gaby,BLOQUEO DE CUENTAS,CYF,W14,3,4,7,,
+31/03/2025,1,Se reimprime etiqueta de trazabilidad,Norma,FALLA DE IGNITION,E PWT,W14,2,5,7,,
+31/03/2025,1,Se reimprime etiqueta de trazabilidad,Norma,FALLA DE IGNITION,E PWT,W14,1,5,6,,
+31/03/2025,1,Se reimpreme la parcial de un contenedor el cual no dejaron,Norma,GENERAL,E PWT,W14,2,4,6,,
+01/04/2025,1,Escaner se traba al escanear,Don Ray,FALLA DE ESCANER,E F&B,W14,2,13,15,,
+01/04/2025,1,Impresora marcaba error en todas las etiquetas,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,6,8,,
+01/04/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,6,8,,
+01/04/2025,1,Se slibera spol de impresora GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,5,7,,
+01/04/2025,1,"Escaner lento, no dejaba meter material",Pato,FALLA DE ESCANER,E F&B,W14,2,5,7,,
+01/04/2025,1,Se calibra impresora GXZ25 (Sacaba una etiqueta salteada),Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,5,7,,
+01/04/2025,1,Se reimprime etiqueta master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,4,6,,
+02/04/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,8,10,,
+02/04/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W14,2,8,10,,
+02/04/2025,1,Impresora no sacaba etiquetas,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,5,7,,
+02/04/2025,1,Etiqueta de contenedor que no salía ,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,5,7,,
+02/04/2025,1,"Se calibra impresora de etiquetas master, se tardaba en salir",Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W14,2,4,6,,
+02/04/2025,1,Etiqueta sin informacion,Norma,FALLA DE ESCANER,E PWT,W14,2,4,6,,
+02/04/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W14,2,2,4,,
+03/04/2025,1,Escaner no agarraba la etiqueta por macro dicerente,Yesica,FALLA DE ESCANER,E FF,W14,3,10,13,13,
+03/04/2025,1,Se cambia cargador de pilas viejitas,Norma,FALLA DE ESCANER,E PWT,W14,2,10,12,,
+03/04/2025,1,Impresora no validaba etiquetas rosas,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,8,10,,
+03/04/2025,1,Pantalla no prendía por que estaba desconectada,Amner,GENERAL,ALM,W14,4,5,9,,
+03/04/2025,1,Etiqueta parcial estaba atorada en cola de impresión,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,4,6,,
+03/04/2025,1,Batch en uso FG19,fabian,BATCHS EN USO,E FF,W14,2,2,4,,
+04/04/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W14,2,4,6,,
+04/04/2025,1,"Etiqueta master atorada, se libera la etiqueta",Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W14,2,3,5,,
+04/04/2025,1,Batch en uso FG21 offline,Fidelia,BATCHS EN USO,E FF,W14,2,2,4,,
+04/04/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W14,2,2,4,,
+04/04/2025,1,Batch en uso FG21 offline,Yesica,BATCHS EN USO,E FF,W14,2,2,4,,
+07/04/2025,1,Escaner se sale del sistema y marca que no se escaneo ninguna etiqueta,Neto,FALLA DE ESCANER,E FF,W15,3,7,10,10,
+07/04/2025,1,Impresora no tenia conexión a la red,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W15,5,5,10,,
+07/04/2025,1,Impresora marcaba error en todas las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,,
+07/04/2025,1,Escaner se sale del sistema,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,4,6,,
+07/04/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,4,6,,
+07/04/2025,1,"Escaner no cambiaba el número de parte , estaban en la sesión de inventario",Sergio,FALLA DE ESCANER,E FF,W15,2,4,6,,
+08/04/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Leo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W15,2,10,12,,
+08/04/2025,1,Impresora descalibrada GXZ25,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,7,9,,
+08/04/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,,
+08/04/2025,1,Escacner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W15,2,4,6,,
+08/04/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W15,2,4,6,,
+08/04/2025,1,Impresora Datamax3 no marcaba bien las etiquetas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,4,6,,
+09/04/2025,1,No podian cambiar turno FG31 L7,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,20,22,,
+09/04/2025,1,No podian cambiar turno FG29 L6 ,Jorge Perales,FALLA DE ESCANER,E PWT,W15,2,20,22,,
+09/04/2025,1,Falla de etiqueta rosa,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,10,12,,
+09/04/2025,1,Falla de red en escaners,Sergio,FALLA DE ESCANER,E FF,W15,2,8,10,10,
+09/04/2025,1,Falla de red en escaners,Tino Leija,FALLA DE ESCANER,E FF,W15,2,8,10,10,
+09/04/2025,1,Falla de  red en escaners,fabian,FALLA DE ESCANER,E FF,W15,2,8,10,10,
+09/04/2025,1,Falla de etiqueta azul,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W15,2,6,8,,
+09/04/2025,1,Usuario bloqueado FG29,Norma,BLOQUEO DE CUENTAS,E PWT,W15,2,2,4,,
+09/04/2025,1,Falla de escaner Falla de red,Don Ray,FALLA DE ESCANER,E F&B,W15,2,,2,,
+10/04/2025,1,Escaner se salía del sistema y estaba lento,Miguel,FALLA DE ESCANER,E FF,W15,3,12,15,,
+10/04/2025,1,Impresora no sacaba etiquetas por esión abiertas,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,10,12,,
+10/04/2025,1,Etiquetas verdes tenues,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,6,8,,
+10/04/2025,1,Escaner no podian cambiar turno,Norma,GENERAL,E PWT,W15,2,6,8,,
+10/04/2025,1,Escaner no podian cambiar turno,Neto,GENERAL,E PWT,W15,2,6,8,,
+10/04/2025,1,Impresora marcaba error en todas las etiquetas,Ivan (EFFF),FALLA DE IMPRESORA O ETIQUETADO,E FF,W15,2,5,7,,
+14/04/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W16,2,8,10,,
+14/04/2025,1,Impresora marcaba error en todas las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W16,2,5,7,,
+14/04/2025,1,se atendio el cambio de temperatura para etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,5,7,,
+14/04/2025,1,se atendio el cambio de temperatura para etiquetas azules,margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,4,6,,
+15/04/2025,1,se atendio el cambio de temperatura para etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W16,2,4,6,,
+15/04/2025,1,Creacion de dos eventos para reportar produccion de servicio,Palomino,FALLA REP PARTES DE SERVICIO ,CNC,W16,2,4,6,,
+16/04/2025,1,"Computadora no encendía, conectaron maquinas en el regulador y se descompuso el regulador",Don Ray,GENERAL,E F&B,W16,2,8,10,,
+16/04/2025,1,creacion de eventos para servicio,Palomino,FALLA REP PARTES DE SERVICIO ,E FF,W16,2,8,10,,
+16/04/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W16,2,5,7,,
+16/04/2025,1,"Escaner falla laser, el gatillo se atora",Miguel,FALLA DE ESCANER,E FF,W16,2,5,7,,
+16/04/2025,1,Usuario Bloqueado,Palomino,BLOQUEO DE CUENTAS,E FF,W16,2,4,6,,
+16/04/2025,1,Usuario Bloqueado (Rogelio Ramirez),Susana,BLOQUEO DE CUENTAS,PF FF,W16,1,4,5,,
+21/04/2025,1,Impresora con cola de impresión atorada,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,10,12,,
+21/04/2025,1,Datamax 3 etiquetas tenuez,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,6,8,,
+21/04/2025,1,Datamax 1 no tenia abierta la sesion ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W17,2,5,7,,
+22/04/2025,1,Impresora se tardaba para sacar etiquetas master,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W17,2,10,12,,
+22/04/2025,1,Escaner lento,Don Ray,FALLA DE ESCANER,E F&B,W17,2,8,10,,
+22/04/2025,1,Impresora sacaba mal la etiqueta por ribbon doblado,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W17,2,8,10,,
+22/04/2025,1,Impresora no validaba etiquetas azules,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,6,8,,
+22/04/2025,1,Escaner no podia entrar al sistema,Neto,FALLA DE ESCANER,E PWT,W17,2,5,7,,
+22/04/2025,1,No podian escaner el numero de parte por que estaban en la macro del inventario,Yessi,GENERAL,E FF,W17,2,5,7,,
+23/04/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Vampiro,GENERAL,E FF,W17,5,15,20,,
+23/04/2025,1,Impresora no validaba etiquetas azules,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,8,10,,
+23/04/2025,1,Impresión de runparts para EF FF,Fidelia,GENERAL,E FF,W17,2,8,10,,
+24/04/2025,2,Impresora tacahaba todas las etiquetas,Beto Salas,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W17,2,10,12,,
+24/04/2025,2,Escaner se sale del sistema,Flor,FALLA DE ESCANER,E FF,W17,2,8,10,,
+28/04/2025,1,Impresora GX14 no sacaba etiquetas ,Ricardo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W18,2,23,25,,
+28/04/2025,1,Impresora no sacaba etiqueta de Trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,13,15,15,
+28/04/2025,1,Impresora no imprimia etiquetas,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,12,14,14,
+28/04/2025,1,Impresora no sacaba etiqueta de Trazabilidad,Norma,FALLA DE IGNITION,E PWT,W18,2,8,10,,
+28/04/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W18,2,8,10,,
+28/04/2025,1,Impresora no imprimia etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,5,7,7,
+29/04/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W18,2,5,7,,
+30/04/2025,1,Impresora IDFF no sacaba etiquetas,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,7,9,,
+30/04/2025,1,Impresora Datamax3 no validad etiquetas azules,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W18,2,5,7,,
+30/04/2025,1,Cuenta bloqueada de CMS P558,Margarita,BLOQUEO DE CUENTAS,E F&B,W18,2,3,5,,
+01/05/2025,1,Escaner lento y se salía del sistema,Neto,FALLA DE ESCANER,E FF,W18,2,8,10,,
+01/05/2025,1,Impresora de trazabilidad no arrojaba la etiqueta,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,3,6,9,,
+01/05/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W18,2,5,7,,
+01/05/2025,1,Sensor movido en la impreosora de celdas cortas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W18,2,5,7,,
+02/05/2025,1,Impresora GXZ3 se tardaba en sacar etiqueta ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,8,10,,
+02/05/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,4,6,,
+02/05/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W18,2,4,6,,
+05/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Vampiro,GENERAL,E FF,W19,5,15,20,,
+05/05/2025,1,"Etiqueta sale corrida, no se guardaron los cambios de la anterior configuracion",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,5,10,15,,
+05/05/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W19,3,7,10,10,
+05/05/2025,1,"etiqueta sale corrida, los parametros de calibracion estaban movidos",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,5,7,,
+05/05/2025,1,Impresora GXZ3 imprimia mal las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,5,7,,
+05/05/2025,1,Se libera spol de impresora GXZ52,Hector Palomino,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,,
+05/05/2025,1,Se libera spol de impresora GXZ70,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W19,2,5,7,,
+05/05/2025,1,batches cerrados encelda 4 y 6 de p708,pato,FALLA DE ESCANER,E F&B,W19,2,2,4,,
+06/05/2025,1,No podian cambiar de número de parte ni escanear porque no hicieron el cambio de turno y de fecha,Fabian,FALLA DE ESCANER,E FF,W19,2,8,10,,
+06/05/2025,1,Impresora GXZ3 se tardaba en sacar etiqueta.,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W19,2,8,10,,
+06/05/2025,1,Hueco no detectado en  DATAMAX3 ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,,
+06/05/2025,1,DATAMAX3 no validaba etiqueta verde,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,,
+06/05/2025,1,Impresora no scaba bien las etiquetas,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,3,5,,
+07/05/2025,1,"Se revisa cargador de pilas de escaner, no colocaban correctamente las baterías",Miguel,FALLA DE ESCANER,E FF,W19,4,16,20,,
+07/05/2025,1,"Se libera spol de impresora, tenia etiquetas atoradas",Iván,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,4,8,12,,
+07/05/2025,1,Se reimprimen etiquetas master,Iván,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,10,12,,
+07/05/2025,1,Impresora GXZ25 no prendía por cable dañado,Fidelia,GENERAL,E FF,W19,2,10,12,,
+07/05/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W19,2,5,7,,
+08/05/2025,1,Impresora IDFF tenia etiquetas pegadas y el sensor movido.,Tino Leija,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,38,40,,
+08/05/2025,1,Impresora de embarques no tenía red a que el switch estaba desconectado,Ricardo,FALLA DE IMPRESORA O ETIQUETADO,ALM,W19,5,10,15,,
+08/05/2025,1,Impresora DATAMAX1 estaba descalibrada,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,3,10,13,,
+08/05/2025,1,Computadora no agarraba el internet.,Neto,GENERAL,PF PWT,W19,2,10,12,,
+08/05/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W19,3,7,10,,
+08/05/2025,1,Datamax3 no marcaba bien las etiquetas rosas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W19,2,5,7,,
+13/05/2025,1,Reimpresión de etiqueta Master,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,7,9,,
+13/05/2025,1,Escaner no funcionaba porque la bateria que colocaron no era la correcta.,Carmen Julia,FALLA DE ESCANER,PF PWT,W20,3,5,8,,
+13/05/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W20,3,5,8,,
+13/05/2025,1,Impresora GXZ51 se tardaba en sacar etiquetas,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W20,2,5,7,,
+13/05/2025,1,IDCD41 sacaba mal las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,5,7,,
+13/05/2025,1,Etiqueta corrida ,Don Ray,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,5,7,,
+13/05/2025,1,Impresora no válidaba etiqueta rosa,Yessi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,,
+14/05/2025,1,La computadora estaba mal conectada.,Tino Leija,GENERAL,E FF,W20,2,15,17,,
+14/05/2025,1,No se sabian la contraseña de la computadora,Margarita,GENERAL,E F&B,W20,5,10,15,,
+14/05/2025,1,Impresora no validaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,9,11,,
+14/05/2025,1,Impresora IDFF tenia etiquetas pegadas en el rodillo,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,3,7,10,,
+14/05/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W20,2,8,10,,
+14/05/2025,1,"Computadora no prendía, estaba desconectada la extensión que va al regulador",Gabriela,GENERAL,CYF,W20,2,8,10,,
+14/05/2025,1,Computadora SAW2PC no agarraba el internet.,Carlos,GENERAL,CYF,W20,2,5,7,,
+14/05/2025,1,Impresora marcaba error al imprimir,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,4,6,,
+15/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W20,5,20,25,,
+15/05/2025,1,Impresora GXZ1 no detectaba papel,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,8,10,,
+15/05/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W20,2,6,8,,
+15/05/2025,1,Batch en uso FG19,Fabian,BATCHS EN USO,E FF,W20,2,3,5,,
+16/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W20,5,120,125,,
+16/05/2025,1,Escaner Lento,Jorge Perales,FALLA DE ESCANER,E PWT,W20,3,7,10,,
+16/05/2025,1,Escaner no iniciaba,Norma,FALLA DE ESCANER,E PWT,W20,2,5,7,,
+16/05/2025,1,Impresora GXZ51 se tardaba en sacar etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W20,2,5,7,,
+16/05/2025,1,Impresora GXZ25 imprimia salteada la etiqueta.,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,,
+16/05/2025,1,Impresora no sacaba etiquetas,Miriam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W20,2,5,7,,
+19/05/2025,1,Impresora GXZ25 imprimia salteada la etiqueta.,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,,
+19/05/2025,1,Etiquetra corrida,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,,
+19/05/2025,1,"Escaner se sale del sistema y se desligan todos los seriales, se escanean nuevamente",Miguel,FALLA DE ESCANER,E FF,W21,2,6,8,,
+19/05/2025,1,Hueco no detectado en IDCD41,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,5,7,,
+19/05/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,5,7,,
+19/05/2025,1,Impresora se queda trabada,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,5,7,,
+19/05/2025,1,Usuario Bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W21,2,2,4,,
+20/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W21,2,13,15,,
+20/05/2025,1,Computadora SAW2PC tenia el VGA dañado,,GENERAL,CYF,W21,2,8,10,,
+20/05/2025,1,Impresora tenia etiquetas pegadas,Norma,FALLA DE IMPRESORA O ETIQUETADO,PF PWT,W21,2,8,10,,
+20/05/2025,1,Impresora con spol atorado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,2,5,7,,
+21/05/2025,1,Reimpresión de etiqueta Master,Neto,GENERAL,E PWT,W21,4,12,16,,
+21/05/2025,1,Impresora no detectaba el hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,8,10,,
+21/05/2025,1,Impresora con spol atorado,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,3,5,8,,
+22/05/2025,1,Datamax1 ribbol mal colocado y varias sesiones abiertas cargaron tiempo de 15 minutos para dos lineas ,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,28,30,10,
+22/05/2025,1,"escaner lento se borra el spol, pero tmb se olvida la configuracion de wifi y ya no se podia conectar",Ernesto,FALLA DE ESCANER,E FF,W21,5,20,25,13,
+22/05/2025,1,Falla de etiqueta azul,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W21,2,8,10,,
+22/05/2025,1,Batch en uso FG25,Margarita,BATCHS EN USO,E F&B,W21,2,8,10,,
+22/05/2025,1,Impresora tenia etiquetas pegadas,Norma,FALLA DE IMPRESORA O ETIQUETADO,PF PWT,W21,2,5,7,,
+23/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W21,5,60,65,,
+23/05/2025,1,Etiquetas pegadas en el rodillo,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,20,22,,
+23/05/2025,1,Etiqueta corrida,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,18,20,,
+23/05/2025,1,Escaner lento (Se traba),Neto,FALLA DE ESCANER,E PWT,W21,2,15,17,,
+23/05/2025,1,Impresora no detectaba el hueco,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,13,15,,
+23/05/2025,1,Escaner lento ,Jorge Perales,FALLA DE ESCANER,E PWT,W21,3,7,10,,
+23/05/2025,1,Impresora no validaba correctamente las etiquetas,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W21,2,8,10,,
+23/05/2025,1,Reimpresión de etiqueta Master,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W21,3,5,8,,
+26/05/2025,1,Impresora no detecta hueco Datamax3,Miguel,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,8,10,,
+26/05/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W22,2,8,10,,
+26/05/2025,1,"Escaner se queda trabado, no dejaba hacer nada",Pato,FALLA DE ESCANER,E F&B,W22,3,7,10,,
+26/05/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E PWT,W22,2,6,8,,
+26/05/2025,1,"Querían regresar las piezas a 0 en el escaner y no sacaron parcial, se agregaron con el 50005",Fidelia,FALLA DE ESCANER,E FF,W22,2,6,8,,
+26/05/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W22,2,5,7,,
+26/05/2025,1,"Impresora Datamax1 no sacaba ninguna etiqueta, se quedo trabada",Damian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,1,4,5,,
+27/05/2025,1,"Etiquetas marcadas como escaneadas y ligadas a una master, pero no estaban en contenedor",Neto,GENERAL,E PWT,W22,3,10,13,,
+27/05/2025,1,Impresora no saca etiqueta Master,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W22,2,10,12,,
+27/05/2025,1,Impresora sacaba etiqueta borrosa,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,8,10,,
+27/05/2025,1,Escaner lento FG74,Pato,FALLA DE ESCANER,E F&B,W22,2,6,8,,
+27/05/2025,1,Escaner lento FG26,Neto,FALLA DE ESCANER,E PWT,W22,2,5,7,,
+28/05/2025,1,Contraseña para modificar hmi,Don Ray,FALLA EN EQUIPO DE ATC,E F&B,W22,2,10,12,,
+28/05/2025,1,Escaner lento ,Juan ,FALLA DE ESCANER,E FF,W22,3,8,11,,
+28/05/2025,1,Impresora sacaba mal las etiquetas por mal colocación del ribbon,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W22,2,8,10,,
+28/05/2025,1,Impresora no sacaba correctamente la etiqueta rosa,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,7,9,,
+28/05/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W22,2,5,7,,
+29/05/2025,1,Maquina de Atc no arrojaba etiqueta de trazabilidad,Jorge Perales,FALLA DE IGNITION,E PWT,W22,2,8,10,,
+29/05/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W22,2,6,8,,
+29/05/2025,1,Impresión de run parts y creación de eventos,Neto,GENERAL,E PWT,W22,3,5,8,,
+30/05/2025,1,Maquina de ATC no pedía etiqueta,Neto,FALLA EN EQUIPO DE ATC,E PWT,W22,2,15,17,,
+30/05/2025,1,Impresora marcaba falta de rollo de etiquetas,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W22,2,6,8,,
+02/06/2025,1,Escaner se había quedado trabado,Roberto,FALLA DE ESCANER,ALM,W23,4,14,18,,
+02/06/2025,1,No salía etiqueta Master por mal escaneo de run part,Toño,GENERAL,E FF,W23,2,15,17,,
+02/06/2025,1,"Contenedor sin etiqueta parcial, se corre con el código 50005 para agreagr las etiquetas individuales activas a una nueva master",Fabian,GENERAL,E FF,W23,3,9,12,,
+02/06/2025,1,"No podian imprimir, la sesión no estaba abierta y el ribon se rompia",Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,10,12,,
+02/06/2025,1,impresora no detecta hueco IDPWT1,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,3,8,11,,
+02/06/2025,1,Impresora marcaba error en todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,,
+02/06/2025,1,Impresora tenia papel atorado,Roberto,FALLA DE IMPRESORA O ETIQUETADO,ALM,W23,4,6,10,,
+02/06/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,6,8,,
+03/06/2025,1,Impresora Datamax3 marcaba de más las etiquetas y las tachaba,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,10,12,,
+03/06/2025,1,Impresora marcaba tenue las etiquetas,Rogelio,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W23,2,10,12,,
+03/06/2025,1,No salia etiqueta Parcial,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,3,7,10,,
+03/06/2025,1,Impresora tenia etiquetas atoradas en el spol L10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,8,10,,
+03/06/2025,1,Escaner lento FG21,Juan ,FALLA DE ESCANER,E FF,W23,2,8,10,,
+03/06/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W23,2,6,8,,
+03/06/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,3,5,8,,
+03/06/2025,1,Impresora tenia etiquetas atoradas en el spol L5,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,6,8,,
+03/06/2025,1,Reimpresión de etiqueta Parcial,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,3,4,7,,
+03/06/2025,1,Impresora tenia etiquetas atoradas en el spol L10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,1,6,7,,
+04/06/2025,1,Falla de trazabilidad ,Neto,FALLA DE IGNITION,E PWT,W23,2,20,22,,
+04/06/2025,1,Impresora de trazabilidad no sacaba etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,15,17,,
+04/06/2025,1,Escaner no escaneaba las etiquetas ,Angel,FALLA DE ESCANER,CNC,W23,2,10,12,,
+04/06/2025,1,Impresora spol bloqueado,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,6,8,,
+04/06/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,6,8,,
+04/06/2025,1,Impresora no prendía,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,5,7,,
+04/06/2025,1,Usuario bloqueado FG37,Margarita,BLOQUEO DE CUENTAS,E F&B,W23,2,4,6,,
+05/06/2025,1,Se hace el cambio de cabezal de 6 pulgadas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,10,12,,
+05/06/2025,1,Impresora no detectaba hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,,
+05/06/2025,1,"Impresora se cambia la ip, se revisa que los recursos que estaban con la IP anterior se cambien a la nueva",Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,7,9,,
+05/06/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,4,5,9,,
+05/06/2025,1,Impresora no respondía Ping,Javier Requenes,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,5,7,,
+05/06/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,4,6,,
+05/06/2025,1,Se libera spol de GXZ34,Sergio,FALLA DE IMPRESORA O ETIQUETADO,E FF,W23,2,4,6,,
+06/06/2025,1,Escaner lento,Sergio,FALLA DE ESCANER,E FF,W23,5,5,10,10,
+06/06/2025,1,Impresora no detectaba hueco,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,8,10,,
+06/06/2025,1,Impresora sacaba etiquetas salteadas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W23,2,7,9,,
+06/06/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W23,2,5,7,,
+06/06/2025,1,Spol atorado GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W23,2,5,7,,
+06/06/2025,1,Usuario bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W23,2,2,4,,
+09/06/2025,1,Impresora no sacaba etiquetas,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,8,10,,
+09/06/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,8,10,,
+09/06/2025,1,Impresora no vaildiaba etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,3,5,8,,
+10/06/2025,1,No podían cambiar el material del contenedor de plastico a cartón,Juan,FALLA DE ESCANER,E FF,W24,5,9,14,,
+10/06/2025,1,Cabezal sucio,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,4,5,9,,
+10/06/2025,1,Impresión de runpart,Carmen Julia,GENERAL,E F&B,W24,3,5,8,,
+10/06/2025,1,Etiqueta corrida,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,,
+10/06/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W24,3,4,7,,
+10/06/2025,1,Se desbloquea la pantalla del ATC de l4 de PWT,Neto,BLOQUEO DE CUENTAS,E PWT,W24,2,5,7,,
+10/06/2025,1,Escaner se queda trabado,Requenes,FALLA DE ESCANER,E FF,W24,2,5,7,,
+11/06/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W24,3,40,43,,
+11/06/2025,1,Escaner lento FG26,Neto,FALLA DE ESCANER,E PWT,W24,2,10,12,,
+11/06/2025,1,Hueco no detectado,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,10,12,,
+11/06/2025,1,Escaner estaba conectado a una red diferente,Neto,FALLA DE ESCANER,E FF,W24,3,8,11,18,
+11/06/2025,1,Escaner lento FG30,Neto,FALLA DE ESCANER,E PWT,W24,2,8,10,,
+11/06/2025,1,Cuenta bloqueada KPIS,Carmen Julia,BLOQUEO DE CUENTAS,E F&B,W24,2,4,6,,
+11/06/2025,1,"Escaner no podía escanear, faltaba cambiar fecha y turno",Jorge Perales,FALLA DE ESCANER,E PWT,W24,2,3,5,,
+11/06/2025,1,Usuario bloqueado FG23,Margarita,BLOQUEO DE CUENTAS,E F&B,W24,2,2,4,,
+11/06/2025,1,Usuario bloqueado FG36,Margarita,BLOQUEO DE CUENTAS,E F&B,W24,2,2,4,,
+11/06/2025,1,Usuario bloqueado FG27,Neto,BLOQUEO DE CUENTAS,E PWT,W24,2,2,4,,
+12/06/2025,1,Escaner no prendía,Tino Leija,FALLA DE ESCANER,E FF,W24,2,15,17,,
+12/06/2025,1,No podían meter una parcial  ,Norma,FALLA DE ESCANER,E PWT,W24,2,10,12,,
+12/06/2025,1,Escaner no agarraba la etiqueta por etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W24,2,8,10,,
+12/06/2025,1,Impresora y computadora no prendían,Margarita,GENERAL,E F&B,W24,2,7,9,,
+12/06/2025,1,Hueco no detectado,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,,
+12/06/2025,1,Etiqueta corrida ,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,5,7,,
+12/06/2025,1,Etiqueta corrida ,Gustavo,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W24,2,4,6,,
+13/06/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W24,5,55,60,,
+13/06/2025,1,Impresora IDFF no sacaba etiquetas,Yesica,FALLA DE IMPRESORA O ETIQUETADO,E FF,W24,2,8,10,,
+13/06/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W24,2,5,7,,
+16/06/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W25,2,8,10,,
+17/06/2025,1,Impresora tiene etiquetas atoradas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,10,12,,
+17/06/2025,1,Impresora sacaba las etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,8,10,,
+17/06/2025,1,Calibracion de impresora ,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W25,2,6,8,,
+17/06/2025,1,Batch en uso FG74,Carmen Julia,BATCHS EN USO,E F&B,W25,2,5,7,,
+18/06/2025,1,Impresora no prende por cable dañado,Angel,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,10,12,,
+18/06/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W25,2,5,7,,
+19/06/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W25,5,30,35,,
+19/06/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W25,5,15,20,,
+19/06/2025,1,Impresora no detectaba el papel,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,8,10,,
+19/06/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W25,2,8,10,,
+19/06/2025,1,Escaner lento FG27,Neto,FALLA DE ESCANER,E PWT,W25,2,7,9,,
+20/06/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W25,2,10,12,,
+20/06/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W25,2,8,10,,
+20/06/2025,1,Escaner lento,Juan ,FALLA DE ESCANER,E FF,W25,2,5,7,,
+23/06/2025,1,Cuenta bloqueada de Etiquetas FF (Windows),Ivan (EFFF),BLOQUEO DE CUENTAS,E FF,W26,2,8,10,,
+23/06/2025,1,Liberación de spol de GXZ50,Carmen Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W26,5,4,9,,
+24/06/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W26,2,8,10,,
+24/06/2025,1,Escaner lento FG13,Miguel,FALLA DE ESCANER,E FF,W26,2,7,9,,
+24/06/2025,1,Limpieza de cabezal,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W26,3,3,6,,
+24/06/2025,1,No ´podían imprimir porque no sabian cual era el CMS,Pato,GENERAL,E F&B,W26,2,4,6,,
+24/06/2025,1,Cuenta bloqueada de P558,Angel,BLOQUEO DE CUENTAS,E F&B,W26,2,2,4,,
+25/06/2025,1,Reimpresión de etiqueta master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W26,2,6,8,,
+25/06/2025,1,Escaner lento FG27,Neto,FALLA DE ESCANER,E PWT,W26,2,5,7,,
+25/06/2025,1,Se desbloquea el usuario de P558,Margarita,BLOQUEO DE CUENTAS,E F&B,W26,2,4,6,,
+30/06/2025,1,Escaner no teni9a la macro correcta,Norma,FALLA DE ESCANER,E PWT,W27,4,40,44,44,
+30/06/2025,1,"Impresora marca que el cabezal no esta cerrado, se cambia por una nueva",Susana,FALLA DE IMPRESORA O ETIQUETADO,PF FF,W27,5,15,20,,
+30/06/2025,1,Falta de escaner,Rosy,FALLA DE ESCANER,E F&B,W27,2,8,10,10,
+30/06/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Palomino,FALLA DE ESCANER,E FF,W27,5,5,10,,
+30/06/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Jesus,FALLA DE ESCANER,E F&B,W27,3,6,9,,
+30/06/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Miriam,FALLA DE ESCANER,E FF,W27,2,5,7,,
+30/06/2025,1,No habian abierto el Batch,Neto,FALLA DE ESCANER,E PWT,W27,2,3,5,,
+01/07/2025,1,Escaner no agarraba ningun codigo,Ivan (EFFF),FALLA DE ESCANER,E FF,W27,3,8,11,11,
+01/07/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W27,3,4,7,,
+01/07/2025,1,Escaner tenia una macro diferente y no agarraba el codigo,Ivan (EFFF),FALLA DE ESCANER,E FF,W27,2,4,6,,
+01/07/2025,1,Reimpresión de etiqueta Master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W27,2,3,5,,
+01/07/2025,1,"Escaner no agarraba el runpart, faltaba palomear la casilla de on barcode",Margarita,FALLA DE ESCANER,E F&B,W27,2,3,5,,
+02/07/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W27,2,2,4,,
+03/07/2025,1,Impresora tachaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W27,2,10,12,,
+03/07/2025,1,"Impresora no detectaba etiquetas, ribon mal acomodado",Blanca,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W27,2,5,7,,
+03/07/2025,1,Impresora no detectaba etiqueta verde,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W27,2,5,7,,
+07/07/2025,1,"Impresora no prende, se verifica que sea la impresora",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W28,2,10,12,,
+07/07/2025,1,Escaner se salía del sistema,Neto,FALLA DE ESCANER,E PWT,W28,2,5,7,,
+07/07/2025,1,Escaner no agarraba las etiquetas ,Neto,FALLA DE ESCANER,E FF,W28,2,5,7,,
+07/07/2025,1,Reimpresión de etiqueta Master,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W28,2,3,5,,
+08/07/2025,1,Impresora no marcaba bien las etiquetas por cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,10,12,,
+08/07/2025,1,Escaner lento,Carmen Julia,FALLA DE ESCANER,E F&B,W28,2,8,10,,
+08/07/2025,1,Liberación de spol GXZ50,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,5,7,,
+08/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W28,2,5,7,,
+08/07/2025,1,Escaner lento,Miriram,FALLA DE ESCANER,E FF,W28,2,5,7,,
+09/07/2025,1,Escaner lento,Miguel,FALLA DE ESCANER,E FF,W28,2,5,7,,
+09/07/2025,1,gxz10 Impresora descaloibrada,Raul,FALLA DE IMPRESORA O ETIQUETADO,CYF,W28,2,5,7,,
+10/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W28,5,25,30,,
+10/07/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,8,10,,
+10/07/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,5,7,,
+10/07/2025,1,"Impresora no sacaba etiquetas, tachaba todas las etiquetas",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,4,6,,
+10/07/2025,1,"Impresora no sacaba etiquetas, sesión de impresora cerrada",Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W28,2,4,6,,
+11/07/2025,1,Etiquetas tenues,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W28,2,8,10,,
+11/07/2025,1,Escaner se sale del sistema,Jorge Perales,FALLA DE ESCANER,E PWT,W28,2,6,8,,
+11/07/2025,1,Usuario bloqueado FG26,Norma,BLOQUEO DE CUENTAS,E PWT,W28,2,3,5,,
+11/07/2025,1,Usuario Bloqueado P558,Pato,BLOQUEO DE CUENTAS,E F&B,W28,2,3,5,,
+14/07/2025,1,Etiquetas se desligan de la parcial,Pato,FALLA DE ESCANER,E F&B,W29,3,8,11,,
+14/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W29,2,8,10,,
+14/07/2025,1,Etiqueta tenue,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,8,10,,
+14/07/2025,1,Se borra spool de impresora GXZ38,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,6,8,,
+14/07/2025,1,Impresora no detectaba etiqueta verde,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,5,7,,
+14/07/2025,1,Impresión de runpart,Pato,GENERAL,E F&B,W29,2,5,7,,
+15/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W29,5,35,40,,
+15/07/2025,1,Impresión de runpart,Pato,GENERAL,E F&B,W29,5,15,20,,
+15/07/2025,1,Impresora de trazabilidad no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W29,2,10,12,6,
+15/07/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W29,2,10,12,,
+15/07/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W29,2,6,8,,
+15/07/2025,1,Impresora no sacaba etiquetas por falta de inicio de sesion en el CMS,Yesi,FALLA EN INICIO DE SESIÓN,E FF,W29,2,5,7,,
+15/07/2025,1,Etiqueta tenue en impresora de trazabilidad,Neto,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W29,2,4,6,6,
+16/07/2025,1,Escaer lento,Jorge Perales,FALLA DE ESCANER,E PWT,W29,2,13,15,,
+16/07/2025,1,Impresora descalibrada GXZ70,Gabriela,FALLA DE IMPRESORA O ETIQUETADO,CYF,W29,3,8,11,,
+16/07/2025,1,Impresora rompía ribon,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,8,10,,
+16/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W29,3,7,10,,
+16/07/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E PWT,W29,2,7,9,,
+16/07/2025,1,Impresora no detectaba etiqueta verde,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,3,5,8,,
+16/07/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,3,4,7,,
+16/07/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Fidelia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W29,2,4,6,,
+16/07/2025,1,Batch en uso,Pato,BATCHS EN USO,E F&B,W29,1,3,4,,
+17/07/2025,1,Desbloqueo de cuenta  CYF ,Raul,BLOQUEO DE CUENTAS,CYF,W29,3,5,8,,
+17/07/2025,1,Batch en uso FG74,Pato,BATCHS EN USO,E F&B,W29,2,5,7,,
+21/07/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W30,2,10,12,,
+21/07/2025,1,Estación de impresión sin conexión a internet,Margarita,GENERAL,E F&B,W30,5,5,10,10,
+21/07/2025,1,No podían cambiar el turno y fecha,Neto,FALLA DE ESCANER,E PWT,W30,2,5,7,,
+22/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,3,5,8,,
+22/07/2025,1,Desbloqueo de usuario fg25,Margarita,BLOQUEO DE CUENTAS,E FF,W30,3,4,7,,
+22/07/2025,1,Desbloqueo de usuario fg21,Yessi,BLOQUEO DE CUENTAS,E FF,W30,3,4,7,,
+22/07/2025,1,Liberacion de spool,Gaby,FALLA DE IMPRESORA O ETIQUETADO,CYF,W30,2,5,7,,
+23/07/2025,1,Impresora descalibrada,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,10,13,,
+23/07/2025,1,Escaner lento,Norma,FALLA DE ESCANER,E PWT,W30,4,7,11,,
+23/07/2025,1,Impresora no detectaba hueco,Ivam,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,2,8,10,,
+23/07/2025,1,Impresora GXZ14 no saca etiquetas,Antonio,FALLA DE IMPRESORA O ETIQUETADO,ALM,W30,4,4,8,,
+23/07/2025,1,Impresora no marcaba bien las etiquetas temperatura baja,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,,
+23/07/2025,1,Impresora tachaba todas las etiquetas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,,
+23/07/2025,1,"No podian imprimir, por sesión de impresora no conectada",Yessi,GENERAL,E FF,W30,2,4,6,,
+23/07/2025,1,Batch en uso FG13 ,Neto,BATCHS EN USO,E FF,W30,2,2,4,,
+24/07/2025,1,Se modifican parametros para que la etiqueta salga centrada en la Datamax3,Lorenzo ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,4,9,13,,
+24/07/2025,1,No podian escaner las etiquetas con el escaner,Neto,FALLA DE ESCANER,E FF,W30,2,10,12,,
+24/07/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,4,5,9,,
+24/07/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,3,5,8,,
+24/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,2,5,7,,
+24/07/2025,1,Usuario bloqueado FG13,Beto,BLOQUEO DE CUENTAS,E FF,W30,2,4,6,,
+25/07/2025,1,Banda desgastada en impresora de trasabilidad linea 2 ,Jorge Perales,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W30,8,40,48,8,
+25/07/2025,1,Querían imprimir una etiqueta de una pieza ya pasda,Raul,GENERAL,E F&B,W30,5,40,45,,
+25/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W30,3,7,10,,
+25/07/2025,1,Impresora Datamax1 no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W30,3,5,8,,
+25/07/2025,1,Impresora sacaba mal las etiquetas por cabezal en mal estado,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W30,2,6,8,,
+25/07/2025,1,Escaner lento,Toño,FALLA DE ESCANER,E FF,W30,3,5,8,,
+28/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W31,3,35,38,,
+28/07/2025,1,Etiquetas pegadas en el rodillo,Juan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,20,23,,
+28/07/2025,1,Impresora con cabezal dañado GXZ12,Pato,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,2,10,12,,
+28/07/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,4,8,12,,
+28/07/2025,1,Impresora lenta GXZ51,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W31,4,7,11,,
+28/07/2025,1,"Se hace cambio de contraseña a cuenta de pintura, no recordaban la contraseña",Rogelio,GENERAL,PF FF,W31,3,8,11,,
+28/07/2025,1,Impresora no valida etiquetas rosas,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,6,9,,
+28/07/2025,1,Impresora IDF descalibrada,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,,
+29/07/2025,1,Escaner lento,Pato,FALLA DE ESCANER,E F&B,W31,4,8,12,,
+29/07/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,3,8,11,,
+29/07/2025,1,Escaner no agarraba correctamente la etiqueta,Rosy,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,7,10,10,
+29/07/2025,1,Impresora GXZ31 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,3,5,8,,
+29/07/2025,1,Computadora sin conexión a internet,Jorge Perales,GENERAL,E PWT,W31,3,5,8,,
+29/07/2025,1,Se reimprime etiqueta master,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,2,5,7,,
+30/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W31,5,15,20,,
+30/07/2025,1,Impresora GXZ31 tenia impresiones atoradas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W31,4,8,12,,
+30/07/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,4,8,12,,
+30/07/2025,1,Escaner lento,Jorge Perales,FALLA DE ESCANER,E PWT,W31,3,5,8,,
+30/07/2025,1,Usuario bloqueado PWT,Virgilio,BLOQUEO DE CUENTAS,E PWT,W31,3,4,7,,
+31/07/2025,1,No podían escnear la etiqueta ya que tenia muchos dobleces alrededor de la pieza,Requenes,FALLA DE ESCANER,E FF,W31,2,40,42,,
+31/07/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Hector Palomino,GENERAL,E FF,W31,3,30,33,,
+31/07/2025,1,Equipo sin conexión a internet,Margarita,GENERAL,E F&B,W31,2,8,10,,
+31/07/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E F&B,W31,2,6,8,,
+31/07/2025,1,Escaner lento,Toño,FALLA DE ESCANER,E FF,W31,2,5,7,,
+31/07/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,2,5,7,,
+01/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W31,3,25,28,,
+01/08/2025,1,Impresora no imprimia etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,4,10,14,,
+01/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,7,10,,
+01/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,,
+02/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W31,3,5,8,,
+04/08/2025,1,Impresora con spol atorado,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,4,8,12,,
+04/08/2025,1,"no puede escanear las piezas, los numeros de parte tienen secuencia 001, y requiere 999 para asignar ",fabilo,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,10,12,,
+04/08/2025,1,Impresora no valida etiquetas azules,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,3,7,10,,
+04/08/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,8,10,,
+04/08/2025,1,Escaer lento,Pato,FALLA DE ESCANER,CNC,W32,3,6,9,,
+04/08/2025,1,"contenedores sin etiqueta master, escanearon mal el run part y no ligo las etiquetas, produccion decidio correr asi",Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,,
+04/08/2025,1,"falla en linea 4 de pwt, no cambio el numero de cat id en la ultima estacion, no mandaron a  ceros la maquina y no se actualizo",Brayan,FALLA DE IGNITION,E PWT,W32,2,5,7,,
+04/08/2025,1,Escaner no entraba a la sesion,Requenes,FALLA DE ESCANER,E FF,W32,2,4,6,,
+04/08/2025,1,No podian abrir el bacth en linea 12,Yessi,BATCHS EN USO,E FF,W32,2,2,4,,
+05/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E F&B,W32,2,10,12,,
+05/08/2025,1,No podian entrar al CMS en partes de servicio,Palomino,GENERAL,E FF,W32,3,7,10,,
+05/08/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W32,3,5,8,,
+05/08/2025,1,Impresora sacaba mal las etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,3,5,8,,
+05/08/2025,1,Spol atorado GXZ55,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,,
+05/08/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+05/08/2025,1,Impresora Datamax 3 con cola de impresión ,Yessi,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,,
+06/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,10,12,,
+06/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W32,3,3,6,,
+06/08/2025,1,Impresora sacaba mas las etiquetas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+06/08/2025,1,Impresora no validaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+07/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,10,12,,
+07/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W32,2,5,7,,
+07/08/2025,1,Impresora GXZ71 no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,,
+07/08/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+07/08/2025,1,Desbloqueo de usuario en CMS,Alondra,BLOQUEO DE CUENTAS,ALM,W32,2,3,5,,
+08/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W32,2,8,10,,
+08/08/2025,1,Impresora Datamax 1 se fauleo,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,7,9,,
+08/08/2025,1,Impresora sacaba etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,5,7,,
+08/08/2025,1,Impresora sacaba etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+08/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,4,6,,
+08/08/2025,1,Impresora lenta GXZ51,Rogelio,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W32,2,3,5,,
+08/08/2025,1,Etiquetas recorridas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,,
+08/08/2025,1,Etiquetas recorridas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W32,2,3,5,,
+11/08/2025,1,"Falla en linea 4 de pwt, cambiaron camaras el fin de semana, y borraron una parte de la progrmacion que enviaba la foto al servidor, la cual evitaba que se ejecutara la reseta completa ",Neto,FALLA DE IGNITION,E PWT,W33,5,55,60,60,
+11/08/2025,1,se habilita un espacio para impresión de etiquetas individuales en EFFF por el apagaon ,Javier Requenes,GENERAL,E FF,W33,5,25,30,,
+11/08/2025,1,"Impresora GXZ3 no calibraba, ",Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W33,5,5,10,,
+11/08/2025,1,Impresora sacaba mal etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,,
+11/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,,
+11/08/2025,1,Spol atorado GXZ21,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,,
+11/08/2025,1,Computadora sin conexión a internet,Marta,GENERAL,E PWT,W33,2,3,5,,
+12/08/2025,1,"impresora daamax no libera, la sesion de la impreosra no estaba iniciada",neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,15,17,,
+12/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W33,2,8,10,,
+12/08/2025,1,"impresora datamax 3 no enviaba las etiquetas, se reinicio la impresora y quedo funcionando ",neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,5,5,10,,
+12/08/2025,1,"escaner lento, se descarga el loading list ",neto,FALLA DE ESCANER,E FF,W33,5,5,10,5,
+12/08/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,5,8,,
+12/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,,
+12/08/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,4,7,,
+12/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,,
+12/08/2025,1,Escaner lento,Margarita,FALLA DE ESCANER,E FF,W33,2,4,6,15,
+13/08/2025,1,"Apoyo en prototipos, para impresión de etiquetas",Palomino,GENERAL,E FF,W33,2,8,10,,
+13/08/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,,
+13/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,,
+13/08/2025,1,Etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,4,6,,
+14/08/2025,1,Impresora GXZ31 no prendia ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,8,11,,
+14/08/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,3,5,8,,
+14/08/2025,1,Escaner lento,Juan,FALLA DE ESCANER,E FF,W33,2,5,7,,
+14/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,2,5,7,,
+15/08/2025,1,Impresora de PWT tenia etiquetas atoradas en el rodillo ,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W33,4,7,11,,
+15/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W33,3,6,9,,
+15/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,6,8,,
+15/08/2025,1,Impresora tacahaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W33,2,5,7,,
+18/08/2025,1,Impresora GXZ70 no saca etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,7,10,,
+18/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,5,8,,
+19/08/2025,1,Spool atoriado GXZ31,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,3,7,10,,
+19/08/2025,1,Se reimprime etiqueta master,Margarita,GENERAL,E F&B,W34,2,8,10,,
+19/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,3,6,9,,
+19/08/2025,1,Etiquetas corridas,Fide,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,3,5,8,,
+19/08/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,5,7,,
+19/08/2025,1,Impresora no sacaba etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,2,5,7,,
+20/08/2025,1,Se hace swap en celda 5 ,Carmen ,GENERAL,E F&B,W34,5,10,15,,
+20/08/2025,1,Impresora de trazabilidad no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W34,3,9,12,,
+20/08/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,5,7,,
+21/08/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W34,2,6,8,,
+21/08/2025,1,Usuario bloqueado FG73,Margarita,BLOQUEO DE CUENTAS,E F&B,W34,2,5,7,,
+22/08/2025,1,Etiquetas corridas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W34,2,4,6,,
+25/08/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W35,4,10,14,,
+25/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,,
+25/08/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W35,2,5,7,,
+26/08/2025,1,Escaner linea 11 no detectaba linea,Fide,FALLA DE ESCANER,E FF,W35,6,8,14,,
+26/08/2025,1,Impresora pwt no detectaba hueco,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W35,5,7,12,,
+26/08/2025,1,Impresora tachaba todas las etiquetas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,5,5,10,,
+26/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E FF,W35,3,7,10,,
+26/08/2025,1,Escaner lento,Neto,FALLA DE ESCANER,E FF,W35,4,6,10,,
+26/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,,
+26/08/2025,1,Spool atoriado GXZ70,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,4,7,,
+27/08/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,,
+27/08/2025,1,Cabezal sucio,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,2,6,8,,
+27/08/2025,1,Usuario bloqueado,Alondra,BLOQUEO DE CUENTAS,CYF,W35,2,4,6,,
+29/08/2025,1,Se reimprime etiqueta master,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W35,3,5,8,,
+29/08/2025,1,Escaner saca parciales,Toño,FALLA DE ESCANER,E FF,W35,3,5,8,,
+29/08/2025,1,Etiquetas pegadas en el rodillo,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W35,2,5,7,,
+29/08/2025,1,Escaner sesion incorrecta,Neto,FALLA DE ESCANER,E PWT,W35,2,5,7,,
+01/09/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,8,11,,
+01/09/2025,1,Batch en uso FG12,Neto,BATCHS EN USO,E FF,W36,3,7,10,10,
+01/09/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,4,5,9,,
+01/09/2025,1,Falla de trasabilidad,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,3,5,8,,
+01/09/2025,1,Falla de trasabilidad,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,3,5,8,,
+02/09/2025,1,Cabezal sucio,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,5,6,11,,
+02/09/2025,1,Ip de impresora no respondia,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,15,18,,
+02/09/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,3,5,8,,
+03/09/2025,1,liberar spol en linea 4 pwt,virgilio,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W36,5,5,10,,
+03/09/2025,1,impresora no valida etiqueta rosa ,toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W36,5,5,10,,
+03/09/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W36,3,4,7,,
+04/09/2025,1,Impresora no valida etiquetas rosas,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W36,3,5,8,,
+04/09/2025,1,Batch en uso,Toño,BATCHS EN USO,E FF,W36,3,5,8,,
+04/09/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W36,3,7,10,10,
+05/09/2025,1,Desbloque de usuario,,BLOQUEO DE CUENTAS,CYF,W36,2,3,5,,
+08/09/2025,1,Cabezal sucio,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,2,6,8,8,
+10/09/2025,1,impresora no valida etiqueta rosa ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,3,4,7,,
+10/09/2025,1,Spool atorado ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,3,4,7,,
+10/09/2025,1,No podian escanear runpart,Margarita,FALLA DE ESCANER,E F&B,W37,3,5,8,,
+11/09/2025,1,usuario bloqueado ,norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W37,3,5,8,,
+11/09/2025,1,salen varias parciales en lina 6 ff,Toño,FALLA DE ESCANER,E FF,W37,5,10,15,,
+11/09/2025,1,etiquetas FR2 corridas,Neto ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,5,5,10,10,
+11/09/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W37,5,10,15,15,
+11/09/2025,1,Etiquetas corridas ,,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W37,3,5,8,,
+11/09/2025,2,Batch en uso,,BATCHS EN USO,E FF,W37,2,4,6,,
+11/09/2025,2,No podian iniciar sesion en escaner ,,FALLA DE ESCANER,E F&B,W37,3,4,7,,
+12/09/2025,1,usuario p558 bloqueado ,Angel Ramiez,BLOQUEO DE CUENTAS,E F&B,W37,2,2,4,,
+12/09/2025,1,escaner lento ,Hector Palomino,FALLA DE ESCANER,E FF,W37,2,5,7,,
+12/09/2025,1,escaner lento,Leticia coronado,FALLA DE ESCANER,E FF,W37,2,5,7,,
+12/09/2025,1,"etiqueta  con falta de informacion, se le pide que impriman la nueva y que vallan con materiales a hacer el swap ",Dariela,FALLA DE IMPRESORA O ETIQUETADO,E FF,W37,2,2,4,,
+12/09/2025,2,Usuario bloqueado,,BLOQUEO DE CUENTAS,CYF,W37,2,3,5,,
+16/09/2025,1,Batch en uso,Margarita,BATCHS EN USO,E F&B,W38,3,5,8,,
+16/09/2001,1,Impresora GXZ31 no prendia ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W38,4,6,10,,
+16/09/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,3,8,11,,
+16/09/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,2,4,6,6,
+17/09/2025,1,Desbloque de usuario,Miriam,BLOQUEO DE CUENTAS,E FF,W38,2,4,6,,
+17/09/2025,1,Impresora no detectaba hueco,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W38,3,9,12,,
+17/09/2025,1,Escaner lento,Angel Ramiez,FALLA DE ESCANER,E F&B,W38,4,7,11,,
+17/09/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W38,4,7,11,,
+17/09/2025,1,Desbloque de usuario,Erodriguez,BLOQUEO DE CUENTAS,E F&B,W38,2,4,6,,
+17/09/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W38,2,6,8,,
+18/09/2025,1,Impresora no detectaba hueco,Marta,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W38,4,5,9,,
+18/09/2025,1,Usuario bloqueado FG40,Margarita,BLOQUEO DE CUENTAS,E F&B,W38,3,3,6,,
+19/09/2025,1,Desbloque de usuario fg37,Margarita,BLOQUEO DE CUENTAS,E F&B,W38,3,3,6,,
+22/09/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,4,7,,
+22/09/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W39,3,10,13,13,
+22/09/2025,1,Impresora no detectaba hueco,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,,
+22/09/2025,1,usuario p558 bloqueado ,,BLOQUEO DE CUENTAS,CYF,W39,3,4,7,,
+23/09/2025,1,Batch en uso ,Toño,BATCHS EN USO,E FF,W39,2,4,6,,
+23/09/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W39,4,5,9,9,
+24/09/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,4,6,10,,
+24/09/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,8,
+25/09/2025,1,Escaner lento,,FALLA DE ESCANER,E PWT,W39,5,5,10,,
+25/09/2025,1,Sesion de impresora no conectada,Margarita,FALLA EN INICIO DE SESIÓN,E F&B,W39,3,7,10,,
+26/09/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,3,5,8,,
+26/09/2025,1,Impresora no se conecta a la sesion,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W39,2,4,6,,
+29/09/2025,1,Spool atorado ,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W40,2,4,6,,
+29/09/2025,1,Impresora GXZ no prendia,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,,
+29/09/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,,
+30/09/2025,1,Usuario bloqueado,Palomino,BLOQUEO DE CUENTAS,E F&B,W40,2,3,5,,
+30/09/2025,1,Impresora no valida etiquetas azules,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W40,2,5,7,,
+30/09/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W40,3,5,8,,
+01/10/2025,1,Batch en uso,Neto,FALLA DE ESCANER,PF PWT,W40,3,4,7,,
+01/10/2025,1,Escaner se sale del sistema,Neto,FALLA DE ESCANER,E FF,W40,4,5,9,,
+02/10/2025,1,Impresora mal calibrada linea 9,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,,
+02/10/2025,1,Impresora mal calibrada linea 10,Fabian,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,,
+02/10/2025,1,Etiquetas duplicadas en linea 8 ,Ivan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,5,8,,
+02/10/2025,1,Impresora no valida etiquetas rosas,toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W40,3,4,7,,
+02/10/2025,1,Usuario bloqueado,Abelardo,BLOQUEO DE CUENTAS,E PWT,W40,3,5,8,,
+06/10/2025,1,Etiquetas corridas ,Neto ,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,,
+06/10/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,2,5,5,
+06/10/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,2,5,5,
+06/10/2025,1,Falla de escaner,Neto,FALLA DE ESCANER,E FF,W41,3,8,11,11,
+07/10/2025,1,Spool aotrado ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,,
+07/10/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,6,9,,
+07/10/2025,1,Ip de impresora no respondia,Neto,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,15,18,,
+07/10/2025,1,Impresora no detectaba hueco,Margarita,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,5,8,,
+08/10/2025,1,Etiquetas corridas,Yulisa,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W41,3,5,8,,
+08/10/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,,
+09/10/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W41,3,5,8,,
+13/10/2025,1,Escaner lento,,FALLA DE ESCANER,E FF,W42,3,5,8,,
+15/10/2025,1,Impresora reventaba el riborn,,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,,
+15/10/2025,1,Etiquetas corridas ,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,4,7,,
+15/10/2025,1,Spool atorado ,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,4,7,,
+16/10/2025,1,Cargaron mal el material,Toño,REVERSAS DE MATERIAL ,E FF,W42,3,10,13,,
+16/10/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,,
+16/10/2025,1,Escaner no se conetaba a la red,Neto,FALLA DE ESCANER,E FF,W42,4,5,9,9,
+16/10/2025,1,Impresora no valida etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,4,6,10,,
+17/10/2025,1,Etiqueta corrida,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,8,
+17/10/2025,1,Etiquetas corridas ,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,4,7,,
+17/10/2025,1,Impresión de etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W42,3,5,8,,
+20/10/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,5,8,,
+20/10/2025,1,Escaner lento,,FALLA DE ESCANER,E FF,W43,3,5,8,,
+20/10/2025,1,Impresora no sacaba etiquetas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W43,3,5,8,,
+21/10/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,5,8,,
+21/10/2025,1,Escaner lento,,FALLA DE ESCANER,E FF,W43,3,5,8,,
+21/10/2025,1," etiquetas borrosas, y rompe el ribbon",ivan,FALLA DE IMPRESORA O ETIQUETADO,E FF,W43,3,15,18,,
+23/10/2025,1,Impresora gxz33 no sacaba etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W43,3,5,8,,
+24/10/2025,1,Escaner lento,,FALLA DE ESCANER,E FF,W43,3,6,9,,
+24/10/2025,1,no imprime etiquetas de trazabilidad,jesus oyervides ,FALLA DE IGNITION,E PWT,W43,5,120,125,120,
+27/10/2025,1,Impresora descalibrada,Carmen ,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W44,3,5,8,,
+27/10/2025,1,Impresora no se conecta a la sesion,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,6,9,,
+27/10/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W44,4,5,9,,
+27/10/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,,
+27/10/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W44,3,5,8,,
+28/10/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,,
+28/10/2025,1,Impresora no detectaba hueco,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,,
+28/10/2025,1,Etiquetas corridas,,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,,
+28/10/2025,1,Etiquetas corridas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W44,3,5,8,,
+29/10/2025,1,Impresora no validaba etiquetas rosas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,4,7,,
+29/10/2025,1,Impresora no detectaba hueco,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,,
+29/10/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W44,3,5,8,,
+03/11/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,4,7,,
+03/11/2025,1,Etiquetas corridas,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W45,3,4,7,,
+04/11/2025,1,Etiquetas salen en otra impresora,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,2,7,9,,
+04/11/2025,1,Impresora no sacaba etiquetas,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,2,6,8,,
+05/11/2025,1,Etiquetas corridas ,Maria Julia,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W45,3,4,7,,
+05/11/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W45,3,5,8,,
+05/11/2025,1,Impresora no saca etiquetas,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,2,4,6,,
+06/11/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,5,8,,
+06/11/2025,1,No cargaron bien el material ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W45,3,4,7,,
+06/11/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W45,3,5,8,,
+07/11/2025,2,Se reimprime etiqueta master,,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W45,3,5,8,,
+07/11/2025,2,No sacaron parcial ,,GENERAL,E F&B,W45,3,4,7,,
+07/11/2025,2,Desbloqueo de usuario,,BLOQUEO DE CUENTAS,E FF,W45,2,4,6,,
+10/11/2025,1,Impresora no valida etiquetas verdes,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,2,5,7,,
+10/11/2025,1,Etiquetas corridas ,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,,
+11/11/2025,1,Etiqutas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,2,5,7,,
+11/11/2025,2,Impresión de etiquetas,Zuleima Hernandez,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W46,3,3,6,0,
+12/11/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,4,4,8,,
+12/11/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W46,6,4,10,,
+13/11/2025,1,Impresora no se conecta a la sesion,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,3,6,,
+13/11/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W46,4,5,9,,
+13/11/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,4,7,,
+14/11/2025,1,Impresora no saca etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W46,3,5,8,,
+14/11/2025,1,Escaner no entra al sistema,Pato,FALLA DE ESCANER,E F&B,W46,3,3,6,,
+14/11/2025,1,Imprimen etiquetas con valor de pieza incorrecto,Toño,GENERAL,E FF,W46,2,5,7,,
+18/11/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,2,5,7,,
+18/11/2025,1,Impresora no sacaba etiquetas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W47,4,6,10,,
+18/11/2025,1,No podian  conectar sesion de impresora,Toño,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,,
+19/11/2025,1,cambio de cabezal de impresora celdas cortas ,Angel Ramirez,FALLA DE IMPRESORA O ETIQUETADO,E F&B,W47,5,5,10,,
+19/11/2025,1,Escaner lento,,FALLA DE ESCANER,E F&B,W47,3,5,8,,
+20/11/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,4,5,9,,
+20/11/2025,1,Impresora rompe riborn,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,,
+21/11/2025,1,Impresora rompe riborn,Netoq,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,3,5,8,,
+21/11/2025,1,Se reimprime etiqueta master,Norma,FALLA DE IMPRESORA O ETIQUETADO,E PWT,W47,3,6,9,,
+21/11/2025,1,Etiquetas corridas,Neto,FALLA DE IMPRESORA O ETIQUETADO,E FF,W47,4,4,8,,
