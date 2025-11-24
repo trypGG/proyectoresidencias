@@ -1273,7 +1273,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         const result = await response.json();
         
         if (response.ok) {
-          await reloadBitacoraData({ updateMeta: true });
+          // Forzar recarga completa sin caché
+          const timestamp = Date.now();
+          const dataRes = await fetch(`/data?_t=${timestamp}`);
+          const freshData = await dataRes.json();
+          setBitacoraData((freshData && freshData.rows) || []);
+          
+          // Actualizar metadatos
+          const metaRes = await fetch(`/meta?_t=${timestamp}`);
+          const freshMeta = await metaRes.json();
+          populateBitacoraSelects(freshMeta);
+          
+          // Aplicar filtros actuales
+          updateBitacoraFiltersFromInputs();
+          
           alert(`✓ ${result.message || 'Registros eliminados correctamente'}`);
         } else {
           alert(`✗ Error: ${result.error || 'No se pudieron eliminar los registros'}`);
