@@ -222,7 +222,7 @@ def downtime_per_month():
     months_param = request.args.get('months', default=None, type=str)
     df = _load_dataframe()
     
-    if 'FECHA' not in df.columns or 'T. MUERTO' not in df.columns:
+    if 'FECHA' not in df.columns or 'T. MUERTO TI' not in df.columns:
         return jsonify({'months': [], 'values': []})
     
     df_with_dates = df[df['FECHA'].notna()].copy()
@@ -232,8 +232,8 @@ def downtime_per_month():
     # Crear columna de mes
     df_with_dates['MONTH'] = df_with_dates['FECHA'].dt.to_period('M').astype(str)
     
-    # Sumar tiempo muerto por mes
-    grouped = df_with_dates.groupby('MONTH')['T. MUERTO'].sum()
+    # Sumar tiempo muerto TI por mes
+    grouped = df_with_dates.groupby('MONTH')['T. MUERTO TI'].sum()
     grouped = grouped.dropna()
     grouped = grouped.sort_index()
     

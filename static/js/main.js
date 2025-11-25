@@ -888,14 +888,14 @@ function plotDowntimePerWeek(data) {
   else if (weeks.length <= 5) bargap = 0.5;
   
   const layout = {
-    title: 'TIEMPO MUERTO TI POR SEMANA',
+    title: 'TIEMPO DE SOPORTE TI POR SEMANA',
     margin: { t: 100, b: 190, l: 80, r: 80 },
     xaxis: { 
       automargin: true,
       tickangle: -45,
       tickfont: { size: 10 }
     },
-    yaxis: { automargin: true, title: 'Tiempo Muerto' },
+    yaxis: { automargin: true, title: 'Tiempo de Soporte' },
     height: 540,
     bargap: bargap,
     showlegend: true,
