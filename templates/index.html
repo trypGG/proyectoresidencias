@@ -239,7 +239,7 @@
     background:var(--white); 
     border:1px solid var(--border-light); 
     border-radius:16px; 
-    padding:28px; 
+    padding:36px 28px 28px 28px; 
     box-shadow: var(--shadow);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -991,12 +991,12 @@
     <section id="analisis" class="section">
       <div class="section-header">
         <h2>Análisis Temporal</h2>
-        <p>Tendencias de downtime y frecuencia de incidencias en el tiempo</p>
+        <p>Tendencias de tiempo de soporte y frecuencia de incidencias en el tiempo</p>
       </div>
       
       <div class="top3-grid">
         <div class="top3-card">
-          <h3>Tiempo Muerto TI por Semana</h3>
+          <h3>Tiempo de Soporte TI por Semana</h3>
           <div id="downtime-week-controls" class="top3-controls" style="position:relative;">
             <label>Semanas:</label>
             <div id="select-weeksdowntime-dropdown" style="display:inline-block; position:relative;">
@@ -1143,6 +1143,6 @@
   </script>
 
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="/static/js/main.js?v=9"></script>
+  <script src="/static/js/main.js?v=10"></script>
 </body>
 </html>

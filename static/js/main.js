@@ -867,7 +867,7 @@ function plotDowntimePerWeek(data) {
     textfont: { size: 12 },
     cliponaxis: false,
     hoverinfo: 'x+y',
-    name: 'Tiempo Muerto'
+    name: 'Tiempo de Soporte'
   };
   
   // Línea de target en 83
